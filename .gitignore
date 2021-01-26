@@ -2,3 +2,9 @@
 *.json
 *.gz
 *.manifest
+GoogleVision/*
+ma/*
+QGIS/*
+R/*
+PyCharm/textanalysis/data/*
+PyCharm/imageprocessing/data/*
