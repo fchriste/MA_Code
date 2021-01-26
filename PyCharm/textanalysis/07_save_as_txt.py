@@ -20,6 +20,8 @@ count=0
 older=0
 newer=0
 
+#this is a test whether the git repository now works
+
 
 for filename in os.listdir(directory):
     #logging number of loops
