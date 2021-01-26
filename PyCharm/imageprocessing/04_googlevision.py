@@ -1,0 +1,71 @@
+import os
+import json
+import geopandas as gpd
+
+# Imports the Google Cloud client library
+from google.cloud import vision
+
+
+
+#set environement variable for google vision api
+os.environ['GOOGLE_APPLICATION_CREDENTIALS']="data/My First Project-a3b8caea496a.json"
+
+# define topic
+topic="rhb"
+
+# define directories and paths
+input_file = "data/03_image_per_user/%s_flickr.shp" % topic
+output_file= "data/04_googlevision/%s.json" % topic
+
+#read in flickr data of unesco region
+flickr_data = gpd.read_file(input_file)
+
+#set url where image is found
+#uri="https://farm5.staticflickr.com/4074/4806172815_4dba9d34c2.jpg"
+
+#open empty dictionary for labels
+labels_dict={}
+
+counter=0
+
+for i in range(0,len(flickr_data.download_u)):
+
+    #get url of each image
+    print(flickr_data.download_u[i])
+    uri = flickr_data.download_u[i]
+
+    # Instantiates a client
+    client = vision.ImageAnnotatorClient()
+
+    image = vision.Image()
+    image.source.image_uri = uri
+
+    response = client.label_detection(image=image)
+    # get labels for images
+    labels = response.label_annotations
+    print('Labels:')
+
+
+
+    print(counter)
+    counter+=1
+    #count occurences of labels
+    for label in labels:
+        print(label.description)
+
+        if label.description in labels_dict:
+            labels_dict[label.description]+=1
+        else:
+            labels_dict[label.description]=1
+
+#order labels according to occurences
+sorted_labels = sorted(labels_dict.items(), key = lambda kv: kv[1], reverse=True)
+
+
+#write dictionary in json
+with open(output_file, "w", encoding='utf-8') as outfile:
+    json.dump(sorted_labels, outfile, ensure_ascii=False)
+
+
+
+print(sorted_labels)
