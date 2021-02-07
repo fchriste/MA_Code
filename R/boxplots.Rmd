@@ -7,5 +7,37 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(jsonlite)
+library(ggplot2)
+library(dplyr)
+```
+
+```{r}
+#read in json data
+data_lavaux<-fromJSON("../PyCharm/textanalysis/data/08_texts_per_magazine/lavaux.json", flatten=TRUE)
+data_rhb<-fromJSON("../PyCharm/textanalysis/data/08_texts_per_magazine/rhb.json", flatten=TRUE)
+data_suonen<-fromJSON("../PyCharm/textanalysis/data/08_texts_per_magazine/suonen.json", flatten = TRUE)
+```
+
+```{r}
+#save data as dataframe & rename the columns
+data_rhb_df<-as.data.frame(as.matrix(data_rhb))
+data_lavaux_df<-as.data.frame(as.matrix(data_lavaux))
+
+data_lavaux_df<-cbind(journal=rownames(data_lavaux_df), data_lavaux_df)%>%
+  cbind(topic="lavaux")
+rownames(data_lavaux_df)<-NULL
+
+data_rhb_df<-cbind(journal=rownames(data_rhb_df), data_rhb_df)%>%
+  cbind(topic="rhb")
+rownames(data_rhb_df)<- NULL
+
+data_journals<-data_rhb_df%>%
+  rbind(data_lavaux_df)
+
+unlist(data_journals$V1)
+
+ggplot(data_journals, aes(x=topic, y=V1)) + 
+  geom_boxplot()
 ```
 
