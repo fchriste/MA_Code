@@ -1,5 +1,6 @@
 import geopandas as gpd
 import pandas as pd
+import json
 
 
 
@@ -11,6 +12,9 @@ max_contributions = 100
 
 #read in unesco shapefile
 flickr_data = gpd.read_file("data/02_points_in_polygon/flickr/%s_flickr.shp" %  topic)
+
+#define output path
+output_path= "data/03_image_per_user/%s.json" % topic
 
 #show all columns of head
 pd.set_option('display.max_columns', None)
@@ -30,6 +34,12 @@ for i in range(0,len(flickr_data.user_nsid)):
    else:
        dict_user[flickr_data.user_nsid[i]]=1
 
+
+
+print(dict_user)
+#save file as json for visualization with r
+with open(output_path, "w", encoding='utf-8') as outfile:
+    json.dump(dict_user, outfile, ensure_ascii=False)
 
 
 #get users with more than 100 images
