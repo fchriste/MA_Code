@@ -7,13 +7,14 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+rm(list=ls())
 library(jsonlite)
 library(ggplot2)
 library(dplyr)
 ```
-
+#texts per journal
 ```{r}
-#read in json data
+#read in json data for texts per journals
 data_lavaux<-fromJSON("../PyCharm/textanalysis/data/08_texts_per_magazine/lavaux.json", flatten=TRUE)
 data_rhb<-fromJSON("../PyCharm/textanalysis/data/08_texts_per_magazine/rhb.json", flatten=TRUE)
 data_suonen<-fromJSON("../PyCharm/textanalysis/data/08_texts_per_magazine/suonen.json", flatten = TRUE)
@@ -26,18 +27,69 @@ data_lavaux_df<-as.data.frame(as.matrix(data_lavaux))
 
 data_lavaux_df<-cbind(journal=rownames(data_lavaux_df), data_lavaux_df)%>%
   cbind(topic="lavaux")
+data_lavaux_df$V1<-unlist(data_lavaux_df$V1)
 rownames(data_lavaux_df)<-NULL
 
 data_rhb_df<-cbind(journal=rownames(data_rhb_df), data_rhb_df)%>%
   cbind(topic="rhb")
+data_rhb_df$V1<-unlist(data_rhb_df$V1)
 rownames(data_rhb_df)<- NULL
+
 
 data_journals<-data_rhb_df%>%
   rbind(data_lavaux_df)
 
-unlist(data_journals$V1)
 
+
+
+#make boxplot for texts per journal
 ggplot(data_journals, aes(x=topic, y=V1)) + 
-  geom_boxplot()
+  geom_boxplot()+
+   scale_y_continuous(trans="log10", limits=c(1, 500))+
+  #annotation_logticks(sides="lr")+
+  ylab("number of texts per magazine")+
+  ggtitle("Distribution journals")
+
+
+```
+=> outliers visible esp. for lavaux => limiting texts per journal
+
+
+#images per user
+```{r}
+#read in json data for texts per journals
+flickr_lavaux<-fromJSON("../PyCharm/imageprocessing/data/03_image_per_user/lavaux.json", flatten=TRUE)
+flickr_rhb<-fromJSON("../PyCharm/imageprocessing/data/03_image_per_user/rhb.json", flatten=TRUE)
+```
+
+```{r}
+#save data as dataframe & rename the columns
+flickr_rhb_df<-as.data.frame(as.matrix(flickr_rhb))
+flickr_lavaux_df<-as.data.frame(as.matrix(flickr_lavaux))
+
+flickr_lavaux_df<-cbind(journal=rownames(flickr_lavaux_df), flickr_lavaux_df)%>%
+  cbind(topic="lavaux")
+flickr_lavaux_df$V1<-unlist(flickr_lavaux_df$V1)
+rownames(flickr_lavaux_df)<-NULL
+
+flickr_rhb_df<-cbind(journal=rownames(flickr_rhb_df), flickr_rhb_df)%>%
+  cbind(topic="rhb")
+flickr_rhb_df$V1<-unlist(flickr_rhb_df$V1)
+rownames(flickr_rhb_df)<- NULL
+
+
+data_flickr<-flickr_rhb_df%>%
+  rbind(flickr_lavaux_df)
+
+
+#make boxplot for images per user
+ggplot(data_flickr, aes(x=topic, y=V1)) + 
+  geom_boxplot()+
+   scale_y_continuous(trans="log10", limits=c(1, 1200))+
+  #annotation_logticks(sides="lr")+
+  ylab("number of images per user")+
+  ggtitle("Distribution flickr images")
+
+
 ```
 
