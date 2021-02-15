@@ -40,16 +40,22 @@ data_journals<-data_rhb_df%>%
   rbind(data_lavaux_df)
 
 
-
+png("plots/texts_per_journal.png")
 
 #make boxplot for texts per journal
-ggplot(data_journals, aes(x=topic, y=V1)) + 
+ggplot(data_journals, aes(x=topic, y=V1, fill=topic, color=topic)) + 
   geom_boxplot()+
    scale_y_continuous(trans="log10", limits=c(1, 500))+
   #annotation_logticks(sides="lr")+
-  ylab("number of texts per magazine")+
-  ggtitle("Distribution journals")
+  ylab("article count per magazine [count]")+
+  theme_bw()+
+  theme(legend.position = "none")+
+  xlab("")+
+  scale_fill_manual(values=c("#a8bcf6", "#ff9d86"))+
+  scale_color_manual(values=c("#0c5da5", "#ff3100"))
 
+
+dev.off()
 
 ```
 => outliers visible esp. for lavaux => limiting texts per journal
@@ -81,14 +87,19 @@ rownames(flickr_rhb_df)<- NULL
 data_flickr<-flickr_rhb_df%>%
   rbind(flickr_lavaux_df)
 
-
+png("plots/images_per_user.png")
 #make boxplot for images per user
-ggplot(data_flickr, aes(x=topic, y=V1)) + 
+ggplot(data_flickr, aes(x=topic, y=V1, fill=topic, color=topic)) + 
   geom_boxplot()+
    scale_y_continuous(trans="log10", limits=c(1, 1200))+
   #annotation_logticks(sides="lr")+
-  ylab("number of images per user")+
-  ggtitle("Distribution flickr images")
+  ylab("image count per user [count]")+
+  theme_bw()+
+  theme(legend.position = "none")+
+  xlab("")+
+  scale_fill_manual(values=c("#a8bcf6", "#ff9d86"))+
+  scale_color_manual(values=c("#0c5da5", "#ff3100"))
+dev.off()
 
 
 ```
