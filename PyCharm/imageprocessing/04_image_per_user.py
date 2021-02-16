@@ -37,7 +37,7 @@ with open(output_path, "w", encoding='utf-8') as outfile:
     json.dump(dict_user, outfile, ensure_ascii=False)
 
 #get users with more than 100 images
-frequent_user = dict((k, v) for k, v in dict_user.items() if v >= 100)
+frequent_user = dict((k, v) for k, v in dict_user.items() if v >= max_contributions)
 
 #get list with frequent users
 freq_list=[]

@@ -40,6 +40,6 @@ print(journals_df)
 
 
 #save file as json for visualization with r
-with open(output_path, "w", encoding='utf-8') as outfile:
-    json.dump(dict_journals, outfile, ensure_ascii=False)
+#with open(output_path, "w", encoding='utf-8') as outfile:
+   # json.dump(dict_journals, outfile, ensure_ascii=False)
 
