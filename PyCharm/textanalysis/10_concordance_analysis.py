@@ -5,13 +5,12 @@ import pandas as pd
 
 
 # define topic
-topic="lavaux"
+topic="suonen"
 
 #define concondance search query
 query="landschaft"
 
 # define directories and paths
-directory = r'/Users/fab/switchdrive/UZH/MA/Code/PyCharm/textanalysis/data/05_stop_words_tokenization/%s' % topic
 input_file = "data/08_texts_per_magazine/%s.csv" % topic
 output_file= "data/10_concordance/%s_%s.csv" % (topic,query)
 
@@ -30,10 +29,6 @@ print(texts_df)
 
 #loop over articles
 for text in texts_df.fulltext:
-    #print(text)
-    #print('------\n')
-    #print("huhuhuhuhuhuhuhuhuhuhuhuhuhuh")
-    #print(count)
     tokens = word_tokenize(text)
     textlist = Text(tokens)
     con_list = textlist.concordance_list(query, width=250)

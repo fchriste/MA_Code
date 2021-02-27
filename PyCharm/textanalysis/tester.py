@@ -1,46 +1,56 @@
-import json
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.text import Text
 import pandas as pd
-from IPython.display import display
-import os
+
 
 # define topic
-topic="lavaux"
+topic="rhb"
+
+#define concondance search query
+query="landschaft"
 
 # define directories and paths
-directory = r'/Users/fab/switchdrive/UZH/MA/Code/PyCharm/textanalysis/data/03_language_year/%s' % topic
-input_path = "data/03_language_year/%s/" % topic
-output_file = "data/08_texts_per_magazine/%s.csv" % topic
+input_file = "data/08_texts_per_magazine/%s.csv" % topic
+output_file= "data/10_concordance/%s_%s.csv" % (topic,query)
 
-#initiate counter
+
+#set count for logging
 count=0
 
-#initiate empty dataframe
-df = pd.DataFrame(columns=['id','articles', 'journalTitle', 'volYear', 'fulltext'])
+#set stop words to german
+stop_words = set(stopwords.words('german'))
 
-#iterate through files
-for filename in os.listdir(directory):
-    #logging number of loops
-    print(count)
-    count+=1
-    #open file
-    if filename.endswith(".json"):
-        f = open(input_path + filename)
-        data = json.load(f)
-        articles = data['articles']
-        journalTitle = data['journalTitle']
-        volYear = data['volYear']
-        fulltext = data['fulltext']
-        #append rows of dataframe with entries
-        df=df.append({'id':filename,'articles': articles, 'journalTitle':journalTitle, 'volYear':volYear, 'fulltext':fulltext}, ignore_index=True)
+# create dictionary to count number of entries
+concordance_dictionary={}
+
+texts_df = pd.read_csv(input_file)
+
+#print dataframe
+text=texts_df.loc[10]['fulltext']
+print(texts_df.loc[0]['fulltext'])
+
+new_fulltext =""
+#removing stop words
+print(text)
+print("--------")
+splited_text=text.split()
+for r in splited_text:
+    print(r)
+    if not r in stop_words:
+        new_fulltext+=" "+r
+print(new_fulltext)
+print(len(text))
+print(len(new_fulltext))
+print(stop_words)
+
+tokens = word_tokenize(new_fulltext)
+print("!!!!!!!")
+
+textlist = Text(tokens)
+
+con_list = textlist.concordance_list(query, width=250)
+print(con_list)
 
 
-#pd.set_option('display.max_rows', None)
-pd.set_option('display.max_columns', None)
-pd.set_option('display.width', None)
-#pd.set_option('display.max_colwidth', -1)
 
-print("Dataframe Contens ",df,sep='\n' )
-#print(df.groupby(['journalTitle']).count())
-
-#write results to csv
-df.to_csv(output_file, encoding='utf-8')
