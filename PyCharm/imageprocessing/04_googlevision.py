@@ -1,6 +1,6 @@
 import os
-import json
 import geopandas as gpd
+import pandas as pd
 
 # Imports the Google Cloud client library
 from google.cloud import vision
@@ -11,11 +11,11 @@ from google.cloud import vision
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']="data/My First Project-a3b8caea496a.json"
 
 # define topic
-topic="rhb"
+topic="lavaux"
 
 # define directories and paths
 input_file = "data/03_image_per_user/%s_flickr.shp" % topic
-output_file= "data/04_googlevision/%s.json" % topic
+output_file= "data/04_googlevision/%s.csv" % topic
 
 #read in flickr data of unesco region
 flickr_data = gpd.read_file(input_file)
@@ -58,14 +58,19 @@ for i in range(0,len(flickr_data.download_u)):
         else:
             labels_dict[label.description]=1
 
-#order labels according to occurences
-sorted_labels = sorted(labels_dict.items(), key = lambda kv: kv[1], reverse=True)
+
+#create empty df
+col_names = ['word', 'count']
+labels_df = pd.DataFrame(columns=col_names)
+
+#write dictionary in df
+for key in labels_dict:
+    new_row = {'word': key, 'count': labels_dict[key]}
+    labels_df = labels_df.append(new_row, ignore_index=True)
 
 
-#write dictionary in json
-with open(output_file, "w", encoding='utf-8') as outfile:
-    json.dump(sorted_labels, outfile, ensure_ascii=False)
+#write results to csv
+labels_df.to_csv(output_file, encoding='utf-8')
 
 
 
-print(sorted_labels)

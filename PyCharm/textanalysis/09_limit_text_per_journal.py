@@ -3,10 +3,10 @@ import pandas as pd
 import os
 
 # define topic
-topic="lavaux"
+topic="suonen"
 
 #define limit of articles / journal
-limit = 5
+limit = 25
 
 # define directories and paths
 directory = r'/Users/fab/switchdrive/UZH/MA/Code/PyCharm/textanalysis/data/03_language_year/%s' % topic

@@ -1,72 +1,69 @@
+import os
 import geopandas as gpd
 import pandas as pd
 
+# Imports the Google Cloud client library
+from google.cloud import vision
 
 
-#define which data to use
+
+#set environement variable for google vision api
+os.environ['GOOGLE_APPLICATION_CREDENTIALS']="data/My First Project-a3b8caea496a.json"
+
+# define topic
 topic="rhb"
 
-#define max. contributions per user
-max_contributions = 100
+# define directories and paths
+input_file = "data/03_image_per_user/%s_flickr.shp" % topic
+output_file= "data/04_googlevision/%s.csv" % topic
 
-#read in unesco shapefile
-flickr_data = gpd.read_file("data/02_points_in_polygon/flickr/%s_flickr.shp" %  topic)
+#read in flickr data of unesco region
+#flickr_data = gpd.read_file(input_file)
 
-#show all columns of head
-pd.set_option('display.max_columns', None)
-pd.set_option('display.max_rows', None)
-#print(flickr_data.download_u[0])
-#print(flickr_data.head())
-print(len(flickr_data))
+#set url where image is found
+uri="https://farm5.staticflickr.com/4074/4806172815_4dba9d34c2.jpg"
 
+#open empty dictionary for labels
+labels_dict={}
 
-dict_user={}
-
-
-for i in range(0,len(flickr_data.user_nsid)):
-   #print(flickr_data.user_nsid[i])
-   if flickr_data.user_nsid[i] in dict_user:
-       dict_user[flickr_data.user_nsid[i]]+=1
-
-   else:
-       dict_user[flickr_data.user_nsid[i]]=1
+counter=0
 
 
 
-#get users with more than 100 images
-frequent_user = dict((k, v) for k, v in dict_user.items() if v >= 100)
+# Instantiates a client
+client = vision.ImageAnnotatorClient()
+image = vision.Image()
+image.source.image_uri = uri
 
-#get list with frequent users
-freq_list=[]
+response = client.label_detection(image=image)
+# get labels for images
+labels = response.label_annotations
+print('Labels:')
 
-for i in frequent_user:
-    freq_list.append(i)
-print(freq_list)
-
-# get subset of data without frequent users
-flickr_res = flickr_data[~flickr_data.user_nsid.isin(freq_list)]
-
-
-# get subset of data without frequent users
-flickr_reso = flickr_data[flickr_data.user_nsid.isin(freq_list)]
-print(len(flickr_res))
-print(len(flickr_reso))
-print(len(freq_list))
-
-
-print(len(flickr_res)+100*len(freq_list))
-
-#iterate through every frequent user nto add random rows
-for user in frequent_user:
-    #get data
-    user_data = flickr_data[flickr_data.user_nsid == user]
-    #print(user_data)
-    #returns random rows of dataframe
-    limited_flickr = user_data.sample(max_contributions)
-    #append dataframe with random rows
-    flickr_res=flickr_res.append(limited_flickr)
+print(counter)
+counter+=1
+#count occurences of labels
+for label in labels:
+    print(label.description)
+    if label.description in labels_dict:
+        labels_dict[label.description]+=1
+    else:
+        labels_dict[label.description]=1
 
 
+#create empty df
+col_names = ['word', 'count']
+labels_df = pd.DataFrame(columns=col_names)
 
 
-print(len(flickr_res))
+#write dictionary in df
+for key in labels_dict:
+    new_row = {'word': key, 'count': labels_dict[key]}
+    labels_df = labels_df.append(new_row, ignore_index=True)
+
+
+#write results to csv
+labels_df.to_csv(output_file, encoding='utf-8')
+
+
+

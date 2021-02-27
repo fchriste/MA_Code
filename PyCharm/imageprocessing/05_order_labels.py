@@ -1,30 +1,39 @@
-import os
 import json
-import geopandas as gpd
 import pandas as pd
-
+import requests
 
 
 # define topic
-topic="lavaux"
+topic="rhb"
 
 # define directories and paths
 input_file = "data/04_googlevision/%s.json" % topic
-output_file= "data/05_order_labels/%s.json" % topic
+output_file= "data/05_order_labels/%s.csv" % topic
+
+#create empty df
+col_names = ['word', 'count']
+labels_df = pd.DataFrame(columns=col_names)
+
+
 
 # open json file
 f1=open(input_file)
 data1=json.load(f1)
 
-# sort dictionary according to occurences
-sorted_labels = sorted(data1.items(), key = lambda kv: kv[1], reverse=True)
+print(data1)
+
+for key in data1:
+    print(key[0])
+    print(key[1])
+    new_row = {'word': key[0], 'count': key[1]}
+    concordance_df = labels_df.append(new_row, ignore_index=True)
 
 
+#write results to csv
+labels_df.to_csv(output_file, encoding='utf-8')
 
-#write dictionary in json
-with open(output_file, "w", encoding='utf-8') as outfile:
-    json.dump(sorted_labels, outfile, ensure_ascii=False)
+#for key in sorted_labels:
+    #print(key)
 
 
-print(sorted_labels)
 f1.close()
