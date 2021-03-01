@@ -5,7 +5,7 @@ import pandas as pd
 
 
 # define topic
-topic="suonen"
+topic="lavaux"
 
 #define concondance search query
 query="landschaft"
@@ -17,6 +17,7 @@ output_file= "data/10_concordance/%s_%s.csv" % (topic,query)
 
 #set count for logging
 count=0
+landschaft_count=0
 
 
 # create dictionary to count number of entries
@@ -32,8 +33,13 @@ for text in texts_df.fulltext:
     tokens = word_tokenize(text)
     textlist = Text(tokens)
     con_list = textlist.concordance_list(query, width=250)
+    print('now--------')
     print(con_list)
+    if con_list!=[]:
+        landschaft_count+=1
     count+=1
+
+
 
     for results in con_list:
         # get results of left side
@@ -72,3 +78,6 @@ for key in concordance_dictionary:
 
 #write results to csv
 concordance_df.to_csv(output_file, encoding='utf-8')
+
+print('vorkommen landschaft')
+print(landschaft_count)

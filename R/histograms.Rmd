@@ -19,7 +19,7 @@ lavaux_categories<-read.csv("data/lavaux_landschaft.csv", sep=";")
 
 #group data and aggregate according to count
 lavaux_categories_grouped <- lavaux_categories %>% group_by(category)%>%
-  summarise(count = sum(count))%>% na.omit()
+  summarise(count = sum(count))%>% na.omit()%>%subset(category!='')
 
 #calculate percentage of each category 
 lavaux_categories_grouped$percentage<-lavaux_categories_grouped$count/sum(lavaux_categories_grouped$count)*100
@@ -31,7 +31,7 @@ rhb_categories<-read.csv("data/rhb_landschaft.csv", sep=";")
 
 #group data and aggregate according to count
 rhb_categories_grouped <- rhb_categories %>% group_by(category)%>%
-  summarise(count = sum(count))%>% na.omit()
+  summarise(count = sum(count))%>% na.omit()%>%subset(category!='')
 
 #calculate percentage of each category 
 rhb_categories_grouped$percentage<-rhb_categories_grouped$count/sum(rhb_categories_grouped$count)*100
@@ -50,7 +50,7 @@ data_categories<-rhb_categories_grouped%>%
 ggplot(data_categories, aes(x=category, y=percentage, fill=site))+
   geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
   theme_minimal()+
-  ylim(0,50)+
+  ylim(0,70)+
   ylab("percentage [%]")+
   scale_fill_manual(values=c("#0c5da5", "#ff3100"))
 #dev.off()
@@ -63,7 +63,7 @@ lavaux_flickr_categories<-read.csv("data/lavaux_flickr.csv", sep=";")
 
 #group data and aggregate according to count
 lavaux_flickr_grouped <- lavaux_flickr_categories %>% group_by(category)%>%
-  summarise(count = sum(count))%>% na.omit()
+  summarise(count = sum(count))%>% na.omit()%>%subset(category!='')
 
 #calculate percentage of each category 
 lavaux_flickr_grouped$percentage<-lavaux_flickr_grouped$count/sum(lavaux_flickr_grouped$count)*100
@@ -76,7 +76,7 @@ rhb_flickr_categories<-read.csv("data/rhb_flickr.csv", sep=";")
 
 #group data and aggregate according to count
 rhb_flickr_grouped <- rhb_flickr_categories %>% group_by(category)%>%
-  summarise(count = sum(count))%>% na.omit()
+  summarise(count = sum(count))%>% na.omit()%>%subset(category!='')
 
 #calculate percentage of each category 
 rhb_flickr_grouped$percentage<-rhb_flickr_grouped$count/sum(rhb_flickr_grouped$count)*100
@@ -87,7 +87,8 @@ rhb_flickr_grouped$site<-"rhb"
 
 #bind data
 flickr_categories<-rhb_flickr_grouped%>%
-  rbind(lavaux_flickr_grouped)%>%na.omit()
+  rbind(lavaux_flickr_grouped)%>%subset(category!='')
+
 
 ```
 
