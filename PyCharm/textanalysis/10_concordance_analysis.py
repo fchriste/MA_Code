@@ -22,7 +22,6 @@ landschaft_count=0
 
 # create dictionary to count number of entries
 concordance_dictionary={}
-
 texts_df = pd.read_csv(input_file)
 
 #print dataframe

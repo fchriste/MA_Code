@@ -17,6 +17,8 @@ library(dplyr)
 #read in data
 lavaux_categories<-read.csv("data/lavaux_landschaft.csv", sep=";")
 
+lavaux_subset<-lavaux_categories%>%subset(category!='')
+
 #group data and aggregate according to count
 lavaux_categories_grouped <- lavaux_categories %>% group_by(category)%>%
   summarise(count = sum(count))%>% na.omit()%>%subset(category!='')
@@ -28,6 +30,8 @@ lavaux_categories_grouped$site<-"lavaux"
 
 #read in data
 rhb_categories<-read.csv("data/rhb_landschaft.csv", sep=";")
+
+rhb_subset<-rhb_categories%>%subset(category!='')
 
 #group data and aggregate according to count
 rhb_categories_grouped <- rhb_categories %>% group_by(category)%>%
