@@ -1,0 +1,1315 @@
+,word,count
+0,Sky,4130
+1,Plant,2956
+2,Tree,2459
+3,Natural landscape,2550
+4,Land lot,229
+5,Grass,807
+6,Font,183
+7,Landscape,1203
+8,House,413
+9,Grassland,245
+10,Wood,596
+11,Bedrock,307
+12,Trunk,107
+13,Terrestrial plant,144
+14,Sculpture,44
+15,Groundcover,105
+16,Outcrop,44
+17,Cloud,2829
+18,Property,189
+19,Building,1050
+20,Highland,1687
+21,Slope,2142
+22,Neighbourhood,100
+23,Mountain,3546
+24,Window,815
+25,Larch,434
+26,Water,998
+27,Water resources,410
+28,Body of water,187
+29,Fluvial landforms of streams,198
+30,Watercourse,308
+31,Bank,168
+32,Bridge,64
+33,Bicycle helmet,42
+34,Bicycle,50
+35,Bicycles--Equipment and supplies,63
+36,Tire,236
+37,Bicycle jersey,19
+38,Wheel,307
+39,Bicycle clothing,19
+40,Bicycle frame,37
+41,Helmet,126
+42,Forest,29
+43,Terrestrial animal,47
+44,Twig,136
+45,Drinkware,41
+46,Beer,4
+47,Tableware,94
+48,Barware,19
+49,Beer glass,3
+50,Alcoholic beverage,8
+51,Pint glass,1
+52,Drink,22
+53,Paulaner hefeweizen,1
+54,Foam,1
+55,Train,508
+56,Vehicle,801
+57,Rolling stock,448
+58,Thoroughfare,107
+59,Formation,169
+60,Atmosphere,203
+61,Air travel,49
+62,Cumulus,293
+63,Horizon,77
+64,Geological phenomenon,273
+65,Electricity,275
+66,Track,317
+67,Railway,237
+68,Locomotive,72
+69,Railroad car,40
+70,Terrain,862
+71,Fault,7
+72,Rolling,104
+73,Biome,198
+74,Goggles,83
+75,Sports equipment,206
+76,Glove,25
+77,Shoe,22
+78,Shorts,38
+79,Leg,14
+80,Flash photography,18
+81,T-shirt,68
+82,Leisure,264
+83,Sneakers,8
+84,Tints and shades,154
+85,Recreation,213
+86,Bicycle wheel,26
+87,Bicycle handlebar,29
+88,Green,116
+89,Motor vehicle,291
+90,Automotive tire,124
+91,Asphalt,205
+92,Motorcycle,17
+93,Stairs,13
+94,Lighting,60
+95,Snow,1770
+96,Door,94
+97,Natural environment,309
+98,Travel,256
+99,Arch,28
+100,Arch bridge,26
+101,Aqueduct,26
+102,Arcade,7
+103,Atmospheric phenomenon,277
+104,Outdoor recreation,225
+105,Ice cap,514
+106,Freezing,534
+107,Steam engine,1
+108,Working animal,67
+109,Fawn,63
+110,Grazing,17
+111,Mode of transport,265
+112,Public transport,34
+113,Fixture,144
+114,Automotive mirror,15
+115,Shade,78
+116,Automotive exterior,64
+117,Land vehicle,96
+118,Car,178
+119,Bus,15
+120,Interior design,87
+121,Houseplant,20
+122,Religious item,4
+123,Symmetry,39
+124,Temple,22
+125,Religious institute,2
+126,Ceiling,26
+127,Art,120
+128,Medieval architecture,18
+129,Sunlight,164
+130,Nature,546
+131,Footwear,19
+132,Hat,46
+133,Smile,105
+134,Automotive wheel system,15
+135,Sports uniform,24
+136,Cap,19
+137,Sunglasses,63
+138,Baseball cap,9
+139,Sports gear,37
+140,Ecoregion,570
+141,Blue,74
+142,Vegetation,209
+143,World,155
+144,People in nature,161
+145,Natural material,18
+146,Brown,24
+147,Deciduous,23
+148,Vehicle door,15
+149,Glass,26
+150,Windshield,2
+151,White,76
+152,Black,67
+153,Branch,146
+154,Black-and-white,88
+155,Style,42
+156,Rectangle,150
+157,Astronomical object,24
+158,Star,5
+159,Science,17
+160,Galaxy,1
+161,Midnight,22
+162,Astronomy,2
+163,Luggage and bags,35
+164,Backpack,7
+165,Bag,10
+166,Jacket,56
+167,Tent,32
+168,Camping,10
+169,Flower,150
+170,Cottage,36
+171,Siding,9
+172,Sleeve,27
+173,Standing,13
+174,Cool,9
+175,Friendship,1
+176,Fun,60
+177,Event,122
+178,Sharing,24
+179,Bottle,24
+180,Table,125
+181,Beard,15
+182,Yellow,26
+183,Plant community,238
+184,Road,128
+185,Adaptation,20
+186,Rural area,83
+187,Tarpaulin,6
+188,Shirt,19
+189,Eye,8
+190,Youth,11
+191,Afterglow,36
+192,Azure,174
+193,Dusk,43
+194,Transport hub,37
+195,Flowerpot,33
+196,Wall,71
+197,Landmark,25
+198,Facade,261
+199,Human settlement,3
+200,Road surface,286
+201,Vertebrate,35
+202,Flag,36
+203,Pole,23
+204,Outdoor table,3
+205,Leaf,89
+206,Eyelash,6
+207,Gesture,44
+208,Tunnel,20
+209,Circle,26
+210,Darkness,25
+211,Lake,423
+212,Automotive lighting,140
+213,Fuel tank,20
+214,Auto part,11
+215,Daytime,93
+216,Light,99
+217,Loom,2
+218,Artisan,1
+219,Monochrome,27
+220,Engineering,32
+221,Creative arts,4
+222,Monochrome photography,30
+223,Machine,23
+224,Waterfall,46
+225,Hill station,2
+226,Line,61
+227,Space,22
+228,Technology,8
+229,Signage,51
+230,Display device,21
+231,Brickwork,37
+232,Plain,49
+233,Motorsport,2
+234,Valley,95
+235,Furniture,68
+236,Comfort,34
+237,Textile,21
+238,Couch,10
+239,Lamp,13
+240,Floor,43
+241,Living room,13
+242,Petal,61
+243,Chamaemelum nobile,4
+244,camomile,6
+245,Herbaceous plant,37
+246,Annual plant,19
+247,Fence,69
+248,Purple,18
+249,Tablecloth,4
+250,Chair,103
+251,Kitchen & dining room table,2
+252,Mountainous landforms,420
+253,Gas,120
+254,City,140
+255,Infrastructure,134
+256,Street light,55
+257,Polo shirt,1
+258,Happy,37
+259,Elbow,2
+260,Mountain range,190
+261,Glasses,50
+262,Vision care,54
+263,Eyewear,79
+264,Headgear,32
+265,Mushroom,1
+266,Ingredient,55
+267,Agaricaceae,1
+268,Fungus,1
+269,Architecture,112
+270,Public space,27
+271,Street furniture,2
+272,Traffic sign,25
+273,Light fixture,1
+274,Metal,42
+275,Winter,46
+276,Split-rail fence,4
+277,Grille,13
+278,Hood,55
+279,Vehicle registration plate,32
+280,Lacustrine plain,15
+281,Map,14
+282,Gadget,13
+283,Flat panel display,6
+284,Output device,6
+285,Computer monitor accessory,4
+286,Roof,73
+287,Moon,12
+288,Coastal and oceanic landforms,65
+289,Cityscape,3
+290,Automotive design,91
+291,Steering wheel,7
+292,Steering part,5
+293,Bicycle accessory,3
+294,Bicycle part,3
+295,Cyclocomputer,2
+296,Gauge,2
+297,Measuring instrument,5
+298,Dog breed,44
+299,Mammal,27
+300,Dairy cow,4
+301,Carnivore,46
+302,Fog,44
+303,Flowering plant,58
+304,Shrub,35
+305,Ski Equipment,144
+306,Glacial landform,316
+307,Organism,31
+308,Painting,7
+309,Mural,4
+310,Illustration,4
+311,Flooring,76
+312,Paint,17
+313,Bird,73
+314,Community,18
+315,Clothing,26
+316,Picture frame,19
+317,Agriculture,9
+318,Rainbow,7
+319,Overhead power line,38
+320,Sunset,16
+321,Cabinetry,9
+322,Countertop,6
+323,Kitchen,8
+324,Morning,27
+325,Hiking equipment,31
+326,Residential area,71
+327,Sunrise,6
+328,Tower,67
+329,Horse,39
+330,Water bottle,1
+331,Evergreen,77
+332,Cycling shorts,7
+333,Street fashion,28
+334,Racing,23
+335,Inline skating,8
+336,Roller skates,7
+337,Toddler,5
+338,Hard hat,2
+339,Motorcycle helmet,2
+340,Personal protective equipment,10
+341,Sports,51
+342,Skateboard,1
+343,Roller sport,5
+344,Jeans,48
+345,Trousers,25
+346,Roller skating,5
+347,Skateboarder,1
+348,Competition event,12
+349,Running,1
+350,Electric blue,42
+351,Sidewalk,7
+352,Knee pad,1
+353,Aerospace manufacturer,6
+354,Aircraft,26
+355,Outerwear,36
+356,Player,2
+357,Quadrathlon,2
+358,Social group,20
+359,Windbreaker,4
+360,Hill,52
+361,Food,72
+362,Dishware,37
+363,White rice,1
+364,Plate,45
+365,Recipe,40
+366,Rice,2
+367,Cuisine,43
+368,Kitchen utensil,7
+369,Dish,29
+370,Wind wave,21
+371,Water feature,1
+372,Mountain river,2
+373,Nunatak,67
+374,Cooking,18
+375,Real estate,46
+376,Shoulder,6
+377,White-collar worker,4
+378,Tower block,12
+379,Hiking,7
+380,Food craving,2
+381,Leaf vegetable,4
+382,Toy,8
+383,Wind,19
+384,Meadow,38
+385,Windsports,21
+386,Pattern,44
+387,Massif,8
+388,Horse supplies,22
+389,Billboard,5
+390,Product,17
+391,Household hardware,2
+392,Rim,6
+393,Bicycle chain,1
+394,Silver,1
+395,Spoke,1
+396,Botany,36
+397,Woody plant,34
+398,Photograph,49
+399,Urban design,109
+400,Polar ice cap,21
+401,Aviation,17
+402,Flap,7
+403,Wing,29
+404,Composite material,57
+405,Grey,45
+406,Brick,51
+407,Parallel,29
+408,Beige,4
+409,Material property,36
+410,Chapel,2
+411,Vase,1
+412,Pink,5
+413,Flower Arranging,2
+414,Artificial flower,2
+415,Serveware,20
+416,Fines herbes,3
+417,Cup,12
+418,Porcelain,2
+419,Candle,2
+420,Musical instrument,45
+421,Keyboard,1
+422,Room,26
+423,Fashion design,3
+424,Animal product,2
+425,Liquid,37
+426,Fluid,39
+427,Solution,4
+428,Personal care,3
+429,Finger,9
+430,Table salt,1
+431,Beam,8
+432,Decoration,6
+433,Wax,1
+434,Candle holder,1
+435,Flame,5
+436,Fire,7
+437,Body jewelry,2
+438,Curtain,8
+439,Violet,2
+440,Magenta,8
+441,Triangle,11
+442,Glass bottle,9
+443,Stemware,11
+444,Statue,19
+445,Monument,16
+446,Classical sculpture,2
+447,Béchamel sauce,1
+448,Potage,1
+449,Cosmetics,2
+450,Office supplies,4
+451,Perfume,1
+452,Wine glass,3
+453,Tool,1
+454,Knife,1
+455,Blade,1
+456,Wood stain,22
+457,Everyday carry,2
+458,Produce,10
+459,Hand,12
+460,Tap,8
+461,Sink,5
+462,Chef,2
+463,Gas stove,1
+464,Face,10
+465,Watch,8
+466,Audio equipment,6
+467,Champagne stemware,1
+468,Security lighting,1
+469,Geology,9
+470,Soil,32
+471,Rock,22
+472,Diagram,1
+473,Tread,13
+474,Fender,4
+475,Airplane,11
+476,Stone wall,10
+477,People,2
+478,Beauty,6
+479,Suspension bridge,1
+480,Workwear,2
+481,High-visibility clothing,3
+482,Devil's bridge,4
+483,Beam bridge,4
+484,Concrete bridge,7
+485,Passenger,15
+486,Videographer,1
+487,Television crew,1
+488,Camera,3
+489,Film crew,1
+490,Cinematographer,1
+491,Crowd,34
+492,Riparian zone,21
+493,Environmental art,1
+494,Truck,7
+495,Tar,16
+496,Crankset,3
+497,Bicycle tire,18
+498,Bicycle hub,1
+499,Bonfire,4
+500,Ash,2
+501,Campfire,3
+502,Heat,8
+503,Boot,3
+504,Tour bus service,8
+505,Scout,1
+506,Cargo pants,1
+507,Military person,3
+508,Military uniform,2
+509,Non-commissioned officer,2
+510,Soldier,1
+511,Military officer,1
+512,Church,2
+513,Lawn,4
+514,Musician,36
+515,Musical instrument accessory,8
+516,Brass instrument,6
+517,Wind instrument,9
+518,Music,39
+519,Performing arts,1
+520,Entertainment,9
+521,Pumpkin,1
+522,Calabaza,1
+523,Cucurbita,1
+524,Gourd,1
+525,Outdoor bench,7
+526,Chute,11
+527,Phasianidae,1
+528,Beak,68
+529,Chicken,1
+530,Galliformes,1
+531,Insect,11
+532,Street sign,11
+533,Pizza,1
+534,Fast food,2
+535,California-style pizza,1
+536,Pizza cheese,1
+537,Cheese,2
+538,Boat,34
+539,Watercraft,40
+540,Moisture,4
+541,Macro photography,8
+542,Drop,2
+543,Spider web,1
+544,Handwriting,15
+545,Iris,3
+546,Dog,41
+547,Collar,13
+548,Companion dog,27
+549,Snout,21
+550,Tail,49
+551,Pet supply,3
+552,Whiskers,6
+553,Dog supply,2
+554,Dog collar,3
+555,Leash,1
+556,Arctic ocean,3
+557,Sporting Group,8
+558,Retriever,2
+559,Canidae,3
+560,Felidae,4
+561,Wildlife,12
+562,Skin,4
+563,Facial expression,4
+564,Organ,7
+565,Varnish,5
+566,Artifact,8
+567,Hardwood,38
+568,Amber,6
+569,Clock,22
+570,Close-up,13
+571,Antique,2
+572,Still life photography,1
+573,Bronze,1
+574,Fan,1
+575,Moonlight,3
+576,Watch accessory,1
+577,Analog watch,1
+578,Jewellery,4
+579,Snapshot,3
+580,Conifer,2
+581,Rose family,4
+582,Rose,3
+583,Rose order,2
+584,Pedicel,2
+585,Winter sport,125
+586,Human body,9
+587,Ice rink,4
+588,Gear,2
+589,Fashion accessory,4
+590,Finial,15
+591,Fruit,7
+592,Natural foods,4
+593,Mist,2
+594,Poster,7
+595,Haze,1
+596,Turret,21
+597,Thigh,7
+598,Skyscraper,5
+599,Umbrella,5
+600,shortstraw pine,10
+601,Headstone,4
+602,Commemorative plaque,4
+603,Number,3
+604,Concrete,39
+605,Shopping,1
+606,Retail,7
+607,Display case,3
+608,Home fencing,3
+609,Column,2
+610,Baluster,4
+611,Orange,12
+612,Condominium,17
+613,Wildflower,6
+614,History,7
+615,Ancient history,5
+616,Visual arts,9
+617,Relief,1
+618,Building material,16
+619,Red,9
+620,Monoplane,2
+621,Propeller,2
+622,Propeller-driven aircraft,1
+623,Runway,1
+624,Aircraft engine,2
+625,Bench,7
+626,Hall,9
+627,Molding,2
+628,Camera accessory,2
+629,Cameras & optics,2
+630,Automotive tail & brake light,6
+631,Cemetery,2
+632,Grave,2
+633,Alley,4
+634,Maserati,1
+635,Flagstone,1
+636,Cobblestone,3
+637,Design,3
+638,Idiophone,10
+639,Icicle,5
+640,Melting,10
+641,Dew,1
+642,Handle,1
+643,Bicycle fork,2
+644,Alloy wheel,8
+645,Peach,2
+646,Symbol,6
+647,Logo,11
+648,Urban area,4
+649,Graffiti,6
+650,Art paint,2
+651,Head,13
+652,Bit,7
+653,Horse tack,21
+654,Sailing,19
+655,Boats and boating--Equipment and supplies,12
+656,Naval architecture,6
+657,Mast,3
+658,Dog sled,1
+659,Halter,6
+660,Saddle,5
+661,Bridle,17
+662,Equestrian sport,5
+663,Steeple,10
+664,Spire,5
+665,Sorrel,8
+666,Public address system,2
+667,Band plays,3
+668,Concert,6
+669,Selling,1
+670,Market,2
+671,Customer,4
+672,Cable car,8
+673,Electrical supply,4
+674,Public utility,8
+675,Drum,9
+676,Suit,11
+677,Ski,74
+678,Erosion,1
+679,Parachute,19
+680,Tartan,3
+681,Photographer,2
+682,Dress,7
+683,Fashion,7
+684,Waist,8
+685,Mouth,8
+686,Jaw,10
+687,Bone,1
+688,Skull,1
+689,Plank,5
+690,Lumber,2
+691,Maar,5
+692,One-piece garment,2
+693,Street,2
+694,Climbing,11
+695,Rock-climbing equipment,14
+696,Forehead,8
+697,Nose,6
+698,Cheek,4
+699,Chin,7
+700,Hairstyle,3
+701,Eyebrow,9
+702,Ear,4
+703,Stock photography,1
+704,Knee,3
+705,Calf,1
+706,Emblem,2
+707,Graphics,8
+708,Brand,5
+709,Multimedia,4
+710,Office equipment,3
+711,Paper product,2
+712,Mirror,6
+713,Electronic device,13
+714,Television set,3
+715,Clock tower,2
+716,Bell tower,1
+717,Advertising,19
+718,Windsurfing,17
+719,Beach,7
+720,Windscreen wiper,4
+721,Vegetable,1
+722,Sailboat,17
+723,Fur,3
+724,Falconiformes,7
+725,Feather,44
+726,Songbird,26
+727,Perching bird,14
+728,Emberizidae,2
+729,Animal migration,1
+730,Bird migration,1
+731,Flock,1
+732,Thatching,1
+733,Automotive side-view mirror,4
+734,Rear-view mirror,2
+735,Lip,5
+736,Black hair,2
+737,Hut,1
+738,Human,14
+739,Atlas,5
+740,French fries,1
+741,Staple food,10
+742,Crescent,2
+743,Arm,8
+744,Home door,12
+745,Door handle,1
+746,Cat,1
+747,Small to medium-sized cats,1
+748,Headlamp,3
+749,Metropolitan area,8
+750,Automotive fuel system,13
+751,Vehicle brake,8
+752,Car seat cover,2
+753,Playground,1
+754,Ski boot,34
+755,Skier,36
+756,Ski pole,38
+757,Gear shift,2
+758,Sled,6
+759,Automotive parking light,15
+760,Ceiling fixture,3
+761,Lawn ornament,4
+762,Lighthouse,2
+763,Seedless fruit,1
+764,Berry,1
+765,Toilet,1
+766,Urinal,1
+767,Plumbing,1
+768,Plumbing fixture,7
+769,Cylinder,4
+770,Fluorescent lamp,1
+771,Girder bridge,5
+772,Nail,4
+773,Thumb,3
+774,Old World flycatcher,1
+775,Foot,2
+776,Carolina Chickadee,7
+777,Baked goods,9
+778,Bicycle stem,1
+779,Al dente,1
+780,Rice noodles,1
+781,Condiment,3
+782,Noodle,1
+783,Pasta pomodoro,1
+784,Paragliding,12
+785,Charcoal,1
+786,Outdoor grill rack & topper,1
+787,japanese anemone,1
+788,Pollen,4
+789,Archaeological site,5
+790,Historic site,1
+791,Waterfowl,5
+792,"Ducks, geese and swans",10
+793,Tin can,1
+794,Shelf,6
+795,Food storage,3
+796,Refrigerator,1
+797,Plastic bottle,4
+798,Shelving,6
+799,Home appliance,3
+800,Screenshot,3
+801,Sauces,2
+802,Grass family,6
+803,Klippe,1
+804,Helicopter,4
+805,Sweetness,6
+806,Chutney,1
+807,Forb,3
+808,Race track,3
+809,Rain suit,1
+810,Sitting,3
+811,Wrinkle,1
+812,Portrait photography,1
+813,Field house,1
+814,globe flower,1
+815,Coat,2
+816,Shore,3
+817,Outdoor furniture,11
+818,Summer,1
+819,Steel casing pipe,2
+820,Sign,12
+821,Carmine,7
+822,Deer,3
+823,Horn,7
+824,Black capped Chickadee,9
+825,Commercial building,11
+826,Dinosaur,1
+827,Extinction,1
+828,Downhill ski binding,8
+829,Ceiling fan,1
+830,Elk,1
+831,Hair,7
+832,Mountain goat,1
+833,Goat-antelope,3
+834,Electrical wiring,2
+835,Wire,2
+836,Lens flare,2
+837,Smoke,1
+838,Pollinator,9
+839,Butterfly,4
+840,Arthropod,10
+841,Damiana,1
+842,Moths and butterflies,2
+843,Pest,6
+844,Invertebrate,2
+845,Cave,7
+846,Spring,18
+847,Glacier cave,1
+848,Ice cave,1
+849,Communication Device,3
+850,Temperature,4
+851,Limestone,5
+852,Batholith,5
+853,Arecales,3
+854,Palm tree,1
+855,alpine sea holly,1
+856,Church bell,1
+857,Bell,1
+858,Mixed-use,6
+859,Gas pump,1
+860,Automotive exhaust,1
+861,Paper,4
+862,Document,2
+863,Transport,1
+864,Ice hotel,1
+865,Fictional character,1
+866,Drawing,1
+867,Cross,6
+868,Costume design,1
+869,Coffee cup,2
+870,Subshrub,9
+871,kingcup,1
+872,Red sky at morning,3
+873,Climbing shoe,1
+874,Rock climbing,4
+875,Mill,1
+876,Kitchen appliance,2
+877,Temperate broadleaf and mixed forest,2
+878,Soup,1
+879,Rotorcraft,3
+880,Helicopter rotor,3
+881,Path,1
+882,Waterway,4
+883,Picnic table,1
+884,Chickadee,2
+885,Junco,2
+886,Blue jay,1
+887,Jay,1
+888,Piciformes,1
+889,Lavender,1
+890,Kudu,1
+891,Rodent,5
+892,Groundhog,1
+893,Gopher,1
+894,Otter,1
+895,Wire fencing,3
+896,Eurasian Red Squirrel,2
+897,Squirrel,4
+898,Claw,1
+899,Fox squirrel,2
+900,Plateau,7
+901,River island,1
+902,Metro station,1
+903,Transparent material,1
+904,Frost,2
+905,Snowflake,1
+906,Meteorological phenomenon,5
+907,Bottle cap,1
+908,Peripheral,1
+909,Netbook,1
+910,Computer keyboard,1
+911,Input device,1
+912,Space bar,1
+913,Desk,11
+914,Facial hair,3
+915,Wine,2
+916,Mixture,2
+917,Wine bottle,1
+918,Dessert wine,1
+919,Alcohol,1
+920,Shower,3
+921,Bathroom,5
+922,Walking shoe,2
+923,Outdoor shoe,2
+924,Livestock,2
+925,Stole,1
+926,Shawl,1
+927,Woolen,1
+928,Sled dog,2
+929,Pack animal,2
+930,Mane,3
+931,Ground attack aircraft,1
+932,Military aircraft,1
+933,Rein,2
+934,Mountaineer,3
+935,Ship,1
+936,Sea ice,3
+937,Classical architecture,1
+938,Stately home,1
+939,Garden gnome,1
+940,Cartoon,1
+941,Cone,1
+942,Ball,3
+943,Child art,1
+944,Fried egg,1
+945,Egg yolk,1
+946,Egg,1
+947,Egg white,1
+948,Night,2
+949,Flat cap,1
+950,Personal luxury car,4
+951,Performance car,1
+952,Speedometer,2
+953,Automobile pedal,1
+954,Race car,1
+955,Automotive side marker light,1
+956,Audi tt,1
+957,Tachometer,1
+958,Publication,7
+959,Plywood,2
+960,Metropolis,2
+961,Water transportation,1
+962,Saucer,1
+963,Hot spring,1
+964,Volcanic crater,1
+965,Accipitridae,3
+966,Falcon,2
+967,Barefoot,1
+968,Human leg,6
+969,Eastern Whip poor will,1
+970,Burdock,1
+971,"Thorns, spines, and prickles",1
+972,Rubble,4
+973,Fell,2
+974,Joint,3
+975,Guitar,3
+976,Wrist,2
+977,Chest,1
+978,Handbag,1
+979,Playstation portable,1
+980,Video game console,1
+981,Game controller,1
+982,Safety glove,2
+983,Sport climbing,2
+984,Climbing harness,1
+985,Stationery,2
+986,Graphic design,1
+987,Drain,1
+988,Rope,1
+989,Wool,1
+990,Wall clock,2
+991,Soft drink,1
+992,Carbonated soft drinks,1
+993,Classic car,2
+994,pear,1
+995,Pear,1
+996,Doughnut,1
+997,Sugar,1
+998,Bread,2
+999,Scroll,1
+1000,Calm,2
+1001,Woodpecker,1
+1002,Garden roses,1
+1003,Bird feeder,1
+1004,Aqua,3
+1005,Horse and buggy,2
+1006,Fork,1
+1007,Travel trailer,1
+1008,Ski helmet,5
+1009,Citrus,1
+1010,Plant stem,2
+1011,Working dog,1
+1012,dandelion,1
+1013,Daisy family,3
+1014,Perennial plant,1
+1015,Paw,1
+1016,Airliner,1
+1017,Portable communications device,1
+1018,Window covering,1
+1019,Purée,1
+1020,Personal computer,5
+1021,Hearth,2
+1022,Drawer,2
+1023,Sportswear,2
+1024,Football,1
+1025,Lexus is,1
+1026,Balance,1
+1027,Eurasian magpie,1
+1028,Seabird,2
+1029,Classic,1
+1030,Ski jumping,1
+1031,Audi r8,2
+1032,Sand,6
+1033,Beacon,1
+1034,Carriage,1
+1035,Cart,1
+1036,Mannequin,1
+1037,Liver,2
+1038,Neck,2
+1039,Day dress,1
+1040,Ornament,1
+1041,Christmas ornament,2
+1042,Christmas decoration,2
+1043,Holiday ornament,2
+1044,Noxious weed,1
+1045,Uniform,1
+1046,Belt,1
+1047,Shadow,2
+1048,Camera lens,2
+1049,Bumper,5
+1050,Headland,1
+1051,Reservoir,1
+1052,Nonbuilding structure,2
+1053,Pasture,1
+1054,Book,5
+1055,Bookcase,2
+1056,Packing materials,1
+1057,Basket,1
+1058,Cheesemaking,2
+1059,Packaging and labeling,1
+1060,Hedge,1
+1061,Coast,1
+1062,Surfing,9
+1063,Wolf,1
+1064,Canis,1
+1065,Towed water sport,1
+1066,Waterskiing,2
+1067,Surfing Equipment,4
+1068,Prairie,2
+1069,Shrike,1
+1070,Loggerhead Shrike,1
+1071,Conference room table,1
+1072,Post-it note,1
+1073,Whiteboard,1
+1074,Display board,1
+1075,Head restraint,1
+1076,Baby carriage,1
+1077,Van,3
+1078,Beetle,2
+1079,Parasite,2
+1080,Lap,4
+1081,Synthetic rubber,2
+1082,Locking hubs,1
+1083,Handrail,2
+1084,Sun hat,2
+1085,Cake,4
+1086,Dessert,2
+1087,Finger food,3
+1088,Bed frame,1
+1089,Pillow,1
+1090,studio couch,1
+1091,Drinking,1
+1092,Plaster,1
+1093,Bull,1
+1094,Goat,4
+1095,Surfboard,1
+1096,Pasta,1
+1097,Luxury vehicle,1
+1098,Plaid,1
+1099,Tripod,2
+1100,Reptile,2
+1101,Newspaper,1
+1102,Heart,1
+1103,Denim,1
+1104,Indoor games and sports,1
+1105,Games,1
+1106,stemless gentian,1
+1107,Gentiana,1
+1108,Pebble,2
+1109,Gravel,1
+1110,Scaled reptile,1
+1111,Mesh,1
+1112,Net,1
+1113,Baby,1
+1114,Child,4
+1115,Blossom,1
+1116,Tin,1
+1117,Water forget me not,1
+1118,alpine forget-me-not,1
+1119,Forget-me-not,1
+1120,cretan crocus,1
+1121,snow crocus,1
+1122,Stalactite,1
+1123,Stream,1
+1124,Cowslip,1
+1125,Shower head,2
+1126,Shower bar,2
+1127,Shower door,1
+1128,Bathroom sink,3
+1129,Sheep,4
+1130,Bathtub,2
+1131,Makeup mirror,1
+1132,Stuffed toy,1
+1133,Frog,2
+1134,Souvenir,1
+1135,Animation,1
+1136,Baby toys,1
+1137,Garden hose,1
+1138,Viaduct,1
+1139,Cement,1
+1140,Waste containment,2
+1141,Parking,2
+1142,Intrusion,1
+1143,Lane,1
+1144,Roller coaster,1
+1145,Crane,2
+1146,Walkway,1
+1147,Aluminium,2
+1148,Manhole cover,1
+1149,Memorial,1
+1150,Basement,1
+1151,Passenger car,3
+1152,Muscle,4
+1153,Commercial vehicle,1
+1154,Automotive window part,1
+1155,Underwater,1
+1156,Algae,1
+1157,Awning,2
+1158,Bus driver,1
+1159,Banner,1
+1160,Sash window,1
+1161,Trade,1
+1162,Electronic signage,1
+1163,Gold,1
+1164,Christmas tree,2
+1165,Interaction,13
+1166,Christmas,1
+1167,Plant pathology,1
+1168,Snowplow,1
+1169,Snowmobile,1
+1170,Lampshade,1
+1171,Security,1
+1172,Picket fence,1
+1173,Transmission tower,2
+1174,Pollution,1
+1175,Quartz clock,1
+1176,Bird's-eye view,1
+1177,Pedestal,1
+1178,Computer,6
+1179,Computer monitor,1
+1180,Desktop computer,1
+1181,Book cover,1
+1182,Fiction,1
+1183,Cake decorating,2
+1184,Cream,1
+1185,Kopi tubruk,1
+1186,Beer bottle,1
+1187,Barrel,1
+1188,Storage basket,1
+1189,Kit car,1
+1190,Chinese architecture,1
+1191,Antelope,2
+1192,Parmigiano-reggiano,1
+1193,Food storage containers,4
+1194,Cupcake,1
+1195,Cake decorating supply,1
+1196,Preserved food,2
+1197,Baking,1
+1198,Delicacy,2
+1199,Television,2
+1200,Balloon,2
+1201,Solvent,1
+1202,Garden salad,1
+1203,Mason jar,1
+1204,Apron,2
+1205,Carbon,1
+1206,Juice,1
+1207,Orange juice,1
+1208,Passion fruit juice,1
+1209,Comfort food,1
+1210,Gliding,1
+1211,Parachuting,7
+1212,Red flag,1
+1213,Aquatic plant,1
+1214,Cookware and bakeware,2
+1215,Curry,1
+1216,Eclipse,1
+1217,Celestial event,1
+1218,Outer space,1
+1219,Llama,1
+1220,True toad,1
+1221,True frog,1
+1222,Toad,1
+1223,Anaxyrus,1
+1224,Texas Toad,1
+1225,Grasshopper,1
+1226,Cricket,1
+1227,Locust,1
+1228,Membrane-winged insect,1
+1229,Stove,1
+1230,Wood-burning stove,1
+1231,Fireplace,1
+1232,Karahi,1
+1233,Stew,1
+1234,Bird of prey,1
+1235,Honeybee,1
+1236,Pansy,1
+1237,Slalom skiing,8
+1238,Cross-country skiing,2
+1239,Downhill ski boot,5
+1240,Extreme sport,2
+1241,Jersey,1
+1242,Combat vehicle,1
+1243,Self-propelled artillery,1
+1244,Cannon,1
+1245,Gun turret,1
+1246,Military organization,1
+1247,Military vehicle,1
+1248,Army,1
+1249,Meeting,1
+1250,Job,10
+1251,Conference hall,2
+1252,Conversation,9
+1253,Ski binding,1
+1254,Telecommunications engineering,1
+1255,Antenna,2
+1256,Snowman,1
+1257,Blazer,1
+1258,Formal wear,1
+1259,Overcoat,1
+1260,Music stand,18
+1261,Teacher,7
+1262,Team,2
+1263,String instrument,6
+1264,Folk instrument,18
+1265,Class,3
+1266,Education,1
+1267,Classical music,7
+1268,Window blind,2
+1269,Membranophone,4
+1270,Drumhead,2
+1271,Tom-tom drum,1
+1272,Percussionist,2
+1273,Hand drum,1
+1274,Academic institution,1
+1275,Laptop,5
+1276,Service,6
+1277,Reed,3
+1278,Reed instrument,3
+1279,Saxophone,2
+1280,Saxophonist,1
+1281,Tie,2
+1282,Audience,2
+1283,Harp,2
+1284,Cymbal,1
+1285,Artist,3
+1286,Violin,4
+1287,Flute,2
+1288,Woodwind instrument,3
+1289,Function hall,1
+1290,Violin family,2
+1291,Percussion mallet,1
+1292,Kettle,1
+1293,Harpist,1
+1294,Clàrsach,1
+1295,Plucked string instruments,1
+1296,Long hair,1
+1297,Accordionist,1
+1298,Free reed aerophone,1
+1299,Squeezebox,1
+1300,Microphone,3
+1301,Equalizer,1
+1302,Electronic instrument,1
+1303,Mixing engineer,1
+1304,Sound engineer,1
+1305,Dress shirt,1
+1306,Music artist,1
+1307,Musical ensemble,1
+1308,Organization,1
+1309,Fiddle,1
+1310,Bangs,1
+1311,Pixie cut,1
+1312,Window treatment,1
+1313,Homemaker,1

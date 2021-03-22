@@ -7,7 +7,7 @@
 2;Tree;2459;biophysical
 21;Slope;2142;biophysical
 95;Snow;1770;biophysical
-20;Highland;1687;biophysical
+20;Highland;1687;
 7;Landscape;1203;biophysical
 19;Building;1050;cultural
 26;Water;998;biophysical
@@ -26,7 +26,7 @@
 211;Lake;423;biophysical
 252;Mountainous landforms;420;biophysical
 8;House;413;cultural
-27;Water resources;410;cultural
+27;Water resources;410;biophysical
 66;Track;317;cultural
 306;Glacial landform;316;biophysical
 97;Natural environment;309;biophysical
@@ -36,16 +36,16 @@
 62;Cumulus;293;biophysical
 89;Motor vehicle;291;cultural
 200;Road surface;286;cultural
-103;Atmospheric phenomenon;277;biophysical
+103;Atmospheric phenomenon;277;perceptual
 65;Electricity;275;cultural
 64;Geological phenomenon;273;biophysical
 111;Mode of transport;265;cultural
-82;Leisure;264;activities
+82;Leisure;264;Sense of place
 198;Facade;261;cultural
 98;Travel;256;activities
 9;Grassland;245;biophysical
 183;Plant community;238;biophysical
-67;Railway;237;biophysical
+67;Railway;237;cultural
 36;Tire;236;cultural
 4;Land lot;229;cultural
 104;Outdoor recreation;225;activities
@@ -66,232 +66,232 @@
 31;Bank;168;cultural
 129;Sunlight;164;biophysical
 144;People in nature;161;activities
-143;World;155;biophysical
+143;World;155;
 84;Tints and shades;154;perceptual
-156;Rectangle;150;
+156;Rectangle;150;perceptual
 169;Flower;150;biophysical
 153;Branch;146;biophysical
 13;Terrestrial plant;144;biophysical
 113;Fixture;144;cultural
-305;Ski Equipment;144;cultural
+305;Ski Equipment;144;activities
 212;Automotive lighting;140;cultural
 254;City;140;cultural
 44;Twig;136;biophysical
 255;Infrastructure;134;cultural
 184;Road;128;cultural
-41;Helmet;126;cultural
+41;Helmet;126;activities
 180;Table;125;cultural
 585;Winter sport;125;activities
 90;Automotive tire;124;cultural
-177;Event;122;activities
-127;Art;120;cultural
+177;Event;122;
+127;Art;120;activities
 253;Gas;120;cultural
 88;Green;116;perceptual
 269;Architecture;112;cultural
 399;Urban design;109;cultural
 12;Trunk;107;cultural
 58;Thoroughfare;107;cultural
-15;Groundcover;105;biophysical
-133;Smile;105;sense of place
-72;Rolling;104;cultural
+15;Groundcover;105;cultural
+133;Smile;105;Sense of place
+72;Rolling;104;biophysical
 250;Chair;103;cultural
 22;Neighbourhood;100;cultural
-216;Light;99;biophysical
-117;Land vehicle;96;cultural
-234;Valley;95;biophysical
-47;Tableware;94;cultural
-96;Door;94;cultural
-215;Daytime;93;biophysical
-290;Automotive design;91;cultural
-205;Leaf;89;biophysical
-154;Black-and-white;88;perceptual
-120;Interior design;87;cultural
-74;Goggles;83;activities
-186;Rural area;83;cultural
-263;Eyewear;79;cultural
-115;Shade;78;perceptual
-63;Horizon;77;biophysical
-331;Evergreen;77;perceptual
-151;White;76;perceptual
-311;Flooring;76;cultural
-141;Blue;74;perceptual
-677;Ski;74;activities
-286;Roof;73;cultural
-313;Bird;73;biophysical
-68;Locomotive;72;cultural
-361;Food;72;biophysical
-196;Wall;71;cultural
-326;Residential area;71;cultural
-247;Fence;69;cultural
-81;T-shirt;68;cultural
-235;Furniture;68;cultural
-528;Beak;68;biophysical
-108;Working animal;67;cultural
-152;Black;67;perceptual
-328;Tower;67;cultural
-373;Nunatak;67;biophysical
-288;Coastal and oceanic landforms;65;biophysical
-32;Bridge;64;cultural
-116;Automotive exterior;64;cultural
-35;Bicycles--Equipment and supplies;63;activities
-109;Fawn;63;biophysical
-137;Sunglasses;63;activities
-226;Line;61;cultural
-242;Petal;61;biophysical
-94;Lighting;60;biophysical
-176;Fun;60;sense of place
-303;Flowering plant;58;biophysical
-404;Composite material;57;cultural
-166;Jacket;56;cultural
-256;Street light;55;cultural
-266;Ingredient;55;cultural
-278;Hood;55;cultural
-262;Vision care;54;cultural
-360;Hill;52;biophysical
-229;Signage;51;cultural
-341;Sports;51;activities
-406;Brick;51;cultural
-34;Bicycle;50;activities
-261;Glasses;50;cultural
-61;Air travel;49;activities
-232;Plain;49;biophysical
-398;Photograph;49;perceptual
-550;Tail;49;biophysical
-344;Jeans;48;cultural
-43;Terrestrial animal;47;biophysical
-132;Hat;46;cultural
-224;Waterfall;46;biophysical
-275;Winter;46;biophysical
-301;Carnivore;46;biophysical
-375;Real estate;46;cultural
-364;Plate;45;cultural
-405;Grey;45;perceptual
-420;Musical instrument;45;activities
-14;Sculpture;44;cultural
-16;Outcrop;44;biophysical
-207;Gesture;44;cultural
-298;Dog breed;44;biophysical
-302;Fog;44;biophysical
-386;Pattern;44;biophysical
-725;Feather;44;biophysical
-193;Dusk;43;biophysical
-240;Floor;43;cultural
-367;Cuisine;43;cultural
-33;Bicycle helmet;42;activities
-155;Style;42;cultural
-274;Metal;42;cultural
-350;Electric blue;42;perceptual
-45;Drinkware;41;cultural
-546;Dog;41;biophysical
-69;Railroad car;40;cultural
-365;Recipe;40;cultural
-539;Watercraft;40;cultural
-123;Symmetry;39;biophysical
-329;Horse;39;biophysical
-426;Fluid;39;biophysical
-518;Music;39;cultural
-604;Concrete;39;cultural
-78;Shorts;38;cultural
-319;Overhead power line;38;cultural
-384;Meadow;38;biophysical
-567;Hardwood;38;biophysical
-756;Ski pole;38;activities
-40;Bicycle frame;37;activities
-139;Sports gear;37;activities
-194;Transport hub;37;cultural
-231;Brickwork;37;cultural
-245;Herbaceous plant;37;biophysical
-258;Happy;37;perceptual
-362;Dishware;37;cultural
-425;Liquid;37;biophysical
-170;Cottage;36;cultural
-191;Afterglow;36;biophysical
-202;Flag;36;cultural
-355;Outerwear;36;activities
-396;Botany;36;biophysical
-409;Material property;36;cultural
-514;Musician;36;cultural
-755;Skier;36;activities
-163;Luggage and bags;35;cultural
-201;Vertebrate;35;biophysical
-304;Shrub;35;biophysical
-112;Public transport;34;cultural
-236;Comfort;34;perceptual
-397;Woody plant;34;biophysical
-491;Crowd;34;cultural
-538;Boat;34;cultural
-754;Ski boot;34;activities
-195;Flowerpot;33;cultural
-167;Tent;32;cultural
-220;Engineering;32;cultural
-264;Headgear;32;cultural
-279;Vehicle registration plate;32;cultural
-470;Soil;32;biophysical
-307;Organism;31;biophysical
-325;Hiking equipment;31;activities
-222;Monochrome photography;30;perceptual
-42;Forest;29;biophysical
-87;Bicycle handlebar;29;activities
-369;Dish;29;cultural
-403;Wing;29;cultural
-407;Parallel;29;cultural
-99;Arch;28;cultural
-333;Street fashion;28;cultural
-172;Sleeve;27;cultural
-219;Monochrome;27;perceptual
-270;Public space;27;cultural
-299;Mammal;27;biophysical
-324;Morning;27;biophysical
-548;Companion dog;27;cultural
-86;Bicycle wheel;26;activities
-100;Arch bridge;26;cultural
-101;Aqueduct;26;cultural
-126;Ceiling;26;cultural
-149;Glass;26;cultural
-182;Yellow;26;perceptual
-209;Circle;26;cultural
-315;Clothing;26;cultural
-354;Aircraft;26;cultural
-422;Room;26;cultural
-726;Songbird;26;biophysical
-76;Glove;25;cultural
-197;Landmark;25;biophysical
-210;Darkness;25;perceptual
-272;Traffic sign;25;cultural
-345;Trousers;25;cultural
-135;Sports uniform;24;activities
-146;Brown;24;perceptual
-157;Astronomical object;24;biophysical
-178;Sharing;24;cultural
-179;Bottle;24;cultural
-147;Deciduous;23;biophysical
-203;Pole;23;cultural
-223;Machine;23;cultural
-334;Racing;23;activities
-52;Drink;22;cultural
-77;Shoe;22;cultural
-124;Temple;22;cultural
-161;Midnight;22;biophysical
-227;Space;22;biophysical
-388;Horse supplies;22;activities
-456;Wood stain;22;biophysical
-471;Rock;22;biophysical
-569;Clock;22;cultural
-230;Display device;21;cultural
-237;Textile;21;cultural
-370;Wind wave;21;biophysical
-385;Windsports;21;activities
-400;Polar ice cap;21;biophysical
-492;Riparian zone;21;biophysical
-549;Snout;21;biophysical
-596;Turret;21;cultural
-653;Horse tack;21;activities
-121;Houseplant;20;cultural
-185;Adaptation;20;cultural
-208;Tunnel;20;cultural
-213;Fuel tank;20;cultural
-358;Social group;20;cultural
-415;Serveware;20;cultural
+216;Light;99;
+117;Land vehicle;96;
+234;Valley;95;
+47;Tableware;94;
+96;Door;94;
+215;Daytime;93;
+290;Automotive design;91;
+205;Leaf;89;
+154;Black-and-white;88;
+120;Interior design;87;
+74;Goggles;83;
+186;Rural area;83;
+263;Eyewear;79;
+115;Shade;78;
+63;Horizon;77;
+331;Evergreen;77;
+151;White;76;
+311;Flooring;76;
+141;Blue;74;
+677;Ski;74;
+286;Roof;73;
+313;Bird;73;
+68;Locomotive;72;
+361;Food;72;
+196;Wall;71;
+326;Residential area;71;
+247;Fence;69;
+81;T-shirt;68;
+235;Furniture;68;
+528;Beak;68;
+108;Working animal;67;
+152;Black;67;
+328;Tower;67;
+373;Nunatak;67;
+288;Coastal and oceanic landforms;65;
+32;Bridge;64;
+116;Automotive exterior;64;
+35;Bicycles--Equipment and supplies;63;
+109;Fawn;63;
+137;Sunglasses;63;
+226;Line;61;
+242;Petal;61;
+94;Lighting;60;
+176;Fun;60;
+303;Flowering plant;58;
+404;Composite material;57;
+166;Jacket;56;
+256;Street light;55;
+266;Ingredient;55;
+278;Hood;55;
+262;Vision care;54;
+360;Hill;52;
+229;Signage;51;
+341;Sports;51;
+406;Brick;51;
+34;Bicycle;50;
+261;Glasses;50;
+61;Air travel;49;
+232;Plain;49;
+398;Photograph;49;
+550;Tail;49;
+344;Jeans;48;
+43;Terrestrial animal;47;
+132;Hat;46;
+224;Waterfall;46;
+275;Winter;46;
+301;Carnivore;46;
+375;Real estate;46;
+364;Plate;45;
+405;Grey;45;
+420;Musical instrument;45;
+14;Sculpture;44;
+16;Outcrop;44;
+207;Gesture;44;
+298;Dog breed;44;
+302;Fog;44;
+386;Pattern;44;
+725;Feather;44;
+193;Dusk;43;
+240;Floor;43;
+367;Cuisine;43;
+33;Bicycle helmet;42;
+155;Style;42;
+274;Metal;42;
+350;Electric blue;42;
+45;Drinkware;41;
+546;Dog;41;
+69;Railroad car;40;
+365;Recipe;40;
+539;Watercraft;40;
+123;Symmetry;39;
+329;Horse;39;
+426;Fluid;39;
+518;Music;39;
+604;Concrete;39;
+78;Shorts;38;
+319;Overhead power line;38;
+384;Meadow;38;
+567;Hardwood;38;
+756;Ski pole;38;
+40;Bicycle frame;37;
+139;Sports gear;37;
+194;Transport hub;37;
+231;Brickwork;37;
+245;Herbaceous plant;37;
+258;Happy;37;
+362;Dishware;37;
+425;Liquid;37;
+170;Cottage;36;
+191;Afterglow;36;
+202;Flag;36;
+355;Outerwear;36;
+396;Botany;36;
+409;Material property;36;
+514;Musician;36;
+755;Skier;36;
+163;Luggage and bags;35;
+201;Vertebrate;35;
+304;Shrub;35;
+112;Public transport;34;
+236;Comfort;34;
+397;Woody plant;34;
+491;Crowd;34;
+538;Boat;34;
+754;Ski boot;34;
+195;Flowerpot;33;
+167;Tent;32;
+220;Engineering;32;
+264;Headgear;32;
+279;Vehicle registration plate;32;
+470;Soil;32;
+307;Organism;31;
+325;Hiking equipment;31;
+222;Monochrome photography;30;
+42;Forest;29;
+87;Bicycle handlebar;29;
+369;Dish;29;
+403;Wing;29;
+407;Parallel;29;
+99;Arch;28;
+333;Street fashion;28;
+172;Sleeve;27;
+219;Monochrome;27;
+270;Public space;27;
+299;Mammal;27;
+324;Morning;27;
+548;Companion dog;27;
+86;Bicycle wheel;26;
+100;Arch bridge;26;
+101;Aqueduct;26;
+126;Ceiling;26;
+149;Glass;26;
+182;Yellow;26;
+209;Circle;26;
+315;Clothing;26;
+354;Aircraft;26;
+422;Room;26;
+726;Songbird;26;
+76;Glove;25;
+197;Landmark;25;
+210;Darkness;25;
+272;Traffic sign;25;
+345;Trousers;25;
+135;Sports uniform;24;
+146;Brown;24;
+157;Astronomical object;24;
+178;Sharing;24;
+179;Bottle;24;
+147;Deciduous;23;
+203;Pole;23;
+223;Machine;23;
+334;Racing;23;
+52;Drink;22;
+77;Shoe;22;
+124;Temple;22;
+161;Midnight;22;
+227;Space;22;
+388;Horse supplies;22;
+456;Wood stain;22;
+471;Rock;22;
+569;Clock;22;
+230;Display device;21;
+237;Textile;21;
+370;Wind wave;21;
+385;Windsports;21;
+400;Polar ice cap;21;
+492;Riparian zone;21;
+549;Snout;21;
+596;Turret;21;
+653;Horse tack;21;
+121;Houseplant;20;
+185;Adaptation;20;
+208;Tunnel;20;
+213;Fuel tank;20;
+358;Social group;20;
+415;Serveware;20;
 37;Bicycle jersey;19;
 39;Bicycle clothing;19;
 48;Barware;19;

@@ -1,0 +1,57 @@
+---
+title: "mapping"
+author: "Fabienne Christen"
+date: "3/22/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list=ls())
+library(sf)
+library(leaflet)
+```
+
+## R Markdown
+
+```{r}
+WGS84<-"+init=epsg:4326"
+
+lavaux <- st_read("data/lavaux/lavaux_polygon.shp")%>%
+  st_as_sf()%>%
+  st_transform(WGS84)%>%
+  #drop z component to map
+  st_zm(drop=T, what="ZM")
+  
+
+rhb <- st_read("data/rhb/rhb_polygon.shp")%>%
+  st_as_sf()%>%
+  st_transform(WGS84)%>%
+  #drop z component to map
+  st_zm(drop=T, what="ZM")
+
+pufferzone_rhb<-rhb%>%
+  filter(rhb$type_de=='Pufferzone')%>%
+  #drop z component to map
+  st_zm(drop=T, what='ZM')
+
+
+
+rhb_col <- colorFactor(palette=c("#ff3100", "#ff3100"), rhb$type_de)
+
+#creating map
+map_rhb <- leaflet() %>% 
+  addPolygons(data=rhb, color=~rhb_col(type_de), weight=0.5)%>%
+  addProviderTiles(providers$Esri.WorldTopoMap)
+map_rhb
+
+
+lavaux_col <- colorFactor(palette=c("#0c5da5", "#094275"), lavaux$type_de)
+
+map_lavaux<-leaflet() %>% 
+  addPolygons(data=lavaux, color=~lavaux_col(type_de), weight=0.5)%>%
+  addProviderTiles(providers$CartoDB.Positron, options = providerTileOptions(opacity = 0.7))
+map_lavaux
+  
+
+```

@@ -1,0 +1,899 @@
+;word;count;category
+2;Sky;1303;biophysical
+3;Plant;1008;biophysical
+0;Water;876;biophysical
+1;Cloud;827;biophysical
+9;Tree;616;biophysical
+19;Natural landscape;559;biophysical
+7;Mountain;508;biophysical
+11;Highland;434;biophysical
+5;Building;428;cultural
+15;Lake;344;biophysical
+33;Window;281;cultural
+14;Landscape;269;biophysical
+8;Azure;252;perceptual
+105;Grass;233;biophysical
+46;Wood;231;biophysical
+118;Land lot;211;cultural
+4;Water resources;210;cultural
+18;Nature;208;biophysical
+100;House;193;cultural
+35;Coastal and oceanic landforms;192;biophysical
+133;Slope;186;biophysical
+103;Leisure;177;activities
+10;Atmosphere;166;biophysical
+13;Horizon;163;biophysical
+117;Road surface;142;cultural
+66;Vehicle;137;cultural
+599;String instrument;122;activities
+581;Musician;112;cultural
+104;Sunlight;111;biophysical
+126;Ecoregion;110;biophysical
+411;Musical instrument;109;activities
+159;Vegetation;101;biophysical
+31;Body of water;96;biophysical
+12;Atmospheric phenomenon;94;biophysical
+32;Swimming pool;87;activities
+179;Facade;85;cultural
+808;Swimmer;82;activities
+123;Agriculture;80;cultural
+87;Travel;78;activities
+116;Asphalt;77;cultural
+114;Terrain;76;biophysical
+154;Dusk;75;biophysical
+84;Microphone;74;cultural
+200;Boat;73;cultural
+97;Property;71;cultural
+30;Rectangle;70;cultural
+141;Flower;69;biophysical
+590;Guitar accessory;69;activities
+300;Blue;68;perceptual
+6;Daytime;66;biophysical
+591;Musical instrument accessory;66;activities
+47;Font;64;cultural
+34;Tints and shades;63;perceptual
+136;City;63;cultural
+217;Cap;63;cultural
+42;Event;62;cultural
+120;Wheel;62;cultural
+152;Afterglow;59;biophysical
+115;Infrastructure;58;cultural
+167;Neighbourhood;58;cultural
+253;Recreation;58;activities
+318;Watercraft;58;cultural
+347;Train;58;cultural
+74;Smile;56;sense of place
+16;Cumulus;55;biophysical
+242;Electricity;55;cultural
+583;Music;55;perceptual
+17;Bank;54;cultural
+98;Fixture;54;cultural
+450;Outdoor recreation;54;activities
+91;Art;52;cultural
+184;Motor vehicle;52;cultural
+125;Grassland;51;biophysical
+150;People in nature;51;activities
+72;Urban design;50;cultural
+121;Tire;49;cultural
+138;Hat;49;cultural
+122;Plant community;47;biophysical
+153;Fluid;47;biophysical
+593;String instrument accessory;47;activities
+57;Table;46;cultural
+220;Snow;46;biophysical
+348;Rolling stock;45;cultural
+610;Guitar;45;activities
+64;Mountainous landforms;44;biophysical
+142;Leaf;44;biophysical
+143;Green;44;perceptual
+169;Residential area;42;cultural
+183;Street light;42;cultural
+219;Road;42;cultural
+812;Swim cap;42;activities
+586;Entertainment;41;activities
+349;Track;40;cultural
+137;Shorts;39;cultural
+24;Flash photography;38;cultural
+43;Tableware;38;cultural
+180;Fence;38;cultural
+44;Fun;36;sense of place
+124;Plain;36;biophysical
+135;Rural area;36;cultural
+139;Headgear;36;cultural
+99;Architecture;35;cultural
+172;Food;34;cultural
+213;Gas;34;cultural
+326;Muscle;34;cultural
+597;Music artist;34;cultural
+598;Band plays;34;activities
+814;Competition event;34;sense of place
+119;Car;33;cultural
+283;Sports;33;activities
+127;Natural environment;32;biophysical
+162;Wall;32;cultural
+228;T-shirt;32;cultural
+191;Black-and-white;31;perceptual
+198;Liquid;31;biophysical
+425;Branch;31;biophysical
+26;Gesture;30;cultural
+89;Light;30;biophysical
+106;Shade;30;biophysical
+230;Groundcover;30;biophysical
+235;Door;30;cultural
+29;Happy;29;perceptual
+75;Chair;29;cultural
+189;Cottage;29;cultural
+582;Concert;29;activities
+609;Plucked string instruments;29;activities
+85;Eyewear;28;cultural
+331;Boats and boating--Equipment and supplies;28;activities
+813;Medley swimming;28;activities
+134;Roof;27;cultural
+188;Biome;27;biophysical
+94;Flooring;26;cultural
+129;Mode of transport;26;cultural
+38;Drinkware;25;cultural
+144;Twig;25;cultural
+166;Flowerpot;25;cultural
+170;Botany;25;cultural
+602;Public address system;24;cultural
+820;Sports gear;24;activities
+50;Audio equipment;23;cultural
+95;Glass;23;cultural
+130;Thoroughfare;23;cultural
+236;Symmetry;23;cultural
+155;Sunset;22;biophysical
+190;Black;22;perceptual
+203;Shrub;22;biophysical
+584;Membranophone;22;cultural
+587;Performing arts;22;activities
+588;Drum;22;activities
+313;Woody plant;21;biophysical
+436;Photograph;21;perceptual
+585;Artist;21;cultural
+156;Jeans;20;cultural
+299;Freezing;20;perceptual
+389;Lighting;20;biophysical
+68;Mountain range;19;biophysical
+69;World;19;biophysical
+165;Morning;19;biophysical
+250;Flag;19;cultural
+417;Vertebrate;19;biophysical
+504;Luggage and bags;19;cultural
+65;Fog;18;
+231;Orange;18;
+248;Real estate;18;
+294;Grey;18;
+323;Furniture;18;
+351;Railway;18;
+432;Yellow;18;
+565;Thigh;18;
+571;Mast;18;
+67;Rolling;17;
+92;Sculpture;17;
+146;Flowering plant;17;
+413;Idiophone;17;
+569;Bus;17;
+601;Guitarist;17;
+90;Interior design;16;
+110;Human body;16;
+158;Public space;16;
+171;Terrestrial plant;16;
+192;Style;16;
+199;Watercourse;16;
+202;Street fashion;16;
+211;Brick;16;
+419;Sunglasses;16;
+427;Automotive lighting;16;
+428;Houseplant;16;
+60;Barware;15;
+160;Automotive tire;15;
+163;Material property;15;
+206;Petal;15;
+239;Cuisine;15;
+252;Waterway;15;
+634;Sleeve;15;
+86;Vision care;14;
+178;Line;14;
+240;Dish;14;
+276;Bedrock;14;
+319;Naval architecture;14;
+325;White;14;
+378;Human;14;
+392;Arch;14;
+398;Carnivore;14;
+61;Plate;13;
+157;Working animal;13;
+168;Alley;13;
+193;Temple;13;
+216;Electric blue;13;
+225;Automotive design;13;
+249;Tower;13;
+255;Darkness;13;
+310;Trunk;13;
+431;Picture frame;13;
+643;Bottle;13;
+849;Trousers;13;
+58;Dishware;12;
+96;Stained glass;12;
+140;Sun hat;12;
+205;Terrace;12;
+214;Signage;12;
+254;Purple;12;
+397;Dog;12;
+429;Overhead power line;12;
+448;Beard;12;
+454;Ingredient;12;
+626;Drink;12;
+762;Swimwear;12;
+815;Championship;12;
+54;Circle;11;
+194;Bicycle;11;
+201;Leg;11;
+212;Brickwork;11;
+232;Sunrise;11;
+260;Automotive parking light;11;
+263;Hill;11;
+308;Larch;11;
+343;Medieval architecture;11;
+440;Bird;11;
+456;Recipe;11;
+495;Facial hair;11;
+572;Sailboat;11;
+691;Hand;11;
+83;Glasses;10;
+93;Statue;10;
+149;Pattern;10;
+161;Composite material;10;
+285;Clothing;10;
+361;Paint;10;
+437;Jacket;10;
+441;Beak;10;
+445;Wing;10;
+462;Coffee;10;
+484;Cup;10;
+502;Bag;10;
+523;Hardwood;10;
+546;Beach;10;
+595;Crowd;10;
+600;Fedora;10;
+770;Sidewalk;10;
+818;Modern pentathlon;10;
+871;Alcoholic beverage;10;
+25;Fashion;9;
+48;Metal;9;
+70;Space;9;
+76;Wine;9;
+102;Outdoor furniture;9;
+109;Arm;9;
+182;Calm;9;
+187;Organism;9;
+195;Land vehicle;9;
+218;Baseball cap;9;
+269;Camera lens;9;
+329;Landmark;9;
+390;Vault;9;
+401;Dog breed;9;
+424;Amber;9;
+463;Kitchen appliance;9;
+147;Annual plant;8;
+164;Parallel;8;
+196;Bicycles--Equipment and supplies;8;
+286;Head;8;
+289;Summer;8;
+309;Evergreen;8;
+317;Goggles;8;
+375;Community;8;
+379;Forehead;8;
+404;Companion dog;8;
+415;Arcade;8;
+467;Coffee cup;8;
+475;Floor;8;
+500;Jaw;8;
+40;Engineering;7;
+79;Serveware;7;
+88;Tie;7;
+173;Fruit;7;
+197;Bicycle wheel;7;
+234;Hedge;7;
+262;Stone wall;7;
+267;Bicycle tire;7;
+270;Camera accessory;7;
+321;Ship;7;
+332;Dock;7;
+338;Brown;7;
+376;Social group;7;
+387;Ear;7;
+394;Wind wave;7;
+406;Sports equipment;7;
+409;Clock;7;
+418;Mammal;7;
+435;Footwear;7;
+443;Seabird;7;
+459;Cooking;7;
+465;Java coffee;7;
+466;Single-origin coffee;7;
+617;Cymbal;7;
+638;Standing;7;
+679;Lightning;7;
+689;Machine;7;
+720;Feather;7;
+724;Sailing;7;
+771;Umbrella;7;
+790;Tent;7;
+828;Shirt;7;
+36;Suit;6;
+56;Stemware;6;
+112;Knee;6;
+148;Ceiling;6;
+251;Wind;6;
+257;Astronomical object;6;
+266;Bicycle handlebar;6;
+268;Bicycle frame;6;
+273;Reflex camera;6;
+275;Cameras & optics;6;
+352;Outerwear;6;
+355;Religious institute;6;
+359;Tower block;6;
+370;Horse;6;
+380;Lip;6;
+381;Chin;6;
+384;Eye;6;
+391;Bench;6;
+416;Chapel;6;
+468;Cuban espresso;6;
+514;Shoe;6;
+558;Red;6;
+632;Church;6;
+681;Thunderstorm;6;
+694;Wrinkle;6;
+699;Cheek;6;
+763;Waist;6;
+22;Dress;5;
+59;Wine glass;5;
+71;Meteorological phenomenon;5;
+101;Outdoor bench;5;
+132;Automotive exterior;5;
+174;Seedless fruit;5;
+176;Produce;5;
+247;Technology;5;
+274;Lens;5;
+293;Coat;5;
+314;Natural foods;5;
+324;Face;5;
+340;Geological phenomenon;5;
+342;Turret;5;
+345;Monument;5;
+358;Formation;5;
+363;Stairs;5;
+365;Pole;5;
+382;Eyebrow;5;
+385;Eyelash;5;
+386;Neck;5;
+388;Artifact;5;
+442;Lari;5;
+444;Gull;5;
+476;Staple food;5;
+485;Cortado;5;
+539;Grass family;5;
+567;Sneakers;5;
+570;Public transport;5;
+594;Brass instrument;5;
+623;Microphone stand;5;
+633;Selling;5;
+680;Thunder;5;
+793;Aqua;5;
+806;One-piece swimsuit;5;
+811;Athlete;5;
+834;Market;5;
+45;Room;4;
+145;Grape leaves;4;
+181;Headland;4;
+185;Automotive mirror;4;
+204;Herbaceous plant;4;
+233;Red sky at morning;4;
+237;Candle;4;
+238;Sharing;4;
+243;Meadow;4;
+244;Archaeological site;4;
+271;Camera;4;
+281;Personal protective equipment;4;
+292;Magenta;4;
+301;Haze;4;
+336;Display device;4;
+346;History;4;
+350;Locomotive;4;
+356;Facial expression;4;
+360;Condominium;4;
+377;Hair;4;
+402;Pet supply;4;
+420;Auto part;4;
+422;Watch;4;
+426;Heat;4;
+455;Stew;4;
+458;Beef;4;
+474;Couch;4;
+487;Home appliance;4;
+490;Teleconverter;4;
+492;Lens cap;4;
+494;Lamp;4;
+515;Interaction;4;
+536;Comfort;4;
+545;Natural material;4;
+548;Hairstyle;4;
+564;Toy;4;
+589;Painting;4;
+592;Electronic instrument;4;
+605;Advertising;4;
+608;Logo;4;
+611;Accordionist;4;
+612;Free reed aerophone;4;
+613;Squeezebox;4;
+614;Accordion;4;
+615;Folk instrument;4;
+650;Drawing;4;
+651;Monochrome;4;
+662;Electronic device;4;
+678;Mouth;4;
+682;Deciduous;4;
+698;Nose;4;
+714;Concrete;4;
+721;Snout;4;
+761;Undergarment;4;
+809;Sportswear;4;
+810;Leotard;4;
+854;Animal migration;4;
+39;Science;3;
+49;Fashion accessory;3;
+73;Cityscape;3;
+113;Elbow;3;
+128;Tar;3;
+210;Macro photography;3;
+226;Dress shirt;3;
+245;Billboard;3;
+246;Triangle;3;
+259;Lens flare;3;
+272;Digital camera;3;
+287;Cool;3;
+298;Glacial landform;3;
+311;Vine;3;
+315;Public utility;3;
+333;Crankset;3;
+339;Terrestrial animal;3;
+344;Castle;3;
+362;Building material;3;
+366;Soil;3;
+369;Girder bridge;3;
+396;Fawn;3;
+399;Collar;3;
+423;Automotive wheel system;3;
+434;Column;3;
+461;Pork;3;
+464;Coffeemaker;3;
+499;Mirrorless interchangeable-lens camera;3;
+501;Creative arts;3;
+510;Peripheral;3;
+512;Air travel;3;
+524;Railroad car;3;
+527;Office equipment;3;
+529;Aquatic plant;3;
+530;Marine biology;3;
+544;Fluvial landforms of streams;3;
+554;Barefoot;3;
+556;Midnight;3;
+562;Black hair;3;
+566;Joint;3;
+568;Transmission tower;3;
+573;Transport hub;3;
+577;Wood stain;3;
+603;Poster;3;
+618;Drumhead;3;
+624;Brand;3;
+627;Graphics;3;
+642;Outdoor table;3;
+644;Glass bottle;3;
+647;Organ;3;
+648;Visual arts;3;
+652;Monochrome photography;3;
+653;Illustration;3;
+666;Cylinder;3;
+688;Keyboard;3;
+690;Number;3;
+692;Reed;3;
+693;Reed instrument;3;
+697;Music stand;3;
+701;Classical music;3;
+708;Spokesperson;3;
+722;Flower Arranging;3;
+732;Sign;3;
+733;Holy places;3;
+744;People;3;
+754;Winter;3;
+757;Photographer;3;
+760;Brassiere;3;
+777;Product;3;
+819;Jumping into the pool;3;
+846;Tail;3;
+855;Bird migration;3;
+867;Handbag;3;
+876;Water bottle;3;
+881;Cookware and bakeware;3;
+37;Plastic bottle;2;
+41;Customer;2;
+51;Nickel;2;
+62;Champagne stemware;2;
+63;Cutlery;2;
+78;Fork;2;
+80;Tablecloth;2;
+107;Mesh;2;
+131;Windscreen wiper;2;
+177;Fruit tree;2;
+215;Nameplate;2;
+227;Passenger;2;
+256;Moon;2;
+261;Vehicle registration plate;2;
+264;Traffic sign;2;
+278;Diving equipment;2;
+279;Divemaster;2;
+284;Crew;2;
+288;Toddler;2;
+290;Pink;2;
+296;Amphitheatre;2;
+297;Ancient history;2;
+322;Steamboat;2;
+330;Wire fencing;2;
+353;Bridge;2;
+364;Outcrop;2;
+383;Shoulder;2;
+393;Mixed-use;2;
+395;Grazing;2;
+421;Measuring instrument;2;
+449;Horse tack;2;
+451;Porch;2;
+452;Siding;2;
+457;Navarin;2;
+460;Braising;2;
+471;Cross;2;
+477;Al dente;2;
+480;Noodle;2;
+481;Rice noodles;2;
+505;Insect;2;
+506;Arthropod;2;
+507;Pest;2;
+508;Parasite;2;
+509;Invertebrate;2;
+513;Ice cap;2;
+521;Saucer;2;
+525;Input device;2;
+528;Office supplies;2;
+532;Underwater;2;
+533;Digital SLR;2;
+540;Headlamp;2;
+547;Commemorative plaque;2;
+549;Wax;2;
+550;Flame;2;
+551;Fire;2;
+553;Finger;2;
+557;Body jewelry;2;
+560;Field;2;
+596;Stage;2;
+607;Fictional character;2;
+630;Jewellery;2;
+637;Symbol;2;
+639;Memorial;2;
+641;Job;2;
+656;Kitchen;2;
+667;Plywood;2;
+687;Tour bus service;2;
+702;Violin family;2;
+703;Street;2;
+710;Human settlement;2;
+713;Paddle;2;
+728;Religious item;2;
+730;Lectern;2;
+736;Fuel tank;2;
+737;Piano;2;
+738;Musical keyboard;2;
+740;Electric piano;2;
+747;Formal wear;2;
+748;Ducks, geese and swans;2;
+751;Map;2;
+755;Tartan;2;
+758;Swimsuit top;2;
+772;Human leg;2;
+779;Sitting;2;
+784;Tourism;2;
+786;Coast;2;
+798;Motorcycle;2;
+800;Barrel;2;
+801;Winery;2;
+807;Sports uniform;2;
+816;People on beach;2;
+817;Underpants;2;
+822;Maillot;2;
+823;Breaststroke;2;
+830;Trench coat;2;
+832;Tread;2;
+835;Hawker;2;
+841;Storage basket;2;
+842;Basket;2;
+848;Blazer;2;
+853;Textile;2;
+858;Waterfowl;2;
+862;Flight;2;
+866;Adaptation;2;
+869;Floristry;2;
+870;Floral design;2;
+879;Fashion design;2;
+882;Belt;2;
+888;Backpack;2;
+894;Podium;2;
+20;Wedding dress;1;
+21;Bride;1;
+23;Bridal clothing;1;
+27;Bridal party dress;1;
+28;Gown;1;
+52;Cash;1;
+53;Currency;1;
+55;Wire;1;
+77;Kitchen utensil;1;
+81;Table knife;1;
+82;Spoon;1;
+108;Windshield;1;
+111;Balance;1;
+151;Rainbow;1;
+175;Grapevine family;1;
+186;Extinction;1;
+207;Pedicel;1;
+208;Pollen;1;
+209;Narcissus;1;
+221;Aircraft;1;
+222;Airplane;1;
+223;Helicopter rotor;1;
+224;Helicopter;1;
+229;Personal luxury car;1;
+241;Wheelbarrow;1;
+258;Sun;1;
+265;Parking;1;
+277;Buoyancy compensator;1;
+280;Diving mask;1;
+282;Glove;1;
+291;Violet;1;
+295;Bouleuterion;1;
+302;Mist;1;
+303;Dawn;1;
+304;Tool;1;
+305;Titanium;1;
+306;Screw;1;
+307;Steel;1;
+312;Grape;1;
+316;Bicycle fork;1;
+320;Passenger ship;1;
+327;Address sign;1;
+328;Street sign;1;
+334;Communication Device;1;
+335;Gadget;1;
+337;Tablet computer;1;
+341;Scaled reptile;1;
+354;Handrail;1;
+357;Iris;1;
+367;Bermuda shorts;1;
+368;Arecales;1;
+371;Liver;1;
+372;Long hair;1;
+373;Waterfall;1;
+374;Chute;1;
+400;Dog supply;1;
+403;Dog collar;1;
+405;Surfboard;1;
+407;Surfing;1;
+408;Surfing Equipment;1;
+410;Truck;1;
+412;Church bell;1;
+414;Bell;1;
+430;Flag of the united states;1;
+433;Sorrel;1;
+438;paddlewheel;1;
+439;Paddle steamer;1;
+446;Antenna;1;
+447;Telecommunications engineering;1;
+453;Bridle;1;
+469;Trophy;1;
+470;Antique;1;
+472;Award;1;
+473;Bronze;1;
+478;Pasta;1;
+479;Stringozzi;1;
+482;Pasta pomodoro;1;
+483;Headstone;1;
+486;Tea;1;
+488;Espresso;1;
+489;Wiener melange;1;
+491;Optical instrument;1;
+493;Lens hood;1;
+496;Ceiling fixture;1;
+497;Lampshade;1;
+498;Hill station;1;
+503;Pottery;1;
+511;Seafood;1;
+516;Vegetable;1;
+517;Garnish;1;
+518;Parachute;1;
+519;Paragliding;1;
+520;Dandelion coffee;1;
+522;Shelf;1;
+526;Computer keyboard;1;
+531;Fish supply;1;
+534;Drip coffee maker;1;
+535;Curtain;1;
+537;Output device;1;
+538;Dairy cow;1;
+541;Tunnel;1;
+542;Transparent material;1;
+543;Spring;1;
+552;Melting;1;
+555;Prairie;1;
+559;Rose;1;
+561;Leaf vegetable;1;
+563;Tile flooring;1;
+574;Beige;1;
+575;Rock;1;
+576;Desk;1;
+578;Bicycle helmet;1;
+579;Helmet;1;
+580;Bicycle jersey;1;
+604;Book cover;1;
+606;Movie;1;
+616;Performance art;1;
+619;Music venue;1;
+620;Percussion mallet;1;
+621;Drum stick;1;
+622;Musical ensemble;1;
+625;Photo caption;1;
+628;Earrings;1;
+629;Necklace;1;
+631;Lipstick;1;
+635;Emblem;1;
+636;Design;1;
+640;White-collar worker;1;
+645;Waste container;1;
+646;Waste containment;1;
+649;Paper;1;
+654;Paper product;1;
+655;Cabinetry;1;
+657;Major appliance;1;
+658;Handwriting;1;
+659;Flat panel display;1;
+660;Television set;1;
+661;Stage equipment;1;
+663;Multimedia;1;
+664;Plumbing fixture;1;
+665;Urban area;1;
+668;Door handle;1;
+669;Hall;1;
+670;Beetle;1;
+671;Oniscidea;1;
+672;Isopod;1;
+673;Weevil;1;
+674;Cat;1;
+675;Felidae;1;
+676;Whiskers;1;
+677;Small to medium-sized cats;1;
+683;Subshrub;1;
+684;Skyscraper;1;
+685;Star;1;
+686;Bus driver;1;
+695;Layered hair;1;
+696;Conversation;1;
+700;Moustache;1;
+704;Flesh;1;
+705;Throat;1;
+706;No expression;1;
+707;Scar;1;
+709;Steam engine;1;
+711;Lantern;1;
+712;Bullet train;1;
+715;Crane;1;
+716;Bumper;1;
+717;Cemetery;1;
+718;Grave;1;
+719;Pollinator;1;
+723;Artificial flower;1;
+725;Street furniture;1;
+726;Chimney;1;
+727;Finial;1;
+729;Candle holder;1;
+731;Bicycle wheel rim;1;
+734;Bell tower;1;
+735;Windsports;1;
+739;Electronic keyboard;1;
+741;Electronic musical instrument;1;
+742;Oval;1;
+743;Rust;1;
+745;Chinese architecture;1;
+746;Thumb;1;
+749;Carmine;1;
+750;Duck;1;
+752;Geology;1;
+753;Nature reserve;1;
+756;Plaid;1;
+759;Lingerie top;1;
+764;Lingerie;1;
+765;Chest;1;
+766;Square;1;
+767;Graphic design;1;
+768;Home door;1;
+769;Electrical wiring;1;
+773;Stage is empty;1;
+774;Night;1;
+775;Shadow;1;
+776;Pianist;1;
+778;Peach;1;
+780;Gauge;1;
+781;Pipe organ;1;
+782;Organ pipe;1;
+783;Lifejacket;1;
+785;Ocean;1;
+787;Costume hat;1;
+788;Shore;1;
+789;Evening;1;
+791;Saxophone;1;
+792;Saxophonist;1;
+794;Aerobatics;1;
+795;Worship;1;
+796;Ritual;1;
+797;Stuffed toy;1;
+799;Rim;1;
+802;Head restraint;1;
+803;Seat belt;1;
+804;Tripod;1;
+805;Pier;1;
+821;Skin;1;
+824;Field house;1;
+825;Player;1;
+826;Multi-sport event;1;
+827;Tournament;1;
+829;Channel;1;
+831;Single scull;1;
+833;Whole food;1;
+836;Greengrocer;1;
+837;Retail;1;
+838;Gunfighter;1;
+839;Shooting;1;
+840;Shotgun;1;
+843;Wicker;1;
+844;Home accessories;1;
+845;Steeple;1;
+847;Overcoat;1;
+850;Fisherman;1;
+851;Airedale terrier;1;
+852;Khaki pants;1;
+856;Bird of prey;1;
+857;Fender;1;
+859;Polish tatra sheepdog;1;
+860;Sporting Group;1;
+861;Accipitriformes;1;
+863;Accipitridae;1;
+864;Water bird;1;
+865;Suspension bridge;1;
+868;Tern;1;
+872;Toolroom;1;
+873;Service;1;
+874;Machine tool;1;
+875;Workbench;1;
+877;Employment;1;
+878;Lawn;1;
+880;Chafing dish;1;
+883;Uniform;1;
+884;Town;1;
+885;Hood;1;
+886;Citroën h van;1;
+887;Food processing;1;
+889;Packaging and labeling;1;
+890;Box;1;
+891;Local food;1;
+892;Finger food;1;
+893;Dessert;1;
+895;Beer glass;1;
+896;Speech;1;
+897;Beer;1;
