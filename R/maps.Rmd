@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 rm(list=ls())
 library(sf)
 library(leaflet)
+library(mapview)
 ```
 
 ## R Markdown
@@ -41,17 +42,24 @@ rhb_col <- colorFactor(palette=c("#ff3100", "#ff3100"), rhb$type_de)
 
 #creating map
 map_rhb <- leaflet() %>% 
-  addPolygons(data=rhb, color=~rhb_col(type_de), weight=0.5)%>%
+  addPolygons(data=rhb, color=~rhb_col(type_de),fillColor = ~rhb_col(type_de), fillOpacity = 0.5, weight=0.5)%>%
   addProviderTiles(providers$Esri.WorldTopoMap)
 map_rhb
+mapshot(map_rhb, file = "plots/map_rhb.png")
 
 
 lavaux_col <- colorFactor(palette=c("#0c5da5", "#094275"), lavaux$type_de)
 
 map_lavaux<-leaflet() %>% 
-  addPolygons(data=lavaux, color=~lavaux_col(type_de), weight=0.5)%>%
-  addProviderTiles(providers$CartoDB.Positron, options = providerTileOptions(opacity = 0.7))
+  addPolygons(data=lavaux, color="white", fillColor =~lavaux_col(type_de), weight=0.8, fillOpacity = 0.7)%>%
+  addProviderTiles(providers$Esri.WorldTopoMap)
 map_lavaux
-  
+mapshot(map_lavaux, file = "plots/map_lavaux.png")
+
+map_CH<-leaflet() %>% 
+  addPolygons(data=lavaux, color=~lavaux_col(type_de), fillColor =~lavaux_col(type_de), weight=0.8, fillOpacity = 0.8)%>%
+  addPolygons(data=rhb, color=~rhb_col(type_de),fillColor = ~rhb_col(type_de), fillOpacity = 0.5, weight=0.5)%>%
+  addProviderTiles(providers$CartoDB.Positron, options = providerTileOptions(opacity = 0.7))
+map_CH
 
 ```
