@@ -5,7 +5,7 @@ import shapely.speedups
 import matplotlib.pyplot as plt
 
 #define which data to use
-topic="rhb"
+topic="lavaux"
 
 #read in unesco shapefile
 polygon = gpd.read_file("data/01_filter_regions/%s/%s_polygon.shp" % (topic, topic))
@@ -51,7 +51,11 @@ fig, ax = plt.subplots()
 polygon.plot(ax=ax, facecolor='gray');
 pip_data.plot(ax=ax, color='gold', markersize=2);
 plt.tight_layout();
+
 plt.show()
+#save plot to png
+#plt.savefig('data/02_points_in_polygon/pip_%s.png' %topic)
+
 
 #save data to shapefile
 pip_data.to_file(driver='ESRI Shapefile', filename='data/02_points_in_polygon/flickr/%s_flickr.shp' %topic)

@@ -63,7 +63,7 @@ while True:
     # next page element is not present, final page is reached
     else:
         break
-# initiate counuter for logging
+# initiate counter for logging
 log_counter = 0
 print("length of list")
 print(len(list_pid))
