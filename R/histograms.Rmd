@@ -56,14 +56,15 @@ ggplot(data_categories, aes(x=category, y=percentage, fill=site))+
   theme_minimal()+
   ylim(0,80)+
   ylab("percentage [%]")+
-  scale_fill_manual(values=c("#0c5da5", "#ff3100"))
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
+  xlab("")
 #dev.off()
 ```
 #image processing
 
 ```{r}
 #read in data
-lavaux_flickr_categories<-read.csv("data/lavaux_flickr.csv", sep=",")
+lavaux_flickr_categories<-read.csv("data/lavaux_flickr.csv", sep=";")
 
 #group data and aggregate according to count
 lavaux_flickr_grouped <- lavaux_flickr_categories %>% group_by(category)%>%
@@ -105,7 +106,8 @@ ggplot(flickr_categories, aes(x=category, y=percentage, fill=site))+
   theme_minimal()+
   ylim(0,80)+
   ylab("percentage [%]")+
-  scale_fill_manual(values=c("#0c5da5", "#ff3100"))
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
+  xlab("")
 #dev.off()
 ```
 
