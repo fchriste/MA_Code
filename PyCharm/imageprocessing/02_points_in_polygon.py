@@ -4,7 +4,7 @@ from shapely.geometry import Point
 import shapely.speedups
 import matplotlib.pyplot as plt
 
-#define which data to use
+#define which data to use, either 'rhb' or 'lavaux'
 topic="lavaux"
 
 #read in unesco shapefile

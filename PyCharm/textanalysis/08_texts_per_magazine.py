@@ -4,8 +4,8 @@ import pandas as pd
 
 
 
-# define topic
-topic="lavaux"
+# define topic, either 'rhb' or 'lavaux'
+topic="rhb"
 
 # define directories and paths
 directory = r'/Users/fab/switchdrive/UZH/MA/Code/PyCharm/textanalysis/data/03_language_year/%s' % topic

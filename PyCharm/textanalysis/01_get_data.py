@@ -3,8 +3,8 @@ import urllib.request
 import json
 import requests
 
-#change topic of data
-topic="suonen"
+#change topic of data, either 'rhb' or 'lavaux'
+topic="rhb"
 
 # define directories
 output_path= "data/01_get_data/%s/" % topic

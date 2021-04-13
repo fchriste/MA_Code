@@ -2,8 +2,8 @@ import json
 import pandas as pd
 import os
 
-# define topic
-topic="suonen"
+# define topic, either 'rhb' or 'lavaux'
+topic="rhb"
 
 #define limit of articles / journal
 limit = 25

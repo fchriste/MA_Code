@@ -1,8 +1,8 @@
 import json
 import os
 
-#set topic of data
-topic="suonen"
+#set topic of data, either 'rhb' or 'lavaux'
+topic="rhb"
 
 # define directories
 directory = r'/Users/fab/switchdrive/UZH/MA/Code/PyCharm/textanalysis/data/01_get_data/%s' % topic

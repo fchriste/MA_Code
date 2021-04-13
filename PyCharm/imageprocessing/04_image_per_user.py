@@ -2,7 +2,7 @@ import geopandas as gpd
 import pandas as pd
 import json
 
-#define which data to use
+#define which data to use, either 'rhb' or 'lavaux'
 topic="rhb"
 
 #define max. contributions per user

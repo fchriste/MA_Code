@@ -4,8 +4,8 @@ from nltk.text import Text
 import pandas as pd
 
 
-# define topic
-topic="lavaux"
+# define topic, either 'rhb' or 'lavaux'
+topic="rhb"
 
 #define concondance search query
 query="landschaft"

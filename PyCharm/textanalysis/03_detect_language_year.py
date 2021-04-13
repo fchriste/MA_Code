@@ -3,10 +3,10 @@ import os
 from langdetect import detect
 import re
 
-# define topic
-topic="suonen"
+# define topic, either 'rhb' or 'lavaux'
+topic="rhb"
 #get year of unesco heritage nomination
-unesco_year=2020
+unesco_year=2008
 
 # define directories and paths
 directory = r'/Users/fab/switchdrive/UZH/MA/Code/PyCharm/textanalysis/data/02_joined_files/%s' % topic

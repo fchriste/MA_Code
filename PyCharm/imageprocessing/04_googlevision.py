@@ -10,7 +10,7 @@ from google.cloud import vision
 #set environement variable for google vision api
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']="data/My First Project-a3b8caea496a.json"
 
-# define topic
+# define topic, either 'rhb' or 'lavaux'
 topic="lavaux"
 
 # define directories and paths

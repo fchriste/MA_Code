@@ -12,8 +12,8 @@ def jaccard(set_a, set_b):
     union = set_a | set_b
     return len(intersection) / len(union)
 
-# define topic
-topic="lavaux"
+# define topic, either 'rhb' or 'lavaux'
+topic="rhb"
 
 #define similarity percentage
 similarity = 0.8
