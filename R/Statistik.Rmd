@@ -1,0 +1,30 @@
+---
+title: "Statisitk"
+author: "Fabienne Christen"
+date: "4/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+library(dplyr)
+library(vcd)
+```
+
+## Loading data
+
+```{r}
+#read in data
+lavaux_flickr_categories<-read.csv("data/lavaux_flickr.csv", sep=";")%>%na.omit()%>%slice(1:5)
+
+#read in data
+lavaux_flickr_categories_fabian<-read.csv("data/fabian/lavaux_flickr.csv", sep=";")%>%na.omit()%>%slice(1:5)
+
+
+
+ratertab <- xtabs (~ lavaux_flickr_categories$subcategory + lavaux_flickr_categories_fabian$subcategory)
+
+
+CohenKappa(ratertab)
+```
+
