@@ -38,23 +38,25 @@ pufferzone_rhb<-rhb%>%
 
 
 
-rhb_col <- colorFactor(palette=c("#ff3100", "#ff3100"), rhb$type_de)
+rhb_col <- colorFactor(palette=c("#ff9d86", "#ff3100"), rhb$type_de)
 
 #creating map
 map_rhb <- leaflet() %>% 
   addPolygons(data=rhb, color=~rhb_col(type_de),fillColor = ~rhb_col(type_de), fillOpacity = 0.5, weight=0.5)%>%
-  addProviderTiles(providers$Esri.WorldTopoMap)
+  addProviderTiles(providers$Esri.WorldTopoMap)%>%
+  addLegend(color=c("#ff9d86", "#ff3100"), labels = c("buffer zone", "world heritage property"))
 map_rhb
-mapshot(map_rhb, file = "plots/map_rhb.png")
+#mapshot(map_rhb, file = "plots/map_rhb.png")
 
 
 lavaux_col <- colorFactor(palette=c("#0c5da5", "#094275"), lavaux$type_de)
 
 map_lavaux<-leaflet() %>% 
   addPolygons(data=lavaux, color="white", fillColor =~lavaux_col(type_de), weight=0.8, fillOpacity = 0.7)%>%
-  addProviderTiles(providers$Esri.WorldTopoMap)
+  addProviderTiles(providers$Esri.WorldTopoMap)%>%
+  addLegend(color=c("#0c5da5", "#094275"), labels = c("buffer zone", "world heritage property"))
 map_lavaux
-mapshot(map_lavaux, file = "plots/map_lavaux.png")
+#mapshot(map_lavaux, file = "plots/map_lavaux.png")
 
 map_CH<-leaflet() %>% 
   addPolygons(data=lavaux, color=~lavaux_col(type_de), fillColor =~lavaux_col(type_de), weight=0.8, fillOpacity = 0.8)%>%
