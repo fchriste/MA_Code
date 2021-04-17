@@ -1,2 +1,2 @@
 
-This directory provides codes and data used for the Master thesis by Fabienne Christen, UZH Switzerland
+This directory provides codes and data used for the master's thesis by Fabienne Christen, UZH Switzerland
