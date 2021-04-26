@@ -2,176 +2,151 @@
 495;landschaft;76;biophysical;landform
 143;schweiz;68;toponym;toponym
 15;lavaux;63;toponym;toponym
-393;nr;54;;
-1452;de;53;;
 4;bern;47;toponym;toponym
 25;schweizer;40;toponym;toponym
-22;la;39;;
 445;natur;32;biophysical;land cover
 133;zürich;30;toponym;toponym
 517;umwelt;27;biophysical;land cover
-1644;et;27;;
-23;le;26;;
 516;bundesamt;26;cultural;infrastructure
-240;mehr;24;;
+240;mehr;24;perceptual;pattern
 299;immer;23;cultural;time depth
-346;abb;23;;
 935;heute;23;cultural;time depth
 1953;aargau;23;toponym;toponym
 366;stadt;22;cultural;settlement
 26;alpen;21;toponym;toponym
-275;sowie;21;;
+275;sowie;21;unclassified;unclassified
 207;lausanne;20;toponym;toponym
-1225;gibt;20;;
-44;wurde;19;;
+1225;gibt;20;unclassified;unclassified
+44;wurde;19;unclassified;unclassified
 157;jahre;19;cultural;time depth
 1560;heimatschutz;19;sense of place;attachement
-329;aufgabe;18;;
+329;aufgabe;18;unclassified;unclassified
 1524;landwirtschaft;18;cultural;land use
 437;tourismus;17;cultural;infrastructure
 493;schutz;17;sense of place;attachement
-1131;architektur;17;cultural;
+1131;architektur;17;cultural;settlement
 711;land;16;biophysical;land cover
 899;mensch;16;cultural;settlement
 1963;basel;16;toponym;toponym
-4619;jg;16;;
 7;gallen;15;toponym;toponym
 145;geschichte;15;sense of place;history
-170;s;15;;
 442;landschaften;15;biophysical;landform
 1046;genfersee;15;toponym;toponym
 1092;menschen;15;cultural;settlement
 18;bahn;14;cultural;infrastructure
 132;kanton;14;cultural;land use
-316;neue;14;perceptual;
+316;neue;14;perceptual;color / vision
 492;stiftung;14;sense of place;attachement
-715;a;14;;
 4611;abteilung;14;cultural;infrastructure
-156;f;13;;
-843;art;13;;
-1387;teil;13;;
-1704;bild;13;perceptual;color
+843;art;13;unclassified;unclassified
+1387;teil;13;unclassified;unclassified
+1704;bild;13;perceptual;color / vision
 3075;kantone;13;cultural;land use
-180;alten;12;perceptual;
+180;alten;12;perceptual;color / vision
 181;schon;12;cultural;time depth
-282;drei;12;;
-363;ag;12;;
-485;gut;12;;
-500;kaum;12;;
-742;etwa;12;;
+282;drei;12;perceptual;pattern
+363;ag;12;toponym;toponym
+485;gut;12;sense of place;association
+500;kaum;12;perceptual;pattern
+742;etwa;12;unclassified;unclassified
 787;zug;12;toponym;toponym
 787;zug;12;cultural;infrastructure
-792;kommt;12;;
+792;kommt;12;unclassified;unclassified
 897;jura;12;toponym;toponym
-915;müssen;12;;
+915;müssen;12;unclassified;unclassified
 1395;wein;12;cultural;anthropogenic objects
-1445;e;12;;
-1629;di;12;;
 2120;buch;12;cultural;anthropogenic objects
 2241;entwicklung;12;sense of place;history
-17;rhätische;11;;
+17;rhätische;11;toponym;toponym
 251;erhalten;11;sense of place;attachement
 273;bedeutung;11;sense of place;attachement
 274;raumplanung;11;cultural;land use
 754;zeit;11;cultural;time depth
-1602;en;11;;
-1805;beim;11;;
-2150;anhand;11;;
-2191;wer;11;;
-129;seit;10;;
-320;zeigen;10;;
-382;i;10;;
+1805;beim;11;unclassified;unclassified
+2150;anhand;11;unclassified;unclassified
+2191;wer;11;unclassified;unclassified
+129;seit;10;cultural;time depth
+320;zeigen;10;perceptual;color / vision
 512;bafu;10;cultural;infrastructure
 523;wald;10;biophysical;flora
-524;grossen;10;;
-650;ziehen;10;;
+524;grossen;10;perceptual;color / vision
+650;ziehen;10;unclassified;unclassified
 966;gemeinden;10;cultural;land use
 1090;region;10;cultural;land use
 1481;schweizerischen;10;toponym;toponym
 1731;kultur;10;cultural;
-2515;viele;10;;
-4628;al;10;;
+2515;viele;10;perceptual;pattern
 14;bellinzona;9;toponym;toponym
 89;zürcher;9;toponym;toponym
 96;bauen;9;cultural;settlement
-160;wurden;9;;
-239;schönheit;9;perceptual;color
+160;wurden;9;unclassified;unclassified
+239;schönheit;9;perceptual;color / vision
 262;institut;9;cultural;infrastructure
-321;gerade;9;;
+321;gerade;9;cultural;time depth
 383;karten;9;cultural;anthropogenic objects
-486;à;9;;
 604;jahren;9;cultural;time depth
-756;steht;9;;
+756;steht;9;unclassified;unclassified
 936;gestalten;9;activities;activities
-937;geographie;9;;
+937;geographie;9;unclassified;unclassified
 952;dörfer;9;cultural;settlement
-995;bieten;9;;
-1093;ort;9;;
-1172;liegen;9;;
-1596;il;9;;
-1770;sollen;9;;
-1986;gebiet;9;;
-2382;val;9;biophysical;
-3178;zustand;9;;
-3179;morgen;9;;
-3540;erde;9;biophysical;
-4009;fonds;9;;
-4010;fls;9;;
-5557;vaud;9;toponym;
-6194;appenzell;9;toponym;
-6474;roi;9;;
-50;beiden;8;;
-138;thurgau;8;toponym;
-152;n;8;;
-256;adresse;8;cultural;
-341;zeigt;8;;
-350;see;8;biophysical;
-374;beiträge;8;;
-433;basler;8;toponym;
-511;worden;8;;
-530;entstanden;8;;
-641;heimat;8;sense of place;
-736;liegt;8;;
-753;wenig;8;;
-1021;begriff;8;;
-1081;seiten;8;;
-1169;inszenierungen;8;;
-1213;unserer;8;;
-1295;fribourg;8;;
-1339;natürliche;8;;
-1399;lassen;8;;
-1412;sei;8;;
-1418;kulturlandschaft;8;;
-1459;neuen;8;;
-1510;deren;8;;
-1648;les;8;;
-1726;liste;8;;
-1822;fr;8;;
-1960;gesch;8;;
-1984;letzten;8;;
-2198;graubünden;8;;
-2820;wandel;8;;
-2941;folgende;8;;
-3151;geplant;8;;
-4168;paysage;8;;
-4610;kantons;8;;
-6266;handelsregister;8;;
-6386;gmbh;8;;
-2;siehe;7;;
-36;solothurn;7;;
-54;waadt;7;;
-70;stellen;7;;
-109;gesellschaft;7;;
-142;beispiel;7;;
-182;jahrhundert;7;;
-232;zahlreiche;7;;
-281;dabei;7;;
-291;raum;7;;
-344;sowohl;7;;
-402;bevölkerung;7;;
-447;licht;7;;
-490;jahr;7;;
-504;landes;7;;
+995;bieten;9;unclassified;unclassified
+1093;ort;9;cultural;settlement
+1172;liegen;9;unclassified;unclassified
+1770;sollen;9;unclassified;unclassified
+1986;gebiet;9;cultural;land use
+2382;val;9;biophysical;landform
+3178;zustand;9;perceptual;texture
+3179;morgen;9;cultural;time depth
+3540;erde;9;biophysical;land cover
+5557;vaud;9;toponym;toponym
+6194;appenzell;9;toponym;toponym
+50;beiden;8;perceptual;pattern
+138;thurgau;8;toponym;toponym
+256;adresse;8;cultural;infrastructure
+341;zeigt;8;perceptual;color / vision
+350;see;8;biophysical;hydrology
+374;beiträge;8;unclassified;unclassified
+433;basler;8;toponym;toponym
+511;worden;8;unclassified;unclassified
+530;entstanden;8;sense of place;history
+641;heimat;8;sense of place;meaning
+736;liegt;8;unclassified;unclassified
+753;wenig;8;perceptual;pattern
+1021;begriff;8;sense of place;identity
+1081;seiten;8;cultural;anthropogenic objects
+1169;inszenierungen;8;perceptual;color / vision
+1213;unserer;8;sense of place;attachement
+1295;fribourg;8;toponym;toponym
+1339;natürliche;8;biophysical;land cover
+1399;lassen;8;unclassified;unclassified
+1412;sei;8;unclassified;unclassified
+1418;kulturlandschaft;8;cultural;land use
+1459;neuen;8;perceptual;color / vision
+1510;deren;8;sense of place;attachement
+1726;liste;8;cultural;anthropogenic objects
+1984;letzten;8;perceptual;pattern
+2198;graubünden;8;toponym;toponym
+2820;wandel;8;sense of place;history
+2941;folgende;8;perceptual;pattern
+3151;geplant;8;cultural;infrastructure
+4610;kantons;8;cultural;land use
+6266;handelsregister;8;cultural;anthropogenic objects
+6386;gmbh;8;cultural;anthropogenic objects
+2;siehe;7;perceptual;color / vision
+36;solothurn;7;toponym;toponym
+54;waadt;7;toponym;toponym
+70;stellen;7;unclassified;unclassified
+109;gesellschaft;7;cultural;settlement
+142;beispiel;7;sense of place;meaning
+182;jahrhundert;7;cultural;time depth
+232;zahlreiche;7;perceptual;pattern
+281;dabei;7;unclassified;unclassified
+291;raum;7;cultural;land use
+344;sowohl;7;unclassified;unclassified
+402;bevölkerung;7;cultural;settlement
+447;licht;7;biophysical;climate
+490;jahr;7;cultural;time depth
+504;landes;7;biophysical;land cover
 538;seite;7;;
 564;form;7;;
 594;nie;7;;

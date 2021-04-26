@@ -5,12 +5,12 @@ from sklearn.metrics import cohen_kappa_score
 #either 'rhb' or 'lavaux'
 topic="lavaux"
 #either 'landschaft' for text analysis or 'flickr' for image analysis
-analysis = "flickr"
+analysis = "landschaft"
 # level of granularity, 'category' or 'subcategory'
 level = 'subcategory'
 
 # number of entries taken for comparison
-sample_limit = 100
+sample_limit = 80
 
 
 

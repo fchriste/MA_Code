@@ -6,7 +6,7 @@
 9;Tree;616;biophysical;flora
 19;Natural landscape;559;biophysical;landform
 7;Mountain;508;biophysical;landform
-11;Highland;434;;
+11;Highland;434;biophysical;landform
 5;Building;428;cultural;infrastructure
 15;Lake;344;biophysical;hydrology
 33;Window;281;cultural;infrastructure
@@ -20,19 +20,22 @@
 100;House;193;cultural;settlement
 35;Coastal and oceanic landforms;192;biophysical;landform
 133;Slope;186;biophysical;landform
-103;Leisure;177;Sense of place;associations
+103;Leisure;177;sense of place;associations
 10;Atmosphere;166;biophysical;climate
 13;Horizon;163;perceptual;atmospheric conditions
 117;Road surface;142;cultural;infrastructure
 66;Vehicle;137;cultural;anthropogenic objects
-599;String instrument;122;activities;activities
+599;String instrument;122;cultural;anthropogenic objects
+599;String instrument;122;perceptual;sound
 581;Musician;112;activities;activities
+581;Musician;112;perceptual;sound
 104;Sunlight;111;biophysical;climate
 126;Ecoregion;110;biophysical;climate
 411;Musical instrument;109;activities;activities
 159;Vegetation;101;biophysical;flora
 31;Body of water;96;biophysical;hydrology
 12;Atmospheric phenomenon;94;perceptual;weather
+32;Swimming pool;87;cultural;infrastructure
 32;Swimming pool;87;activities;activities
 179;Facade;85;cultural;infrastructure
 808;Swimmer;82;activities;activities
@@ -40,111 +43,122 @@
 87;Travel;78;activities;activities
 116;Asphalt;77;cultural;infrastructure
 114;Terrain;76;biophysical;soil
-154;Dusk;75;;
-84;Microphone;74;;
-200;Boat;73;;
-97;Property;71;;
-30;Rectangle;70;;
-141;Flower;69;;
-590;Guitar accessory;69;;
-300;Blue;68;;
-6;Daytime;66;;
-591;Musical instrument accessory;66;;
-47;Font;64;;
-34;Tints and shades;63;;
-136;City;63;;
-217;Cap;63;;
-42;Event;62;;
-120;Wheel;62;;
-152;Afterglow;59;;
-115;Infrastructure;58;;
-167;Neighbourhood;58;;
-253;Recreation;58;;
-318;Watercraft;58;;
-347;Train;58;;
-74;Smile;56;;
-16;Cumulus;55;;
-242;Electricity;55;;
-583;Music;55;;
-17;Bank;54;;
-98;Fixture;54;;
-450;Outdoor recreation;54;;
-91;Art;52;;
-184;Motor vehicle;52;;
-125;Grassland;51;;
-150;People in nature;51;;
-72;Urban design;50;;
-121;Tire;49;;
-138;Hat;49;;
-122;Plant community;47;;
-153;Fluid;47;;
-593;String instrument accessory;47;;
-57;Table;46;;
-220;Snow;46;;
-348;Rolling stock;45;;
-610;Guitar;45;;
-64;Mountainous landforms;44;;
-142;Leaf;44;;
-143;Green;44;;
-169;Residential area;42;;
-183;Street light;42;;
-219;Road;42;;
-812;Swim cap;42;;
-586;Entertainment;41;;
-349;Track;40;;
-137;Shorts;39;;
-24;Flash photography;38;;
-43;Tableware;38;;
-180;Fence;38;;
-44;Fun;36;;
-124;Plain;36;;
-135;Rural area;36;;
-139;Headgear;36;;
-99;Architecture;35;;
-172;Food;34;;
-213;Gas;34;;
-326;Muscle;34;;
-597;Music artist;34;;
-598;Band plays;34;;
-814;Competition event;34;;
-119;Car;33;;
-283;Sports;33;;
-127;Natural environment;32;;
-162;Wall;32;;
-228;T-shirt;32;;
-191;Black-and-white;31;;
-198;Liquid;31;;
-425;Branch;31;;
-26;Gesture;30;;
-89;Light;30;;
-106;Shade;30;;
-230;Groundcover;30;;
-235;Door;30;;
-29;Happy;29;;
-75;Chair;29;;
-189;Cottage;29;;
-582;Concert;29;;
-609;Plucked string instruments;29;;
-85;Eyewear;28;;
-331;Boats and boating--Equipment and supplies;28;;
-813;Medley swimming;28;;
-134;Roof;27;;
-188;Biome;27;;
-94;Flooring;26;;
-129;Mode of transport;26;;
-38;Drinkware;25;;
-144;Twig;25;;
-166;Flowerpot;25;;
-170;Botany;25;;
-602;Public address system;24;;
-820;Sports gear;24;;
-50;Audio equipment;23;;
-95;Glass;23;;
-130;Thoroughfare;23;;
-236;Symmetry;23;;
-155;Sunset;22;;
-190;Black;22;;
-203;Shrub;22;;
+154;Dusk;75;perceptual;atmospheric conditions
+84;Microphone;74;cultural;anthropogenic objects
+200;Boat;73;cultural;anthropogenic objects
+97;Property;71;cultural;settlement
+30;Rectangle;70;perceptual;pattern
+141;Flower;69;biophysical;flora
+590;Guitar accessory;69;cultural;anthropogenic objects
+300;Blue;68;perceptual;color / vision
+6;Daytime;66;perceptual;atmospheric conditions
+591;Musical instrument accessory;66;cultural;anthropogenic objects
+47;Font;64;cultural;anthropogenic objects
+34;Tints and shades;63;perceptual;color / vision
+136;City;63;cultural;settlement
+217;Cap;63;cultural;anthropogenic objects
+42;Event;62;unclassified;unclassified
+120;Wheel;62;cultural;anthropogenic objects
+152;Afterglow;59;perceptual;atmospheric conditions
+115;Infrastructure;58;cultural;infrastructure
+167;Neighbourhood;58;cultural;settlement
+253;Recreation;58;activities;activities
+318;Watercraft;58;cultural;anthropogenic objects
+347;Train;58;cultural;infrastructure
+74;Smile;56;sense of place;feeling
+16;Cumulus;55;biophysical;climate
+242;Electricity;55;cultural;infrastructure
+583;Music;55;perceptual;sound
+17;Bank;54;cultural;anthropogenic objects
+98;Fixture;54;cultural;anthropogenic objects
+450;Outdoor recreation;54;activities;activities
+91;Art;52;unclassified;unclassified
+184;Motor vehicle;52;cultural;anthropogenic objects
+125;Grassland;51;biophysical;land cover
+150;People in nature;51;activities;activities
+72;Urban design;50;perceptual;color / vision
+72;Urban design;50;cultural;settlement
+121;Tire;49;cultural;anthropogenic objects
+138;Hat;49;cultural;anthropogenic objects
+122;Plant community;47;biophysical;flora
+153;Fluid;47;biophysical;hydrology
+593;String instrument accessory;47;cultural;anthropogenic objects
+57;Table;46;cultural;anthropogenic objects
+220;Snow;46;biophysical;climate
+348;Rolling stock;45;cultural;infrastructure
+610;Guitar;45;activities;activities
+64;Mountainous landforms;44;biophysical;landform
+142;Leaf;44;biophysical;flora
+143;Green;44;perceptual;color / vision
+169;Residential area;42;cultural;settlement
+183;Street light;42;cultural;anthropogenic objects
+219;Road;42;cultural;infrastructure
+812;Swim cap;42;cultural;anthropogenic objects
+812;Swim cap;42;activities;activities
+586;Entertainment;41;unclassified;unclassified
+349;Track;40;cultural;infrastructure
+137;Shorts;39;cultural;anthropogenic objects
+24;Flash photography;38;activities;activities
+43;Tableware;38;cultural;anthropogenic objects
+180;Fence;38;cultural;infrastructure
+44;Fun;36;sense of place;feeling
+124;Plain;36;biophysical;landform
+135;Rural area;36;cultural;settlement
+139;Headgear;36;cultural;anthropogenic objects
+99;Architecture;35;cultural;settlement
+172;Food;34;biophysical;fauna
+213;Gas;34;cultural;infrastructure
+213;Gas;34;perceptual;smell
+213;Gas;34;perceptual;texture
+326;Muscle;34;biophysical;fauna
+597;Music artist;34;activities;activities
+597;Music artist;34;perceptual;sound
+598;Band plays;34;activities;activities
+598;Band plays;34;perceptual;sound
+814;Competition event;34;unclassified;unclassified
+119;Car;33;cultural;anthropogenic objects
+283;Sports;33;activities;activities
+127;Natural environment;32;biophysical;land cover
+162;Wall;32;cultural;infrastructure
+228;T-shirt;32;cultural;anthropogenic objects
+191;Black-and-white;31;perceptual;color / vision
+198;Liquid;31;biophysical;hydrology
+198;Liquid;31;perceptual;texture
+425;Branch;31;biophysical;flora
+26;Gesture;30;sense of place;meaning
+89;Light;30;biophysical;climate
+106;Shade;30;perceptual;shade
+230;Groundcover;30;biophysical;land cover
+235;Door;30;cultural;anthropogenic objects
+29;Happy;29;sense of place;feeling
+75;Chair;29;cultural;anthropogenic objects
+189;Cottage;29;cultural;settlement
+582;Concert;29;perceptual;sound
+609;Plucked string instruments;29;cultural;anthropogenic objects
+609;Plucked string instruments;29;perceptual;sound
+85;Eyewear;28;cultural;anthropogenic objects
+331;Boats and boating--Equipment and supplies;28;cultural;anthropogenic objects
+813;Medley swimming;28;activities;activities
+134;Roof;27;cultural;infrastructure
+188;Biome;27;biophysical;flora
+188;Biome;27;biophysical;fauna
+188;Biome;27;biophysical;climate
+94;Flooring;26;cultural;infrastructure
+129;Mode of transport;26;cultural;infrastructure
+38;Drinkware;25;cultural;infrastructure
+144;Twig;25;biophysical;flora
+166;Flowerpot;25;cultural;anthropogenic objects
+170;Botany;25;biophysical;flora
+602;Public address system;24;cultural;infrastructure
+820;Sports gear;24;activities;activities
+50;Audio equipment;23;cultural;anthropogenic objects
+95;Glass;23;cultural;anthropogenic objects
+95;Glass;23;perceptual;texture
+130;Thoroughfare;23;cultural;infrastructure
+236;Symmetry;23;perceptual;pattern
+155;Sunset;22;perceptual;atmospheric conditions
+190;Black;22;perceptual;color / vision
+203;Shrub;22;biophysical;flora
 584;Membranophone;22;;
 587;Performing arts;22;;
 588;Drum;22;;

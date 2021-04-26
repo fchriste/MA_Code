@@ -7,7 +7,7 @@
 2;Tree;2459;biophysical;flora
 21;Slope;2142;biophysical;landform
 95;Snow;1770;biophysical;climate
-20;Highland;1687;;
+20;Highland;1687;biophysical;landform
 7;Landscape;1203;biophysical;landform
 19;Building;1050;cultural;infrastructure
 26;Water;998;biophysical;hydrology
@@ -40,7 +40,7 @@
 65;Electricity;275;cultural;infrastructure
 64;Geological phenomenon;273;biophysical;geology
 111;Mode of transport;265;cultural;infrastructure
-82;Leisure;264;Sense of place;associations
+82;Leisure;264;sense of place;associations
 198;Facade;261;cultural;infrastructure
 98;Travel;256;activities;activities
 9;Grassland;245;biophysical;land cover
@@ -48,9 +48,10 @@
 67;Railway;237;cultural;infrastructure
 36;Tire;236;cultural;anthropogenic objects
 4;Land lot;229;cultural;land use
-104;Outdoor recreation;225;activities;activities
-85;Recreation;213;activities;activities
+104;Outdoor recreation;225;sense of place;sense of place
+85;Recreation;213;sense of place;sense of place
 142;Vegetation;209;biophysical;flora
+75;Sports equipment;206;cultural;anthropogenic objects
 75;Sports equipment;206;activities;activities
 91;Asphalt;205;cultural;infrastructure
 60;Atmosphere;203;biophysical;climate
@@ -61,93 +62,101 @@
 28;Body of water;187;biophysical;hydrology
 6;Font;183;cultural;anthropogenic objects
 118;Car;178;cultural;anthropogenic objects
-192;Azure;174;perceptual;color 
+192;Azure;174;perceptual;color / vision
 59;Formation;169;biophysical;landform
 31;Bank;168;cultural;anthropogenic objects
 129;Sunlight;164;biophysical;climate
 144;People in nature;161;activities;activities
-143;World;155;;
-84;Tints and shades;154;perceptual;color 
+143;World;155;unclassified;unclassified
+84;Tints and shades;154;perceptual;color / vision
 156;Rectangle;150;perceptual;pattern
 169;Flower;150;biophysical;flora
 153;Branch;146;biophysical;flora
 13;Terrestrial plant;144;biophysical;flora
 113;Fixture;144;cultural;anthropogenic objects
+305;Ski Equipment;144;cultural;anthropogenic objects
 305;Ski Equipment;144;activities;activities
 212;Automotive lighting;140;cultural;anthropogenic objects
 254;City;140;cultural;settlement
 44;Twig;136;biophysical;flora
 255;Infrastructure;134;cultural;infrastructure
 184;Road;128;cultural;infrastructure
-41;Helmet;126;activities;activities
+41;Helmet;126;cultural;anthropogenic objects
 180;Table;125;cultural;anthropogenic objects
 585;Winter sport;125;activities;activities
 90;Automotive tire;124;cultural;anthropogenic objects
-177;Event;122;;
-127;Art;120;activities;activities
+177;Event;122;unclassified;unclassified
+127;Art;120;unclassified;unclassified
 253;Gas;120;cultural;infrastructure
-88;Green;116;perceptual;color 
-269;Architecture;112;cultural;
+253;Gas;120;perceptual;smell
+253;Gas;120;perceptual;texture
+88;Green;116;perceptual;color / vision
+269;Architecture;112;cultural;settlement
+399;Urban design;109;perceptual;color / vision
 399;Urban design;109;cultural;settlement
 12;Trunk;107;cultural;anthropogenic objects
 58;Thoroughfare;107;cultural;infrastructure
-15;Groundcover;105;cultural;infrastructure
-133;Smile;105;Sense of place;feeling
+15;Groundcover;105;biophysical;land cover
+133;Smile;105;sense of place;feeling
 72;Rolling;104;biophysical;landform
 250;Chair;103;cultural;anthropogenic objects
 22;Neighbourhood;100;cultural;settlement
-216;Light;99;;
-117;Land vehicle;96;;
-234;Valley;95;;
-47;Tableware;94;;
-96;Door;94;;
-215;Daytime;93;;
-290;Automotive design;91;;
-205;Leaf;89;;
-154;Black-and-white;88;;
-120;Interior design;87;;
-74;Goggles;83;;
-186;Rural area;83;;
-263;Eyewear;79;;
-115;Shade;78;;
-63;Horizon;77;;
-331;Evergreen;77;;
-151;White;76;;
-311;Flooring;76;;
-141;Blue;74;;
-677;Ski;74;;
-286;Roof;73;;
-313;Bird;73;;
-68;Locomotive;72;;
-361;Food;72;;
-196;Wall;71;;
-326;Residential area;71;;
-247;Fence;69;;
-81;T-shirt;68;;
-235;Furniture;68;;
-528;Beak;68;;
-108;Working animal;67;;
-152;Black;67;;
-328;Tower;67;;
-373;Nunatak;67;;
-288;Coastal and oceanic landforms;65;;
-32;Bridge;64;;
-116;Automotive exterior;64;;
-35;Bicycles--Equipment and supplies;63;;
-109;Fawn;63;;
-137;Sunglasses;63;;
-226;Line;61;;
-242;Petal;61;;
-94;Lighting;60;;
-176;Fun;60;;
-303;Flowering plant;58;;
-404;Composite material;57;;
-166;Jacket;56;;
-256;Street light;55;;
-266;Ingredient;55;;
-278;Hood;55;;
-262;Vision care;54;;
-360;Hill;52;;
+216;Light;99;biophysical;climate
+117;Land vehicle;96;cultural;anthropogenic objects
+234;Valley;95;biophysical;landform
+47;Tableware;94;cultural;anthropogenic objects
+96;Door;94;cultural;anthropogenic objects
+215;Daytime;93;perceptual;atmospheric conditions
+290;Automotive design;91;perceptual;color / vision
+205;Leaf;89;biophysical;flora
+154;Black-and-white;88;perceptual;color / vision
+120;Interior design;87;perceptual;color / vision
+74;Goggles;83;cultural;anthropogenic objects
+74;Goggles;83;activities;activities
+186;Rural area;83;cultural;settlement
+263;Eyewear;79;cultural;anthropogenic objects
+115;Shade;78;perceptual;color / vision
+63;Horizon;77;perceptual;atmospheric conditions
+331;Evergreen;77;biophysical;flora
+331;Evergreen;77;perceptual;color / vision
+151;White;76;perceptual;white
+311;Flooring;76;cultural;infrastructure
+141;Blue;74;perceptual;color / vision
+677;Ski;74;activities;activities
+286;Roof;73;cultural;infrastructure
+313;Bird;73;biophysical;fauna
+68;Locomotive;72;cultural;infrastructure
+361;Food;72;unclassified;unclassified
+196;Wall;71;cultural;infrastructure
+326;Residential area;71;cultural;settlement
+247;Fence;69;cultural;infrastructure
+81;T-shirt;68;cultural;anthropogenic objects
+235;Furniture;68;cultural;anthropogenic objects
+528;Beak;68;biophysical;fauna
+108;Working animal;67;cultural;domesticated animal
+152;Black;67;perceptual;color / vision
+328;Tower;67;cultural;infrastructure
+373;Nunatak;67;biophysical;landform
+288;Coastal and oceanic landforms;65;biophysical;landform
+32;Bridge;64;cultural;infrastructure
+116;Automotive exterior;64;cultural;anthropogenic objects
+35;Bicycles--Equipment and supplies;63;cultural;anthropogenic objects
+35;Bicycles--Equipment and supplies;63;activities;activities
+109;Fawn;63;biophysical;fauna
+109;Fawn;63;perceptual;color / vision
+137;Sunglasses;63;cultural;anthropogenic objects
+226;Line;61;perceptual;pattern
+242;Petal;61;biophysical;flora
+94;Lighting;60;cultural;anthropogenic objects
+176;Fun;60;perceptual;feeling
+303;Flowering plant;58;biophysical;flora
+404;Composite material;57;unclassified;unclassified
+166;Jacket;56;cultural;anthropogenic objects
+256;Street light;55;cultural;anthropogenic objects
+266;Ingredient;55;unclassified;unclassified
+278;Hood;55;cultural;settlement
+262;Vision care;54;unclassified;unclassified
+360;Hill;52;biophysical;landform
 229;Signage;51;;
 341;Sports;51;;
 406;Brick;51;;

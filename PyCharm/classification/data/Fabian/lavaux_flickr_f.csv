@@ -105,12 +105,12 @@
 135;Rural area;36;unclassified;unclassified
 139;Headgear;36;cultural;anthropogenic  objects
 99;Architecture;35;cultural;settlement
-172;Food;34;;
-213;Gas;34;;
-326;Muscle;34;;
+172;Food;34;unclassified;unclassified
+213;Gas;34;unclassified;unclassified
+326;Muscle;34;unclassified;unclassified
 597;Music artist;34;activities;activities
 598;Band plays;34;activities;activities
-814;Competition event;34;;
+814;Competition event;34;unclassified;unclassified
 119;Car;33;cultural;anthropogenic  objects
 283;Sports;33;activities;activities
 127;Natural environment;32;biophysical;flora
@@ -123,11 +123,11 @@
 89;Light;30;perceptual;color / vision
 106;Shade;30;perceptual;texture
 230;Groundcover;30;biophysical;land cover
-235;Door;30;;
+235;Door;30;unclassified;unclassified
 29;Happy;29;sense of place;feeling
 75;Chair;29;cultural;anthropogenic  objects
 189;Cottage;29;cultural;settlement
-582;Concert;29;;
+582;Concert;29;unclassified;unclassified
 609;Plucked string instruments;29;cultural;anthropogenic  objects
 85;Eyewear;28;cultural;anthropogenic  objects
 331;Boats and boating--Equipment and supplies;28;cultural;anthropogenic  objects
@@ -137,21 +137,21 @@
 188;Biome;27;biophysical;fauna
 94;Flooring;26;cultural;infrastructure
 129;Mode of transport;26;cultural;anthropogenic  objects
-38;Drinkware;25;;
+38;Drinkware;25;unclassified;unclassified
 144;Twig;25;biophysical;flora
 166;Flowerpot;25;cultural;anthropogenic  objects
 166;Flowerpot;25;biophysical;flora
 170;Botany;25;biophysical;flora
-602;Public address system;24;;
+602;Public address system;24;unclassified;unclassified
 820;Sports gear;24;cultural;anthropogenic  objects
 50;Audio equipment;23;cultural;anthropogenic  objects
-95;Glass;23;;
+95;Glass;23;unclassified;unclassified
 130;Thoroughfare;23;cultural;infrastructure
 236;Symmetry;23;perceptual;pattern
 155;Sunset;22;perceptual;atmospheric conditions
 190;Black;22;perceptual;color / vision
 203;Shrub;22;biophysical;flora
-584;Membranophone;22;;
+584;Membranophone;22;unclassified;unclassified
 587;Performing arts;22;activities;activities
 588;Drum;22;cultural;anthropogenic  objects
 588;Drum;22;perceptual;sound
@@ -162,7 +162,7 @@
 299;Freezing;20;perceptual;feel
 389;Lighting;20;perceptual;weather
 68;Mountain range;19;biophysical;landform
-69;World;19;;
+69;World;19;unclassified;unclassified
 165;Morning;19;cultural;time depth
 250;Flag;19;sense of place;identity
 250;Flag;19;cultural;anthropogenic  objects
@@ -175,17 +175,17 @@
 323;Furniture;18;cultural;anthropogenic  objects
 351;Railway;18;cultural;infrastructure
 432;Yellow;18;perceptual;color / vision
-565;Thigh;18;;
+565;Thigh;18;unclassified;unclassified
 571;Mast;18;cultural;infrastructure
-67;Rolling;17;;
+67;Rolling;17;unclassified;unclassified
 92;Sculpture;17;cultural;anthropogenic  objects
 146;Flowering plant;17;biophysical;flora
-413;Idiophone;17;;
+413;Idiophone;17;unclassified;unclassified
 569;Bus;17;cultural;anthropogenic  objects
 601;Guitarist;17;activities;activities
 90;Interior design;16;perceptual;color / vision
 110;Human body;16;biophysical;fauna
-158;Public space;16;;
+158;Public space;16;unclassified;unclassified
 171;Terrestrial plant;16;biophysical;flora
 192;Style;16;perceptual;color / vision
 199;Watercourse;16;cultural;infrastructure
@@ -199,9 +199,9 @@
 428;Houseplant;16;biophysical;flora
 60;Barware;15;cultural;anthropogenic  objects
 160;Automotive tire;15;cultural;anthropogenic  objects
-163;Material property;15;;
+163;Material property;15;unclassified;unclassified
 206;Petal;15;biophysical;flora
-239;Cuisine;15;;
+239;Cuisine;15;unclassified;unclassified
 252;Waterway;15;cultural;infrastructure
 252;Waterway;15;biophysical;hydrology
 634;Sleeve;15;cultural;anthropogenic  objects

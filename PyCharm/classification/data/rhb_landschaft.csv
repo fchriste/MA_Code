@@ -6,8 +6,8 @@
 590;landschaft;34;biophysical;landform
 113;schweiz;33;toponym;toponym
 497;verkehrsverein;33;sense of place;attachements
-503;ag;29;toponym;toponym
-16;rhb;28;unclassified;unclassified
+16;rhb;28;cultural;anthropogenic objects
+16;rhb;28;cultural;infrastructure
 110;kanton;24;cultural;land use
 510;appenzell;24;toponym;toponym
 309;natur;21;biophysical;land cover
@@ -21,13 +21,13 @@
 1006;jahren;18;cultural;time depth
 11;immer;17;cultural;time depth
 90;schweizer;17;toponym;toponym
-393;platz;17;unclassified;unclassified
+393;platz;17;cultural;settlement
 493;hotel;16;cultural;infrastructure
-112;neue;15;perceptual;
+112;neue;15;perceptual;color / vision
 490;chur;15;toponym;toponym
 960;jahre;15;cultural;time depth
 229;bauten;14;cultural;settlement
-287;führt;14;unclassified;unclassified
+287;führt;14;cultural;infrastructure
 500;gemeinde;14;cultural;land use
 275;worden;13;unclassified;unclassified
 412;bündner;13;toponym;toponym
@@ -35,51 +35,47 @@
 739;seit;13;cultural;time depth
 927;sei;13;unclassified;unclassified
 1350;raumplanung;13;cultural;land use
-2015;mehr;13;perceptual;
-234;rahmen;12;cultural;
-236;grosse;12;perceptual;
+2015;mehr;13;perceptual;pattern
+234;rahmen;12;cultural;anthropogenic objects
+236;grosse;12;perceptual;color / vision
 368;kunstbauten;12;cultural;settlement
 1051;rhätischen;12;toponym;toponym
 37;sommer;11;biophysical;climate
-153;sehen;11;perceptual;color
+153;sehen;11;perceptual;color / vision
 171;bedeutung;11;sense of place;attachements
-281;neuen;11;perceptual;
+281;neuen;11;perceptual;color / vision
 361;wurden;11;unclassified;unclassified
-425;i;11;unclassified;unclassified
 502;hotels;11;cultural;infrastructure
-521;de;11;unclassified;unclassified
 552;geschichte;11;sense of place;history
 564;bau;11;cultural;settlement
 792;aargau;11;toponym;toponym
-1659;m;11;unclassified;unclassified
 135;thusis;10;toponym;toponym
 159;welterbe;10;sense of place;attachements
 187;ab;10;unclassified;unclassified
-301;stand;10;unclassified;unclassified
-437;raum;10;unclassified;unclassified
-440;kulturlandschaft;10;cultural;
+301;stand;10;cultural;anthropogenic objects
+437;raum;10;cultural;land use
+440;kulturlandschaft;10;cultural;land use
 451;entwicklung;10;sense of place;history
 542;lenzerheide;10;toponym;toponym
-551;kunst;10;activities;activities
-655;fr;10;unclassified;unclassified
+551;kunst;10;unclassified;unclassified
 734;brücken;10;cultural;infrastructure
 1068;strecke;10;cultural;infrastructure
-1934;rund;10;perceptual;
+1934;rund;10;perceptual;pattern
 2149;abteilung;10;cultural;infrastructure
 3;architektur;9;cultural;settlement
-54;gut;9;perceptual;
+54;gut;9;sense of place;associations
 119;unesco;9;sense of place;identity
-290;grossen;9;perceptual;
+290;grossen;9;perceptual;color / vision
 322;bereits;9;cultural;time depth
 444;zeit;9;cultural;time depth
 506;waldhaus;9;cultural;settlement
 512;herisau;9;toponym;toponym
 583;albulabahn;9;cultural;infrastructure
 754;steht;9;unclassified;unclassified
-846;beispiel;9;unclassified;unclassified
+846;beispiel;9;sense of place;meaning
 940;wald;9;biophysical;flora
-1083;zahlreichen;9;unclassified;unclassified
-1238;technik;9;cultural;
+1083;zahlreichen;9;perceptual;color / vision
+1238;technik;9;cultural;anthropogenic objects
 1522;thema;9;unclassified;unclassified
 1613;jahr;9;cultural;time depth
 137;dabei;8;unclassified;unclassified
@@ -90,72 +86,66 @@
 511;heiden;8;toponym;toponym
 766;wer;8;unclassified;unclassified
 833;beim;8;unclassified;unclassified
-907;a;8;unclassified;unclassified
 958;fahrt;8;cultural;infrastructure
-976;ganz;8;unclassified;unclassified
+976;ganz;8;perceptual;color / vision
 1017;bisher;8;cultural;time depth
 1395;zug;8;cultural;infrastructure
 1600;landquart;8;toponym;toponym
 1640;schon;8;cultural;time depth
 1808;etwa;8;unclassified;unclassified
 2051;teil;8;unclassified;unclassified
-4533;rol;8;unclassified;unclassified
-22;blick;7;perceptual;color
+22;blick;7;perceptual;color / vision
 49;wegen;7;unclassified;unclassified
-111;zwei;7;unclassified;unclassified
-143;meter;7;unclassified;unclassified
+111;zwei;7;perceptual;pattern
+143;meter;7;cultural;infrastructure
 164;dorf;7;cultural;settlement
 207;entlang;7;unclassified;unclassified
 242;welt;7;unclassified;unclassified
 313;projekt;7;cultural;anthropogenic objects
-504;j;7;unclassified;unclassified
-605;alte;7;perceptual;
-722;drei;7;unclassified;unclassified
-737;wenig;7;unclassified;unclassified
+605;alte;7;perceptual;perceptual
+722;drei;7;perceptual;pattern
+737;wenig;7;perceptual;pattern
 753;filisur;7;toponym;toponym
-935;viele;7;unclassified;unclassified
+935;viele;7;perceptual;pattern
 998;ingenieure;7;cultural;infrastructure
-1014;vier;7;;
+1014;vier;7;perceptual;pattern
 1049;tunnels;7;cultural;infrastructure
-1374;verbunden;7;;
-1591;neu;7;perceptual;
-1697;jl;7;;
-1990;bilder;7;perceptual;color
+1374;verbunden;7;cultural;infrastructure
+1591;neu;7;perceptual;color / vision
+1990;bilder;7;perceptual;color / vision
 2115;engadin;7;toponym;toponym
-2161;fast;7;;
-3369;dosch;7;;
+2161;fast;7;unclassified;unclassified
 101;bevölkerung;6;cultural;settlement
 115;juli;6;cultural;time depth
 127;alpen;6;toponym;toponym
-173;zeigt;6;;
+173;zeigt;6;perceptual;color / vision
 191;meist;6;cultural;time depth
-224;aufnahmen;6;perceptual;color
-235;mal;6;;
+224;aufnahmen;6;perceptual;color / vision
+235;mal;6;unclassified;unclassified
 256;präsident;6;cultural;anthropogenic objects
-284;zurück;6;;
-390;beitrag;6;;
-587;dafür;6;;
+284;zurück;6;unclassified;unclassified
+390;beitrag;6;unclassified;unclassified
+587;dafür;6;unclassified;unclassified
 596;schutz;6;sense of place;attachements
-599;bleibt;6;;
-721;weniger;6;;
-761;hohe;6;;
+599;bleibt;6;sense of place;history
+721;weniger;6;perceptual;pattern
+761;hohe;6;perceptual;color / vision
 773;strasse;6;cultural;infrastructure
 850;sinn;6;sense of place;identity
-911;jürg;6;;
-1009;wäre;6;;
+1009;wäre;6;unclassified;unclassified
 1054;weiterfahrt;6;cultural;infrastructure
-1057;gemeinsames;6;;
+1057;gemeinsames;6;unclassified;unclassified
 1071;linienführung;6;cultural;infrastructure
 1126;landwirtschaft;6;cultural;land use
 1145;leitung;6;cultural;anthropogenic objects
 1363;siedlungen;6;cultural;settlement
-1371;jedoch;6;;
+1371;jedoch;6;unclassified;unclassified
 1377;touristischen;6;cultural;infrastructure
 1414;gebaut;6;cultural;settlement
-1434;stark;6;;
-1435;gibt;6;;
-1444;aufgenommen;6;;
-1445;ausstellung;6;;
+1434;stark;6;perceptual;touch
+1435;gibt;6;unclassified;unclassified
+1444;aufgenommen;6;unclassified;unclassified
+1445;ausstellung;6;unclassified;unclassified
 1449;bahnlinie;6;cultural;infrastructure
 1563;menschen;6;cultural;settlement
 1647;aufgabe;6;;
@@ -172,7 +162,6 @@
 3367;anm;6;;
 3656;tel;6;cultural;anthropogenic objects
 47;klima;5;biophysical;climate
-53;ge;5;;
 75;prättigau;5;toponym;toponym
 170;nationaler;5;cultural;land use
 195;hohen;5;;
@@ -213,7 +202,7 @@
 1303;denkmalpflege;5;sense of place;attachements
 1347;nr;5;;
 1354;bestehen;5;;
-1368;attraktivität;5;perceptual;color
+1368;attraktivität;5;perceptual;color / vision
 1380;bietet;5;;
 1427;ja;5;;
 1487;reisenden;5;activities;activities
@@ -226,7 +215,7 @@
 1676;architekten;5;cultural;settlement
 1702;engiadina;5;toponym;toponym
 1856;denken;5;;
-2077;sicht;5;perceptual;color
+2077;sicht;5;perceptual;color / vision
 2083;weltkulturerbe;5;sense of place;attachements
 2188;bahnhof;5;cultural;infrastructure
 2252;ten;5;;

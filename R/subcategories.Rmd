@@ -51,6 +51,7 @@ rhb_flickr_subcategories$site<-"rhb"
 ggplot(rhb_flickr_subcategories, aes(x=category, y=percentage, fill = subcategory)) + 
   geom_bar(stat ="identity")
 ```
+
 ```{r}
 
 ggplot(lavaux_flickr_subcategories, aes(x=category, y=percentage, fill = subcategory)) + 
@@ -108,6 +109,109 @@ visualization
 ```{r}
 #png("plots/cultural_subcategories_flickr.png")
 ggplot(data_cultural, aes(x=subcategory, y=percentage, fill=site))+
+  geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
+  theme_minimal()+
+  ylim(0,80)+
+  ylab("percentage [%]")+
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
+  xlab("")
+#dev.off()
+```
+
+
+# do the same for text data
+```{r}
+#read in data
+lavaux_text_categories<-read.csv("data/lavaux_landschaft.csv", sep=";")
+
+#group data and aggregate according to count
+lavaux_text_subcategories<-sqldf('SELECT category, subcategory, sum(count) count FROM lavaux_text_categories GROUP BY subcategory')%>%
+  na.omit()%>%subset(subcategory!='')
+
+#calculate percentage of each category 
+lavaux_text_subcategories$percentage<-lavaux_text_subcategories$count/sum(lavaux_text_subcategories$count)*100
+
+lavaux_text_subcategories$site<-"lavaux"
+
+
+```
+
+```{r}
+#read in data
+rhb_text_categories<-read.csv("data/rhb_landschaft.csv", sep=";")
+
+#group data and aggregate according to count
+rhb_text_subcategories<- sqldf('SELECT category, subcategory, sum(count) count FROM rhb_text_categories GROUP BY subcategory')%>%
+  na.omit()%>% na.omit()%>%subset(subcategory!='')
+
+#calculate percentage of each category 
+rhb_text_subcategories$percentage<-rhb_text_subcategories$count/sum(rhb_text_subcategories$count)*100
+
+rhb_text_subcategories$site<-"rhb"
+```
+
+```{r}
+ggplot(rhb_text_subcategories, aes(x=category, y=percentage, fill = subcategory)) + 
+  geom_bar(stat ="identity")
+```
+
+```{r}
+
+ggplot(lavaux_text_subcategories, aes(x=category, y=percentage, fill = subcategory)) + 
+  geom_bar(stat ="identity")
+```
+#look only at biophysical catgory for each site
+```{r}
+#look at only biopyhisical category
+lavaux_text_biophysical <- lavaux_text_subcategories%>%subset(category=="biophysical")
+#calculate percentage of each category 
+lavaux_text_biophysical$percentage<-lavaux_text_biophysical$count/sum(lavaux_text_biophysical$count)*100
+
+#look at only biopyhisical category
+rhb_text_biophysical <- rhb_text_subcategories%>%subset(category=="biophysical")
+#calculate percentage of each category 
+rhb_text_biophysical$percentage<-rhb_text_biophysical$count/sum(rhb_text_biophysical$count)*100
+
+#bind data
+data_text_biopyhsical<-rhb_text_biophysical%>%
+  rbind(lavaux_text_biophysical)
+```
+
+visualization
+```{r}
+#png("plots/biophysical_subcategories_text.png")
+ggplot(data_text_biopyhsical, aes(x=subcategory, y=percentage, fill=site))+
+  geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
+  theme_minimal()+
+  ylim(0,80)+
+  ylab("percentage [%]")+
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
+  xlab("")
+#dev.off()
+```
+
+#look at cultural category for each site
+
+```{r}
+#look at only biopyhisical category
+lavaux_text_cultural <- lavaux_text_subcategories%>%subset(category=="cultural")
+#calculate percentage of each category 
+lavaux_text_cultural$percentage<-lavaux_text_cultural$count/sum(lavaux_text_cultural$count)*100
+
+#look at only biopyhisical category
+rhb_text_cultural <- rhb_text_subcategories%>%subset(category=="cultural")
+#calculate percentage of each category 
+rhb_text_cultural$percentage<-rhb_text_cultural$count/sum(rhb_text_cultural$count)*100
+
+#bind data
+data_text_cultural<-rhb_text_cultural%>%
+  rbind(lavaux_text_cultural)
+```
+
+visualization
+```{r}
+#png("plots/cultural_subcategories_text.png")
+ggplot(data_text_cultural, aes(x=subcategory, y=percentage, fill=site))+
   geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
   theme_minimal()+
   ylim(0,80)+

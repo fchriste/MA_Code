@@ -1,13 +1,12 @@
 ;word;count;category;subcategory
 392;davos;78;toponym;toponym
 63;bahn;46;cultural;infrastructure
-495;moritz;38;;
-565;wurde;34;;
+495;moritz;38;unclassified;unclassified
+565;wurde;34;unclassified;unclassified
 590;landschaft;34;biophysical;flora
 590;landschaft;34;biophysical;landform
 113;schweiz;33;toponym;toponym
-497;verkehrsverein;33;;
-503;ag;29;;
+497;verkehrsverein;33;unclassified;unclassified
 16;rhb;28;cultural;anthropogenic objects
 16;rhb;28;cultural;infrastructure
 110;kanton;24;toponym;toponym
@@ -19,85 +18,80 @@
 499;silvaplana;20;toponym;toponym
 98;graubünden;19;toponym;toponym
 496;klosters;19;toponym;toponym
-422;tourismus;18;;
+422;tourismus;18;unclassified;unclassified
 1006;jahren;18;cultural;time depth
 11;immer;17;cultural;time depth
 90;schweizer;17;toponym;toponym
-393;platz;17;;
+393;platz;17;unclassified;unclassified
 493;hotel;16;cultural;settlement
 112;neue;15;sense of place;meaning
 490;chur;15;toponym;toponym
 960;jahre;15;cultural;time depth
 229;bauten;14;cultural;infrastructure
-287;führt;14;;
-500;gemeinde;14;;
-275;worden;13;;
+287;führt;14;unclassified;unclassified
+500;gemeinde;14;unclassified;unclassified
+275;worden;13;unclassified;unclassified
 412;bündner;13;toponym;toponym
-637;sowie;13;;
+637;sowie;13;unclassified;unclassified
 739;seit;13;cultural;time depth
-927;sei;13;;
-1350;raumplanung;13;;
-2015;mehr;13;;
-234;rahmen;12;;
+927;sei;13;unclassified;unclassified
+1350;raumplanung;13;unclassified;unclassified
+2015;mehr;13;unclassified;unclassified
+234;rahmen;12;unclassified;unclassified
 236;grosse;12;sense of place;meaning
-368;kunstbauten;12;sense of place;
+368;kunstbauten;12;sense of place;sense of place
 368;kunstbauten;12;cultural;anthropogenic objects
 1051;rhätischen;12;toponym;toponym
 37;sommer;11;cultural;time depth
 153;sehen;11;perceptual;color / vision
 171;bedeutung;11;sense of place;attachments
 281;neuen;11;sense of place;meaning
-361;wurden;11;;
-425;i;11;;
+361;wurden;11;unclassified;unclassified
 502;hotels;11;cultural;settlement
-521;de;11;;
 552;geschichte;11;sense of place;history
 564;bau;11;cultural;infrastructure
 792;aargau;11;toponym;toponym
-1659;m;11;;
 135;thusis;10;toponym;toponym
 159;welterbe;10;sense of place;attachments
 159;welterbe;10;sense of place;identity
-187;ab;10;;
-301;stand;10;;
-437;raum;10;;
+187;ab;10;unclassified;unclassified
+301;stand;10;unclassified;unclassified
+437;raum;10;unclassified;unclassified
 440;kulturlandschaft;10;cultural;land use
-451;entwicklung;10;;
+451;entwicklung;10;unclassified;unclassified
 542;lenzerheide;10;toponym;toponym
-551;kunst;10;;
-655;fr;10;;
+551;kunst;10;unclassified;unclassified
 734;brücken;10;cultural;infrastructure
-1068;strecke;10;;
+1068;strecke;10;unclassified;unclassified
 1934;rund;10;perceptual;pattern
-2149;abteilung;10;;
+2149;abteilung;10;unclassified;unclassified
 3;architektur;9;cultural;settlement
 54;gut;9;sense of place;meaning
-119;unesco;9;;
+119;unesco;9;unclassified;unclassified
 290;grossen;9;sense of place;meaning
-322;bereits;9;;
+322;bereits;9;unclassified;unclassified
 444;zeit;9;cultural;time depth
 506;waldhaus;9;cultural;infrastructure
 512;herisau;9;toponym;toponym
 583;albulabahn;9;cultural;infrastructure
-754;steht;9;;
-846;beispiel;9;;
+754;steht;9;unclassified;unclassified
+846;beispiel;9;unclassified;unclassified
 940;wald;9;biophysical;flora
-1083;zahlreichen;9;;
-1238;technik;9;;
-1522;thema;9;;
+1083;zahlreichen;9;unclassified;unclassified
+1238;technik;9;unclassified;unclassified
+1522;thema;9;unclassified;unclassified
 1613;jahr;9;cultural;time depth
-137;dabei;8;;
+137;dabei;8;unclassified;unclassified
 189;gestaltung;8;perceptual;color / vision
-294;seite;8;;
-501;morosani;8;;
+294;seite;8;unclassified;unclassified
+501;morosani;8;unclassified;unclassified
 507;flims;8;toponym;toponym
 511;heiden;8;toponym;toponym
-766;wer;8;;
-833;beim;8;;
-907;a;8;;
-958;fahrt;8;;
-976;ganz;8;;
-1017;bisher;8;;
+766;wer;8;unclassified;unclassified
+833;beim;8;unclassified;unclassified
+958;fahrt;8;unclassified;unclassified
+976;ganz;8;unclassified;unclassified
+1017;bisher;8;unclassified;unclassified
 1395;zug;8;toponym;toponym
 1600;landquart;8;toponym;toponym
 1640;schon;8;;

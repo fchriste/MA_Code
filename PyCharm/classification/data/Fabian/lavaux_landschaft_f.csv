@@ -3,123 +3,104 @@
 495;landschaft;76;biophysical;landform
 143;schweiz;68;toponym;toponym
 15;lavaux;63;toponym;toponym
-393;nr;54;;
-1452;de;53;;
 4;bern;47;toponym;toponym
 25;schweizer;40;toponym;toponym
-22;la;39;;
 445;natur;32;biophysical;flora
 133;zürich;30;toponym;toponym
-517;umwelt;27;;
-1644;et;27;;
-23;le;26;;
-516;bundesamt;26;;
-240;mehr;24;;
-299;immer;23;;
-346;abb;23;;
+517;umwelt;27;unclassified;unclassified
+516;bundesamt;26;unclassified;unclassified
+240;mehr;24;unclassified;unclassified
+299;immer;23;unclassified;unclassified
 935;heute;23;cultural;time depth
 1953;aargau;23;toponym;toponym
 366;stadt;22;cultural;settlement
 26;alpen;21;biophysical;landform
-275;sowie;21;;
+275;sowie;21;unclassified;unclassified
 207;lausanne;20;toponym;toponym
-1225;gibt;20;;
-44;wurde;19;;
+1225;gibt;20;unclassified;unclassified
+44;wurde;19;unclassified;unclassified
 157;jahre;19;cultural;time depth
 1560;heimatschutz;19;sense of place;attachments
 1560;heimatschutz;19;sense of place;identity
-329;aufgabe;18;;
+329;aufgabe;18;unclassified;unclassified
 1524;landwirtschaft;18;cultural;land use
-437;tourismus;17;;
-493;schutz;17;;
+437;tourismus;17;unclassified;unclassified
+493;schutz;17;unclassified;unclassified
 1131;architektur;17;cultural;settlement
-711;land;16;;
-899;mensch;16;;
+711;land;16;unclassified;unclassified
+899;mensch;16;unclassified;unclassified
 1963;basel;16;toponym;toponym
-4619;jg;16;;
-7;gallen;15;;
+7;gallen;15;unclassified;unclassified
 145;geschichte;15;sense of place;history
-170;s;15;;
 442;landschaften;15;biophysical;flora
 442;landschaften;15;biophysical;landform
 1046;genfersee;15;biophysical;hydrology
-1092;menschen;15;;
+1092;menschen;15;unclassified;unclassified
 18;bahn;14;cultural;anthropogenic objects
-132;kanton;14;;
+132;kanton;14;unclassified;unclassified
 316;neue;14;sense of place;meaning
-492;stiftung;14;;
-715;a;14;;
-4611;abteilung;14;;
-156;f;13;;
-843;art;13;;
-1387;teil;13;;
-1704;bild;13;;
-3075;kantone;13;;
+492;stiftung;14;unclassified;unclassified
+4611;abteilung;14;unclassified;unclassified
+843;art;13;unclassified;unclassified
+1387;teil;13;unclassified;unclassified
+1704;bild;13;unclassified;unclassified
+3075;kantone;13;unclassified;unclassified
 180;alten;12;sense of place;meaning
-181;schon;12;;
-282;drei;12;;
-363;ag;12;;
+181;schon;12;unclassified;unclassified
+282;drei;12;unclassified;unclassified
+363;ag;12;unclassified;unclassified
 485;gut;12;sense of place;meaning
-500;kaum;12;;
-742;etwa;12;;
+500;kaum;12;unclassified;unclassified
+742;etwa;12;unclassified;unclassified
 787;zug;12;cultural;anthropogenic objects
-792;kommt;12;;
+792;kommt;12;unclassified;unclassified
 897;jura;12;biophysical;landform
 897;jura;12;toponym;toponym
-915;müssen;12;;
-1395;wein;12;;
-1445;e;12;;
-1629;di;12;;
-2120;buch;12;;
-2241;entwicklung;12;;
+915;müssen;12;unclassified;unclassified
+1395;wein;12;unclassified;unclassified
+2120;buch;12;unclassified;unclassified
+2241;entwicklung;12;unclassified;unclassified
 17;rhätische;11;toponym;toponym
-251;erhalten;11;;
+251;erhalten;11;unclassified;unclassified
 273;bedeutung;11;sense of place;attachments
-274;raumplanung;11;;
+274;raumplanung;11;unclassified;unclassified
 754;zeit;11;cultural;time depth
-1602;en;11;;
-1805;beim;11;;
-2150;anhand;11;;
-2191;wer;11;;
+1805;beim;11;unclassified;unclassified
+2150;anhand;11;unclassified;unclassified
+2191;wer;11;unclassified;unclassified
 129;seit;10;cultural;time depth
-320;zeigen;10;;
-382;i;10;;
-512;bafu;10;;
+320;zeigen;10;unclassified;unclassified
+512;bafu;10;unclassified;unclassified
 523;wald;10;biophysical;flora
-524;grossen;10;;
-650;ziehen;10;;
-966;gemeinden;10;;
-1090;region;10;;
+524;grossen;10;unclassified;unclassified
+650;ziehen;10;unclassified;unclassified
+966;gemeinden;10;unclassified;unclassified
+1090;region;10;unclassified;unclassified
 1481;schweizerischen;10;sense of place;identity
 1731;kultur;10;sense of place;identity
-2515;viele;10;;
-4628;al;10;;
+2515;viele;10;unclassified;unclassified
 14;bellinzona;9;toponym;toponym
 89;zürcher;9;toponym;toponym
 96;bauen;9;activities;activities
-160;wurden;9;;
+160;wurden;9;unclassified;unclassified
 239;schönheit;9;sense of place;meaning
-262;institut;9;;
-321;gerade;9;perceptual;
+262;institut;9;unclassified;unclassified
+321;gerade;9;perceptual;perceptual
 383;karten;9;cultural;anthropogenic objects
-486;à;9;;
 604;jahren;9;cultural;time depth
-756;steht;9;;
+756;steht;9;unclassified;unclassified
 936;gestalten;9;activities;activities
-937;geographie;9;;
+937;geographie;9;unclassified;unclassified
 952;dörfer;9;cultural;settlement
-995;bieten;9;;
+995;bieten;9;unclassified;unclassified
 1093;ort;9;cultural;settlement
-1172;liegen;9;;
-1596;il;9;;
-1770;sollen;9;;
-1986;gebiet;9;;
+1172;liegen;9;unclassified;unclassified
+1770;sollen;9;unclassified;unclassified
+1986;gebiet;9;unclassified;unclassified
 2382;val;9;biophysical;landform
-3178;zustand;9;;
+3178;zustand;9;unclassified;unclassified
 3179;morgen;9;cultural;time depth
-3540;erde;9;;
-4009;fonds;9;;
-4010;fls;9;;
+3540;erde;9;unclassified;unclassified
 5557;vaud;9;toponym;toponym
 6194;appenzell;9;toponym;toponym
 6474;roi;9;;
