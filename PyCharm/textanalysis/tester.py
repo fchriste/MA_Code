@@ -4,7 +4,7 @@ import nltk
 
 
 # define topic
-topic="lavaux"
+topic="rhb"
 
 #define concondance search query
 query="landschaft"
