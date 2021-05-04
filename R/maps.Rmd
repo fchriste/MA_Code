@@ -16,6 +16,7 @@ library(mapview)
 ## R Markdown
 
 ```{r}
+
 WGS84<-"+init=epsg:4326"
 
 lavaux <- st_read("data/lavaux/lavaux_polygon.shp")%>%
@@ -31,10 +32,6 @@ rhb <- st_read("data/rhb/rhb_polygon.shp")%>%
   #drop z component to map
   st_zm(drop=T, what="ZM")
 
-pufferzone_rhb<-rhb%>%
-  filter(rhb$type_de=='Pufferzone')%>%
-  #drop z component to map
-  st_zm(drop=T, what='ZM')
 
 
 
@@ -65,3 +62,32 @@ map_CH<-leaflet() %>%
 map_CH
 
 ```
+#create map with all unesco heritage sites in CH
+```{r}
+#read in data
+unesco_kultur<-st_read("data/unesco_sites_kultur.shp/unesco_sites.shp")%>%
+  st_as_sf()%>%
+  st_transform(WGS84)%>%
+  #drop z component to map
+  st_zm(drop=T, what="ZM")
+
+#read in data
+unesco_natur<-st_read("data/unesco_natur/UNESCO_Weltnaturerbe_LV95/WH_Natur.shp")%>%
+  st_as_sf()%>%
+  st_transform(WGS84)%>%
+  #drop z component to map
+  st_zm(drop=T, what="ZM")
+
+
+
+#create map
+map_unesco<-leaflet() %>% 
+  addPolygons(data=unesco_natur, color="white", fillColor ='red', weight=0.8, fillOpacity = 0.7)%>%
+  addPolygons(data=unesco_kultur, color="white", fillColor ='blue', weight=0.8, fillOpacity = 0.7)%>%
+  #addMarkers(unesco_kultur)%>%
+  #addMarkers(data=unesco_site)%>%
+  addProviderTiles(providers$CartoDB.Positron, options = providerTileOptions(opacity = 0.7))%>%
+  addLegend(color=c("red", "blue"), labels = c("natural", "cultural"))
+map_unesco
+```
+

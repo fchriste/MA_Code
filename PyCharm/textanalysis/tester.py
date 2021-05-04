@@ -1,10 +1,12 @@
 from nltk.corpus import stopwords
 import pandas as pd
 import nltk
+import spacy.cli
+
 
 
 # define topic
-topic="rhb"
+topic="lavaux"
 
 #define concondance search query
 query="landschaft"
@@ -20,6 +22,9 @@ count=0
 #set stop words to german
 stop_words = set(stopwords.words('german'))
 
+# set language to german for lemmatization
+spacy.cli.download("de_core_news_md")
+nlp = spacy.load('de_core_news_md')
 
 # create dictionary to count number of entries
 concordance_dictionary={}
@@ -36,14 +41,18 @@ for text in texts_df.fulltext:
     new_fulltext = []
     #iterate through tokenized text to remove stopwords
     for i in alpha_tokenized:
-        print(i)
         if i not in stop_words:
-            print(i)
-            new_fulltext.append(i)
+            #lemmatize tokens
+            doc = nlp(i)
+            y = ' '.join([x.lemma_ for x in doc])
+            # write lemmas in new fulltext
+            new_fulltext.append(y)
+
+
     # get some further information about the data like most common words
     fd = nltk.FreqDist(new_fulltext)
     #count how many times landschaft appears in this text
-    print(fd["engadin"])
+    print(fd["landschaft"])
     #show 3 most common words in this text
     print(fd.most_common(3))
 

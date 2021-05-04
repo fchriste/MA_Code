@@ -40,7 +40,7 @@ data_journals<-data_rhb_df%>%
   rbind(data_lavaux_df)
 
 
-png("plots/texts_per_journal.png")
+#png("plots/texts_per_journal.png")
 
 #make boxplot for texts per journal
 ggplot(data_journals, aes(x=topic, y=V1, fill=topic, color=topic)) + 
@@ -55,10 +55,18 @@ ggplot(data_journals, aes(x=topic, y=V1, fill=topic, color=topic)) +
   scale_color_manual(values=c("#0c5da5", "#ff3100"))
 
 
-dev.off()
+#dev.off()
 
 ```
+
 => outliers visible esp. for lavaux => limiting texts per journal
+
+
+```{r}
+summary(data_rhb_df$V1)
+summary(data_lavaux_df$V1)
+```
+
 
 
 #images per user
@@ -102,5 +110,10 @@ ggplot(data_flickr, aes(x=topic, y=V1, fill=topic, color=topic)) +
 #dev.off()
 
 
+```
+
+```{r}
+summary(flickr_rhb_df$V1)
+summary(flickr_lavaux_df$V1)
 ```
 

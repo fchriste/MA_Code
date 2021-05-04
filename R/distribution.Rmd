@@ -1,0 +1,107 @@
+---
+title: "distribution"
+author: "Fabienne Christen"
+date: "5/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list=ls())
+library(jsonlite)
+library(ggplot2)
+library(dplyr)
+library(forcats)
+library(sqldf)
+```
+# read in  text data
+```{r}
+#read in data
+lavaux_landschaft<-read.csv("data/lavaux_landschaft.csv", sep=";")
+
+#factorize words and sort in descending order
+lavaux_landschaft$word<-as.factor(lavaux_landschaft$word)%>%
+  fct_reorder(lavaux_landschaft$count, .desc=T)
+
+
+
+#read in data
+rhb_landschaft<-read.csv("data/rhb_landschaft.csv", sep=";")
+
+#factorize words and sort in descending order
+rhb_landschaft$word<-as.factor(rhb_landschaft$word)%>%
+  fct_reorder(rhb_landschaft$count, .desc=T)
+
+```
+
+# read in  image data
+```{r}
+#read in data
+lavaux_flickr<-read.csv("data/lavaux_flickr.csv", sep=";")
+
+#factorize words and sort in descending order
+lavaux_flickr$word<-as.factor(lavaux_flickr$word)%>%
+  fct_reorder(lavaux_flickr$count, .desc=T)
+
+
+
+#read in data
+rhb_flickr<-read.csv("data/rhb_flickr.csv", sep=";")
+
+#factorize words and sort in descending order
+rhb_flickr$word<-as.factor(rhb_flickr$word)%>%
+  fct_reorder(rhb_flickr$count, .desc=T)
+
+```
+
+#visualization
+```{r}
+#extract x_intercept
+x_intercept_lav_land <- sqldf("select  min(word) 
+              from lavaux_landschaft
+              where count ==8")%>%as.character()
+
+x_intercept_rhb_land <- sqldf("select  min(word) 
+              from rhb_landschaft
+              where count ==7")%>%as.character()
+
+x_intercept_lavaux_flickr <- sqldf("select  min(word) 
+              from lavaux_flickr
+              where count ==22")%>%as.character()
+
+x_intercept_rhb_flickr <- sqldf("select  min(word) 
+              from rhb_flickr
+              where count ==52")%>%as.character()
+
+#png("plots/histogram_lavaux_text.png")
+ggplot(lavaux_landschaft, aes(x=word, y=count))+
+  geom_col()+
+ scale_x_discrete(labels=NULL)+
+  geom_vline(xintercept = x_intercept_lav_land, color='red')
+#dev.off()
+
+
+#png("plots/histogram_rhb_text.png")
+ggplot(rhb_landschaft, aes(x=word, y=count))+
+  geom_col()+
+ scale_x_discrete(labels=NULL)+
+  geom_vline(xintercept = x_intercept_rhb_land, color='red')
+#dev.off()
+
+#png("plots/histogram_lavaux_flickr.png")
+ggplot(lavaux_flickr, aes(x=word, y=count))+
+  geom_col()+
+ scale_x_discrete(labels=NULL)+
+  geom_vline(xintercept = x_intercept_lavaux_flickr, color='red')
+#dev.off()
+
+#png("plots/histogram_rhb_flickr.png")
+ggplot(rhb_flickr, aes(x=word, y=count))+
+  geom_col()+
+ scale_x_discrete(labels=NULL)+
+  geom_vline(xintercept = x_intercept_rhb_flickr, color='red')
+#dev.off()
+
+
+```
+
