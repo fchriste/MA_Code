@@ -75,32 +75,58 @@ x_intercept_rhb_flickr <- sqldf("select  min(word)
 
 #png("plots/histogram_lavaux_text.png")
 ggplot(lavaux_landschaft, aes(x=word, y=count))+
-  geom_col()+
+  geom_col(aes(fill= cut(count, c(-Inf, 8, Inf))))+
  scale_x_discrete(labels=NULL)+
-  geom_vline(xintercept = x_intercept_lav_land, color='red')
+  #geom_vline(xintercept = x_intercept_lav_land, color='red')+
+  scale_fill_manual(name="", values=c("darkgreen", "orange"),
+                     labels=c("not annotated words (5815)",  "annotated words (150)"))+
+  ylab("Term frequency [count]")+
+  xlab("Returned words")
+  theme(legend.position = c(.85, .9))
 #dev.off()
+
 
 
 #png("plots/histogram_rhb_text.png")
 ggplot(rhb_landschaft, aes(x=word, y=count))+
-  geom_col()+
+  geom_col(aes(fill= cut(count, c(-Inf, 7, Inf))))+
  scale_x_discrete(labels=NULL)+
-  geom_vline(xintercept = x_intercept_rhb_land, color='red')
+  #geom_vline(xintercept = x_intercept_rhb_land, color='red')+
+  scale_fill_manual(name="", values=c("darkgreen", "orange"),
+                     labels=c("not annotated words (4122)",  "annotated words (150)"))+
+    ylab("Term frequency [count]")+
+  xlab("Returned words")+
+  theme(legend.position = c(.85, .9))
 #dev.off()
 
 #png("plots/histogram_lavaux_flickr.png")
 ggplot(lavaux_flickr, aes(x=word, y=count))+
-  geom_col()+
+  geom_col(aes(fill= cut(count, c(-Inf, 22, Inf))))+
  scale_x_discrete(labels=NULL)+
-  geom_vline(xintercept = x_intercept_lavaux_flickr, color='red')
+  #geom_vline(xintercept = x_intercept_lavaux_flickr, color='red')+
+  scale_fill_manual(name="",
+                    values=c("darkgreen", "orange"),
+                     labels=c("not annotated tags (748)",  "annotated tags (150)"))+
+  ylab("Term frequency [count]")+
+  xlab("returned tags")+
+  theme(legend.position = c(.85, .9))
 #dev.off()
 
 #png("plots/histogram_rhb_flickr.png")
 ggplot(rhb_flickr, aes(x=word, y=count))+
-  geom_col()+
+  geom_col(aes(fill= cut(count, c(-Inf, 52, Inf))))+
  scale_x_discrete(labels=NULL)+
-  geom_vline(xintercept = x_intercept_rhb_flickr, color='red')
+  #geom_vline(xintercept = x_intercept_rhb_flickr, color='red')+
+  scale_fill_manual(name="",
+                    values=c("darkgreen", "orange"),
+                     labels=c("not annotated tags (1164)", "annotated tags (150)"),
+                     )+
+  ylab("Term frequency [count]")+
+  xlab("Returned tags")+
+  theme(legend.position = c(.85, .9))
 #dev.off()
+
+
 
 
 ```

@@ -53,7 +53,6 @@ ggplot(rhb_flickr_subcategories, aes(x=category, y=percentage, fill = subcategor
 ```
 
 ```{r}
-
 ggplot(lavaux_flickr_subcategories, aes(x=category, y=percentage, fill = subcategory)) + 
   geom_bar(stat ="identity")
 ```
@@ -81,9 +80,9 @@ ggplot(data_biopyhsical, aes(x=subcategory, y=percentage, fill=site))+
   geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
   theme_minimal()+
   ylim(0,80)+
-  ylab("percentage [%]")+
-  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
-  xlab("")
+  ylab("Annotated tags [%]")+
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"),label=c("Lavaux", "RhB"), name="Site")+
+  xlab("Subcategories of biophysical property")
 #dev.off()
 ```
 
@@ -110,11 +109,12 @@ visualization
 #png("plots/cultural_subcategories_flickr.png")
 ggplot(data_cultural, aes(x=subcategory, y=percentage, fill=site))+
   geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
+  scale_x_discrete(labels=c("anthropogenic\nobjects", "domesticated\nanimals", "infrastructure", "land use", "settlement"))+
   theme_minimal()+
   ylim(0,80)+
-  ylab("percentage [%]")+
-  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
-  xlab("")
+  ylab("Annotated tags [%]")+
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"), label=c("Lavaux", "RhB"), name="Site")+
+  xlab("Subcategories of cultural property")
 #dev.off()
 ```
 
@@ -184,9 +184,9 @@ ggplot(data_text_biopyhsical, aes(x=subcategory, y=percentage, fill=site))+
   geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
   theme_minimal()+
   ylim(0,80)+
-  ylab("percentage [%]")+
-  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
-  xlab("")
+  ylab("Annotated words [%]")+
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"),label=c("Lavaux", "RhB"), name="Site")+
+  xlab("Subcategories of biophysical property")
 #dev.off()
 ```
 
@@ -213,12 +213,13 @@ visualization
 #png("plots/cultural_subcategories_text.png")
 ggplot(data_text_cultural, aes(x=subcategory, y=percentage, fill=site))+
   geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
+  scale_x_discrete(labels=c("anthropogenic\nobjects", "infrastructure", "land use", "settlement", "time depth"))+
   theme_minimal()+
   ylim(0,80)+
-  ylab("percentage [%]")+
-  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
-  xlab("")
-#dev.off()
+  ylab("Annotated words [%]")+
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"), label=c("Lavaux", "RhB"), name="Site")+
+  xlab("Subcategories of cultural property")
+^dev.off()
 ```
 
 

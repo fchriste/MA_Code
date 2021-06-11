@@ -11,6 +11,7 @@ rm(list=ls())
 library(jsonlite)
 library(ggplot2)
 library(dplyr)
+library(wordcloud)
 ```
 # text analysis 
 ```{r}
@@ -55,9 +56,10 @@ ggplot(data_categories, aes(x=category, y=percentage, fill=site))+
   geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
   theme_minimal()+
   ylim(0,80)+
-  ylab("percentage [%]")+
-  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
-  xlab("")
+  ylab("Annotated words [%]")+
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"), label=c("Lavaux", "RhB"), name="Site")+
+  xlab("Landscape properties")
+  
 #dev.off()
 ```
 #image processing
@@ -105,9 +107,34 @@ ggplot(flickr_categories, aes(x=category, y=percentage, fill=site))+
   geom_bar(stat="identity", position = position_dodge(), width = 0.5)+
   theme_minimal()+
   ylim(0,80)+
-  ylab("percentage [%]")+
-  scale_fill_manual(values=c("#0c5da5", "#ff3100"))+
-  xlab("")
+  ylab("Annotated tags [%]")+
+  scale_fill_manual(values=c("#0c5da5", "#ff3100"), label=c("Lavaux", "RhB"), name="Site")+
+  xlab("Landscape properties")
+#dev.off()
+```
+# creating wordclouds
+```{r}
+
+#png("plots/wordcloud_lavaux_text.png")
+wordcloud(words = lavaux_categories$word, freq = lavaux_categories$count, min.freq = 8,max.words=150, random.order=FALSE, rot.per=0.35,ordered.colors = TRUE, colors=brewer.pal(8, "Dark2")[factor(lavaux_categories$category)], scale = c(3.5, 0.25),
+          )
+
+
+#dev.off()
+```
+```{r}
+#png("plots/wordcloud_rhb_text.png")
+wordcloud(words = rhb_categories$word, freq = rhb_categories$count, min.freq = 7,max.words=150, random.order=FALSE, rot.per=0.35, ordered.colors = TRUE, colors=brewer.pal(8, "Dark2")[factor(rhb_categories$category)], scale = c(3.5, 0.5))
+#dev.off()
+```
+```{r}
+#png("plots/wordcloud_rhb_flickr.png")
+wordcloud(words = rhb_flickr_categories$word, freq = rhb_flickr_categories$count, min.freq = 52,max.words=150, random.order=FALSE, rot.per=0.35,ordered.colors = TRUE, colors=brewer.pal(8, "Dark2")[factor(rhb_flickr_categories$category)], scale = c(3.5, 0.5))
+#dev.off()
+```
+```{r}
+#png("plots/wordcloud_lavaux_flickr.png")
+wordcloud(words = lavaux_flickr_categories$word, freq = lavaux_flickr_categories$count, min.freq = 25,max.words=150, random.order=FALSE, rot.per=0.35,ordered.colors = TRUE, colors=brewer.pal(8, "Dark2")[factor(lavaux_flickr_categories$category)], scale = c(3.5, 0.5))
 #dev.off()
 ```
 

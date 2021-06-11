@@ -35,30 +35,44 @@ rhb <- st_read("data/rhb/rhb_polygon.shp")%>%
 
 
 
-rhb_col <- colorFactor(palette=c("#ff9d86", "#ff3100"), rhb$type_de)
+rhb_col <- colorFactor(palette=c("#ff9d86", "#0f0f0f"), rhb$type_de)
+
+rhb_col2 <- colorFactor(palette=c("#f4c6ab", "#0f0f0f"), rhb$type_de)
 
 #creating map
 map_rhb <- leaflet() %>% 
-  addPolygons(data=rhb, color=~rhb_col(type_de),fillColor = ~rhb_col(type_de), fillOpacity = 0.5, weight=0.5)%>%
+  addPolygons(data=rhb, color=~rhb_col(type_de),fillColor = ~rhb_col2(type_de), fillOpacity = 0.6, weight=1.5)%>%
   addProviderTiles(providers$Esri.WorldTopoMap)%>%
-  addLegend(color=c("#ff9d86", "#ff3100"), labels = c("buffer zone", "world heritage property"))
+  addLegend(color=c("#f4c6ab", "#0f0f0f"), labels = c("buffer zone", "world heritage property"))%>%
+  addTiles(urlTemplate = "", attribution = "Bundesamt für Kultur (2016)")%>%
+  addScaleBar(options=c(metric=TRUE, imperial=FALSE))
 map_rhb
 #mapshot(map_rhb, file = "plots/map_rhb.png")
 
 
+```
+
+```{r}
 lavaux_col <- colorFactor(palette=c("#0c5da5", "#094275"), lavaux$type_de)
 
 map_lavaux<-leaflet() %>% 
   addPolygons(data=lavaux, color="white", fillColor =~lavaux_col(type_de), weight=0.8, fillOpacity = 0.7)%>%
   addProviderTiles(providers$Esri.WorldTopoMap)%>%
-  addLegend(color=c("#0c5da5", "#094275"), labels = c("buffer zone", "world heritage property"))
+  addLegend(color=c("#0c5da5", "#094275"), labels = c("buffer zone", "world heritage property"))%>%
+  addTiles(urlTemplate = "", attribution = "Bundesamt für Kultur (2016)")%>%
+    addScaleBar(options=c(metric=TRUE, imperial=FALSE))
 map_lavaux
 #mapshot(map_lavaux, file = "plots/map_lavaux.png")
 
+
+```
+
+```{r}
 map_CH<-leaflet() %>% 
   addPolygons(data=lavaux, color=~lavaux_col(type_de), fillColor =~lavaux_col(type_de), weight=0.8, fillOpacity = 0.8)%>%
   addPolygons(data=rhb, color=~rhb_col(type_de),fillColor = ~rhb_col(type_de), fillOpacity = 0.5, weight=0.5)%>%
-  addProviderTiles(providers$CartoDB.Positron, options = providerTileOptions(opacity = 0.7))
+  addProviderTiles(providers$CartoDB.Positron, options = providerTileOptions(opacity = 0.7))%>%
+  addScaleBar(options=c(metric=TRUE, imperial=FALSE))
 map_CH
 
 ```
@@ -79,15 +93,64 @@ unesco_natur<-st_read("data/unesco_natur/UNESCO_Weltnaturerbe_LV95/WH_Natur.shp"
   st_zm(drop=T, what="ZM")
 
 
+#get center of coordinates
+centers_natur <-st_centroid(unesco_natur)
+centers_kultur <-st_centroid(unesco_kultur)
+
+kultur_points<-as_Spatial(centers_kultur)
+natur_points <-as_Spatial(centers_natur)
+
 
 #create map
 map_unesco<-leaflet() %>% 
-  addPolygons(data=unesco_natur, color="white", fillColor ='red', weight=0.8, fillOpacity = 0.7)%>%
-  addPolygons(data=unesco_kultur, color="white", fillColor ='blue', weight=0.8, fillOpacity = 0.7)%>%
-  #addMarkers(unesco_kultur)%>%
-  #addMarkers(data=unesco_site)%>%
+  addPolygons(data=unesco_natur, color="white", fillColor ='#809C7C', weight=0.8, fillOpacity = 1)%>%
+  addCircleMarkers(data=natur_points,color="#809C7C", stroke=F,radius=5, fillOpacity = 1) %>%
+  addPolygons(data=unesco_kultur, color="white", fillColor ='#997C55', weight=0.8, fillOpacity = 1)%>%
+  addCircleMarkers(data=kultur_points, color="#997C55", stroke=F,radius=5, fillOpacity = 1)%>%
   addProviderTiles(providers$CartoDB.Positron, options = providerTileOptions(opacity = 0.7))%>%
-  addLegend(color=c("red", "blue"), labels = c("natural", "cultural"))
+  addLegend(color=c("#809C7C", "#997C55"), labels = c("natural", "cultural"), opacity = 1)%>%
+  addScaleBar(options=c(metric=TRUE, imperial=FALSE))%>%
+  addTiles(urlTemplate = "", attribution = "Bundesamt für Kultur (2016), Bundesamt für Umwelt (2008)")
 map_unesco
+#mapshot(map_unesco, file = "plots/map_unesco.png")
+
+
+```
+
+
+
+
+```{r}
+library(ggplot2)
+library(ggspatial)
+
+ggplot() + 
+  #ggspatial::annotation_map_tile("cartolight") +
+  geom_sf(data = unesco_kultur, fill = '#997C55') +
+  geom_sf(data = centers_kultur %>% st_as_sf, color = '#997C55') +
+  geom_sf(data = centers_natur %>% st_as_sf, color = '#809C7C')+
+  geom_sf(data = unesco_natur, fill = '#809C7C') +
+  theme_minimal()
+  
+
+
+```
+
+
+
+```{r}
+library(tmap)
+library(sf)
+library(spData)
+current.mode <- tmap_mode("view")
+library(leaflet.providers)
+
+tm_basemap(leaflet::providers$Stamen.Terrain)+
+tm_shape(lavaux) +
+    tm_polygons("type_de")+
+  tm_grid()
+  
+
+
 ```
 

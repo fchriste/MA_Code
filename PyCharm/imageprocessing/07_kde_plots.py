@@ -36,9 +36,10 @@ plt.show()
 fig, ax = plt.subplots()
 sn.kdeplot(pip_data.geometry.centroid.x, pip_data.geometry.centroid.y,color='blue',shade=True, cbar=True)
 polygon.plot(ax=ax, facecolor=(0.1,0.1,0.1,0), edgecolor='black');
+plt.xlabel('Northing [°]')
+plt.ylabel('Easting [°]')
 #pip_data.plot(ax=ax, color='gold', markersize=0.1);
-plt.show()
+#plt.show()
 
-
-
-
+#save plot to png
+plt.savefig('data/07_kde_plots/kde_%s.png' %topic)

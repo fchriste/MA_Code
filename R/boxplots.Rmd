@@ -47,11 +47,12 @@ ggplot(data_journals, aes(x=topic, y=V1, fill=topic, color=topic)) +
   geom_boxplot()+
    scale_y_continuous(trans="log10", limits=c(1, 1200))+
   #annotation_logticks(sides="lr")+
-  ylab("article count per magazine [count]")+
+  ylab("Articles per magazine [count]")+
   theme_bw()+
   theme(legend.position = "none")+
   xlab("")+
   scale_fill_manual(values=c("#a8bcf6", "#ff9d86"))+
+  scale_x_discrete(labels=c("Lavaux", "RhB"))+
   scale_color_manual(values=c("#0c5da5", "#ff3100"))
 
 
@@ -101,12 +102,13 @@ ggplot(data_flickr, aes(x=topic, y=V1, fill=topic, color=topic)) +
   geom_boxplot()+
    scale_y_continuous(trans="log10", limits=c(1, 1200))+
   #annotation_logticks(sides="lr")+
-  ylab("image count per user [count]")+
+  ylab("Images per user [count]")+
   theme_bw()+
   theme(legend.position = "none")+
   xlab("")+
   scale_fill_manual(values=c("#a8bcf6", "#ff9d86"))+
-  scale_color_manual(values=c("#0c5da5", "#ff3100"))
+  scale_color_manual(values=c("#0c5da5", "#ff3100"))+
+  scale_x_discrete(labels=c("Lavaux", "RhB"))
 #dev.off()
 
 

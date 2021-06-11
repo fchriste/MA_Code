@@ -19,16 +19,19 @@ polygon = gpd.read_file("data/01_filter_regions/%s/%s_polygon.shp" % (topic, top
 #plt.show()
 
 #read in csv
-flickr_df = pd.read_csv('data/02_points_in_polygon/flickr/data100m_Switzerland.csv', sep=";")
+pop_df = pd.read_csv('data/01_filter_regions/STATPOP2019.csv', sep=",")
 
 #show first lines
-print(flickr_df.head())
+print(pop_df.head())
 
 #define point geometry
-geometry = [Point(xy) for xy in zip(flickr_df.lng, flickr_df.lat)]
+geometry = [Point(xy) for xy in zip(pop_df.E_KOORD, pop_df.N_KOORD)]
 
 #define geodataframe
-flickr_geo_df = gpd.GeoDataFrame(flickr_df, crs="EPSG:4326", geometry=geometry)
+pop_geo_df = gpd.GeoDataFrame(pop_df, crs="EPSG:2056", geometry=geometry)
+
+pop_geo_df=pop_geo_df.to_crs("EPSG:4326")
+
 
 
 #enable speedups for faster spatial queries
@@ -38,10 +41,10 @@ shapely.speedups.enable()
 polygon_union = polygon.geometry.unary_union
 
 #point in polygon calculation, result: booleans
-pip_mask = flickr_geo_df.within(polygon_union)
+pip_mask = pop_geo_df.within(polygon_union)
 
 #find points in polygon
-pip_data = flickr_geo_df.loc[pip_mask]
+pip_data = pop_geo_df.loc[pip_mask]
 print(pip_mask)
 print(pip_data)
 
@@ -50,15 +53,11 @@ print(pip_data)
 fig, ax = plt.subplots()
 polygon.plot(ax=ax, facecolor='gray');
 pip_data.plot(ax=ax, color='gold', markersize=2);
-plt.xlabel('Northing [°]')
-plt.ylabel('Easting [°]')
 plt.tight_layout();
 
-#plt.show()
-#save plot to png
-plt.savefig('data/02_points_in_polygon/pip_%s.png' %topic)
+plt.show()
 
+total_pop = pip_data['B19BTOT'].sum()
 
-#save data to shapefile
-pip_data.to_file(driver='ESRI Shapefile', filename='data/02_points_in_polygon/flickr/%s_flickr.shp' %topic)
-
+print("this is the total population in the region")
+print(total_pop)
