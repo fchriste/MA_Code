@@ -1,0 +1,72 @@
+---
+title: "magazines"
+author: "Fabienne Christen"
+date: "5/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list=ls())
+library(sf)
+library(leaflet)
+library(mapview)
+library(dplyr)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+data_lavaux<-read.csv("../PyCharm/textanalysis/data/08_texts_per_magazine/lavaux.csv")
+
+data_lavaux$journalTitle
+
+#initiate empty dataframe
+df_lavaux_landschaft <- data.frame(matrix(ncol = 6, nrow = 0))
+#provide column names
+colnames(df_lavaux_landschaft) <- c('X', 'id', 'articles', 'journalTitle', 'VolYear', 'fulltext')
+
+
+#loop through data and extract all articles which contain landschaft
+for(i in 1:nrow(data_lavaux)) { 
+  if(grepl('landschaft', data_lavaux$fulltext[i], fixed = TRUE)==TRUE) {
+    df_lavaux_landschaft<-rbind(df_lavaux_landschaft, data.frame(data_lavaux[i,]))
+}
+}
+
+#write data frame as csv
+write.csv(df_lavaux_landschaft, 'data/df_lavaux_landschaft.csv')
+
+#count number of articles per journal
+lavaux_heftli <- df_lavaux_landschaft %>% group_by(journalTitle)%>%
+  summarise(count = n())
+```
+
+```{r}
+data_rhb<-read.csv("../PyCharm/textanalysis/data/08_texts_per_magazine/rhb.csv")
+
+
+#initiate empty dataframe
+df_rhb_landschaft <- data.frame(matrix(ncol = 6, nrow = 0))
+#provide column names
+colnames(df_rhb_landschaft) <- c('X', 'id', 'articles', 'journalTitle', 'VolYear', 'fulltext')
+
+
+#loop through data and extract all articles which contain landschaft
+for(i in 1:nrow(data_rhb)) { 
+  if(grepl('landschaft', data_rhb$fulltext[i], fixed = TRUE)==TRUE) {
+    df_rhb_landschaft<-rbind(df_rhb_landschaft, data.frame(data_rhb[i,]))
+}
+}
+
+#write data frame as csv
+write.csv(df_rhb_landschaft, 'data/df_rhb_landschaft.csv')
+
+#count number of articles per journal
+rhb_heftli <- df_rhb_landschaft %>% group_by(journalTitle)%>%
+  summarise(count = n())
+```
