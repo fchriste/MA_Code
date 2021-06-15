@@ -1,14 +1,3 @@
-from sklearn import svm, datasets
-from sklearn.model_selection import train_test_split
-import numpy as np
-
-iris = datasets.load_iris()
-X = iris.data
-y = iris.target
-
-print(iris)
-print(X)
-print(y)
 
 # Importing the required libraries
 import pandas as pd
